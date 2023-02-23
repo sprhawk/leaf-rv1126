@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CPU_Rockchip")(type "KiCad")(uri "${IOTPI_LIB}/symbols/CPU_Rockchip.kicad_sym")(options "")(descr ""))
+  (lib (name "Memory_Micron")(type "KiCad")(uri "${IOTPI_LIB}/symbols/Memory_Micron.kicad_sym")(options "")(descr ""))
+  (lib (name "Memory_DDR")(type "KiCad")(uri "${IOTPI_LIB}/symbols/Memory_DDR.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,72 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid e3b58043-16a3-43c8-9fad-9c9784eebfa4)
+
+  (paper "A4")
+
+  (title_block
+    (title "Leaf RV1126")
+    (date "2023-02-23")
+    (rev "1")
+    (company "Qingdao IotPi Information Technology")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 81.28 35.56) (size 26.67 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522)
+    (property "Sheetname" "CPU DDR" (at 81.28 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "CPU_DDR.kicad_sch" (at 81.28 55.1946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "leaf"
+        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 33.02 34.29) (size 29.21 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0)
+    (property "Sheetname" "CPU Power" (at 33.02 33.5784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "CPU_Power.kicad_sch" (at 33.02 53.9246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "leaf"
+        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 33.02 68.58) (size 29.21 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dab41b55-6e7b-462d-a8d6-c5406467f5b4)
+    (property "Sheetname" "PMIC" (at 33.02 67.8684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PMIC.kicad_sch" (at 33.02 88.2146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "leaf"
+        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

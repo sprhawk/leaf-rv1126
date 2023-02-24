@@ -232,7 +232,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -338,6 +338,34 @@
     [
       "dab41b55-6e7b-462d-a8d6-c5406467f5b4",
       "PMIC"
+    ],
+    [
+      "4417415c-26f1-4372-988d-9fdf1c116b4b",
+      "SD Card"
+    ],
+    [
+      "0d403b82-6ed8-44f7-a148-d104315eeb81",
+      "eMMC"
+    ],
+    [
+      "bca9f05a-f031-46a4-95a9-25be55b42bf6",
+      "Camera"
+    ],
+    [
+      "abba4c44-e9bc-404f-bbc8-3409461eb15e",
+      "Display"
+    ],
+    [
+      "cbba8301-b827-481f-8620-b434aac08349",
+      "WiFi"
+    ],
+    [
+      "be5d8e43-2411-4620-a7a9-8dc1a750f993",
+      "USB OTG"
+    ],
+    [
+      "fba3f144-6b35-47ae-b616-9ead32e4b269",
+      "mini PCIe"
     ]
   ],
   "text_variables": {}

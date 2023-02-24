@@ -329,14 +329,14 @@
     ],
     [
       "cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0",
-      "CPU Power"
+      "Power"
     ],
     [
       "9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522",
-      "CPU DDR"
+      "DDR"
     ],
     [
-      "dab41b55-6e7b-462d-a8d6-c5406467f5b4",
+      "46e9a7bf-8506-4399-90d8-57d007223126",
       "PMIC"
     ],
     [
@@ -366,6 +366,26 @@
     [
       "fba3f144-6b35-47ae-b616-9ead32e4b269",
       "mini PCIe"
+    ],
+    [
+      "8aa2eca1-edfe-4e9d-a854-96f51e82fbdb",
+      "SoC Power_GND"
+    ],
+    [
+      "8a66faf4-907b-4c0b-9293-5095de08cb9b",
+      "PMIC Management"
+    ],
+    [
+      "2d95e8c5-bd08-40b5-b7b2-fac89748aabf",
+      "PMIC DCDC"
+    ],
+    [
+      "587d28a9-c2cd-4fab-a2bd-304064dd6f5e",
+      "PMIC LDO"
+    ],
+    [
+      "932d3a83-3e3a-47a2-863a-dd551f528f64",
+      "PMIC Codec"
     ]
   ],
   "text_variables": {}

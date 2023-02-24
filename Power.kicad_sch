@@ -1,0 +1,52 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid facda602-f797-42fa-9d37-35346e8309b7)
+
+  (paper "A4")
+
+  (title_block
+    (title "Leaf RV1126 Power")
+    (date "2023-02-23")
+    (rev "1")
+    (company "Qingdao IotPi Information Technology")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 101.6 39.37) (size 41.91 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 46e9a7bf-8506-4399-90d8-57d007223126)
+    (property "Sheetname" "PMIC" (at 101.6 38.6584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PMIC.kicad_sch" (at 101.6 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "leaf"
+        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "4"))
+        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 38.1 39.37) (size 43.18 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8aa2eca1-edfe-4e9d-a854-96f51e82fbdb)
+    (property "Sheetname" "SoC Power_GND" (at 38.1 38.6584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SoC_Power_GND.kicad_sch" (at 38.1 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "leaf"
+        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0" (page "12"))
+      )
+    )
+  )
+)

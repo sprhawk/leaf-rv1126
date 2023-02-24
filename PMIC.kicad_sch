@@ -14,4 +14,72 @@
   (lib_symbols
   )
 
+
+  (sheet (at 115.57 43.18) (size 38.1 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2d95e8c5-bd08-40b5-b7b2-fac89748aabf)
+    (property "Sheetname" "PMIC DCDC" (at 115.57 42.4684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PMIC_dcdc.kicad_sch" (at 115.57 72.9746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "leaf"
+        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126" (page "14"))
+      )
+    )
+  )
+
+  (sheet (at 48.26 97.79) (size 39.37 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 587d28a9-c2cd-4fab-a2bd-304064dd6f5e)
+    (property "Sheetname" "PMIC LDO" (at 48.26 97.0784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PMIC_LDO.kicad_sch" (at 48.26 125.0446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "leaf"
+        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126" (page "15"))
+      )
+    )
+  )
+
+  (sheet (at 48.26 44.45) (size 39.37 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8a66faf4-907b-4c0b-9293-5095de08cb9b)
+    (property "Sheetname" "PMIC Management" (at 48.26 43.7384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PMIC_management.kicad_sch" (at 48.26 72.9746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "leaf"
+        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126" (page "13"))
+      )
+    )
+  )
+
+  (sheet (at 119.38 97.79) (size 38.1 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 932d3a83-3e3a-47a2-863a-dd551f528f64)
+    (property "Sheetname" "PMIC Codec" (at 119.38 97.0784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PMIC_codec.kicad_sch" (at 119.38 125.0446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "leaf"
+        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126" (page "16"))
+      )
+    )
+  )
 )

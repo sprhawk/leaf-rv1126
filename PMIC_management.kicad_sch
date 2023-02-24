@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Leaf RV1126 PMIC RK809")
+    (date "2023-02-23")
+    (rev "1")
+    (company "Qingdao IotPi Information Technology")
+  )
+
   (lib_symbols
     (symbol "CPU_Rockchip:RK809" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -13.97 29.21 0)

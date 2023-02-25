@@ -5666,6 +5666,11 @@
     (effects (font (size 1.27 1.27) (color 221 133 0 1)) (justify left bottom))
     (uuid 1674a32f-9925-45af-a745-140be1f6bf7e)
   )
+  (text "NOTE:\nIf any power domain of VCCIO 1~7 is used, \nthen VCCIO_VDD_1V8 must be connected to \n1.8V power supply"
+    (at 148.59 104.14 0)
+    (effects (font (size 1.27 1.27) (color 194 194 0 1)) (justify left bottom))
+    (uuid 86fca137-c281-4cfb-ac8e-d8d51661e3bb)
+  )
   (text "DNP" (at 234.95 105.41 0)
     (effects (font (size 1.27 1.27) (color 221 133 0 1)) (justify left bottom))
     (uuid b5a3b26d-c850-40d6-95d6-fe7ab45fb3f3)

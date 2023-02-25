@@ -398,6 +398,10 @@
     [
       "b7d33089-b835-4c65-840f-b2075d1befa5",
       "DDR Filter Capacitors"
+    ],
+    [
+      "37e5f808-83b1-4839-b7a1-9684da8ab3e5",
+      "PMUIO0"
     ]
   ],
   "text_variables": {}

@@ -15,6 +15,19 @@
   )
 
 
+  (wire (pts (xy 33.02 80.01) (xy 25.4 80.01))
+    (stroke (width 0) (type default))
+    (uuid a128432f-1b34-436b-80eb-799cfc48018d)
+  )
+  (wire (pts (xy 25.4 102.87) (xy 33.02 102.87))
+    (stroke (width 0) (type default))
+    (uuid ca18c991-7008-4efa-b907-ed503a1be9c9)
+  )
+  (wire (pts (xy 25.4 80.01) (xy 25.4 102.87))
+    (stroke (width 0) (type default))
+    (uuid ccf18385-715e-47ca-a32a-993874415b58)
+  )
+
   (sheet (at 81.28 69.85) (size 29.21 17.78) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -32,6 +45,27 @@
     )
   )
 
+  (sheet (at 33.02 96.52) (size 29.21 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 37e5f808-83b1-4839-b7a1-9684da8ab3e5)
+    (property "Sheetname" "PMUIO0" (at 33.02 95.8084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PMUIO0.kicad_sch" (at 33.02 114.8846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "SD_DET" input (at 33.02 102.87 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 4e4f15bb-4e86-4c40-b7dc-e352ed150ccd)
+    )
+    (instances
+      (project "leaf"
+        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "20"))
+      )
+    )
+  )
+
   (sheet (at 33.02 69.85) (size 29.21 17.78) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -41,6 +75,10 @@
     )
     (property "Sheetfile" "SDCard.kicad_sch" (at 33.02 88.2146 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "SD_DET" output (at 33.02 80.01 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid eb2a25b7-7d9b-4882-a6bd-b605015350e6)
     )
     (instances
       (project "leaf"

@@ -390,6 +390,10 @@
     [
       "71482e0c-0ea4-4d47-b2fd-70e75933fdf9",
       "DDR resistors"
+    ],
+    [
+      "f6658df5-193a-49b6-ab60-4ac3c0bbbc45",
+      "DDR Power"
     ]
   ],
   "text_variables": {}

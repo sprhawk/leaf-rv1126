@@ -394,6 +394,10 @@
     [
       "f6658df5-193a-49b6-ab60-4ac3c0bbbc45",
       "DDR Power"
+    ],
+    [
+      "b7d33089-b835-4c65-840f-b2075d1befa5",
+      "DDR Filter Capacitors"
     ]
   ],
   "text_variables": {}

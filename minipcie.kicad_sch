@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "Leaf RV1126 PMIC RK809 Codec")
+    (title "Leaf RV1126 RK809 mini PCIe")
     (date "2023-02-25")
     (rev "1")
     (company "Qingdao IotPi Information Technology")

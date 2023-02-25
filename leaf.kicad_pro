@@ -373,19 +373,19 @@
     ],
     [
       "8a66faf4-907b-4c0b-9293-5095de08cb9b",
-      "PMIC Management"
+      "RK809 Management"
     ],
     [
       "2d95e8c5-bd08-40b5-b7b2-fac89748aabf",
-      "PMIC DCDC"
+      "RK809 DCDC"
     ],
     [
       "587d28a9-c2cd-4fab-a2bd-304064dd6f5e",
-      "PMIC LDO"
+      "RK809 LDO"
     ],
     [
       "932d3a83-3e3a-47a2-863a-dd551f528f64",
-      "PMIC Codec"
+      "RK809 Codec"
     ]
   ],
   "text_variables": {}

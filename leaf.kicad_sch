@@ -15,9 +15,17 @@
   )
 
 
+  (wire (pts (xy 71.12 101.6) (xy 81.28 101.6))
+    (stroke (width 0) (type default))
+    (uuid 115b24d1-5e32-4484-840b-dc3523582866)
+  )
   (wire (pts (xy 33.02 80.01) (xy 25.4 80.01))
     (stroke (width 0) (type default))
     (uuid a128432f-1b34-436b-80eb-799cfc48018d)
+  )
+  (wire (pts (xy 114.3 45.72) (xy 124.46 45.72))
+    (stroke (width 0) (type default))
+    (uuid b0d8ffb3-6bb4-4a2d-a874-8ef8030b505a)
   )
   (wire (pts (xy 25.4 102.87) (xy 33.02 102.87))
     (stroke (width 0) (type default))
@@ -26,6 +34,15 @@
   (wire (pts (xy 25.4 80.01) (xy 25.4 102.87))
     (stroke (width 0) (type default))
     (uuid ccf18385-715e-47ca-a32a-993874415b58)
+  )
+
+  (label "USB_CTRL" (at 71.12 101.6 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 31ea27e2-28a6-42ef-ada4-d6ab4b798dc6)
+  )
+  (label "USB_CTRL" (at 114.3 45.72 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a5f045db-ce07-43bc-a339-ec84fa5f5cb2)
   )
 
   (sheet (at 81.28 69.85) (size 29.21 17.78) (fields_autoplaced)
@@ -83,6 +100,27 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 81.28 96.52) (size 29.21 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 74154bd6-827c-4e46-8351-0d1a22db546e)
+    (property "Sheetname" "PMUIO1" (at 81.28 95.8084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PMUIO1.kicad_sch" (at 81.28 114.8846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "USB_CTRL" output (at 81.28 101.6 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 4e2403d1-8d57-463f-9615-3f273d3c2855)
+    )
+    (instances
+      (project "leaf"
+        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "21"))
       )
     )
   )
@@ -147,6 +185,10 @@
     )
     (property "Sheetfile" "USB OTG.kicad_sch" (at 124.46 55.1946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "USB_CTRL" input (at 124.46 45.72 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 0adec1d5-1b41-4ba4-8da2-438a56ad3256)
     )
     (instances
       (project "leaf"

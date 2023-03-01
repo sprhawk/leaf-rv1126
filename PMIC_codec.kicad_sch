@@ -1318,7 +1318,7 @@
     (property "Reference" "U3" (at 177.292 35.7251 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RK809" (at 177.292 37.6461 0)
+    (property "Value" "RK809-2" (at 177.292 37.6461 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_DFN_QFN:QFN-68-1EP_8x8mm_P0.4mm_EP6.4x6.4mm_ThermalVias" (at 182.245 120.65 0)

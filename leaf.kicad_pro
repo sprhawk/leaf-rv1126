@@ -345,11 +345,11 @@
     ],
     [
       "0d403b82-6ed8-44f7-a148-d104315eeb81",
-      "eMMC"
+      "eMMC | VCCIO1"
     ],
     [
       "bca9f05a-f031-46a4-95a9-25be55b42bf6",
-      "Camera"
+      "Camera | VCCIO4"
     ],
     [
       "abba4c44-e9bc-404f-bbc8-3409461eb15e",
@@ -406,6 +406,10 @@
     [
       "74154bd6-827c-4e46-8351-0d1a22db546e",
       "PMUIO1"
+    ],
+    [
+      "afbf9781-0fb6-4aca-82c1-c35bb86b79e4",
+      "Ethernet | PoE"
     ]
   ],
   "text_variables": {}

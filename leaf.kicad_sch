@@ -149,10 +149,10 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522)
-    (property "Sheetname" "DDR3" (at 81.28 34.8484 0)
+    (property "Sheetname" "DDR" (at 81.28 34.8484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "DDR3.kicad_sch" (at 81.28 55.1946 0)
+    (property "Sheetfile" "DDR.kicad_sch" (at 81.28 55.1946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances

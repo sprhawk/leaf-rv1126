@@ -333,7 +333,7 @@
     ],
     [
       "9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522",
-      "DDR"
+      "DDR3"
     ],
     [
       "46e9a7bf-8506-4399-90d8-57d007223126",
@@ -410,6 +410,10 @@
     [
       "afbf9781-0fb6-4aca-82c1-c35bb86b79e4",
       "Ethernet | PoE"
+    ],
+    [
+      "42834052-256a-43ae-b5b1-2328aa6298dd",
+      "LCD_Power"
     ]
   ],
   "text_variables": {}

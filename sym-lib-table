@@ -5,4 +5,5 @@
   (lib (name "Memory_DDR")(type "KiCad")(uri "${IOTPI_LIB}/symbols/Memory_DDR.kicad_sym")(options "")(descr ""))
   (lib (name "Memory_eMMC")(type "KiCad")(uri "${IOTPI_LIB}/symbols/Memory_eMMC.kicad_sym")(options "")(descr ""))
   (lib (name "Leaf_Converter_DCDC")(type "KiCad")(uri "${IOTPI_LIB}/symbols/Leaf_Converter_DCDC.kicad_sym")(options "")(descr ""))
+  (lib (name "Leaf_RF_Wifi")(type "KiCad")(uri "${IOTPI_LIB}/symbols/Leaf_RF_Wifi.kicad_sym")(options "")(descr ""))
 )

@@ -1891,7 +1891,7 @@
     (property "Value" "Battery_Cell" (at 240.411 44.9653 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 237.49 44.196 90)
+    (property "Footprint" "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm" (at 237.49 44.196 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 237.49 44.196 90)

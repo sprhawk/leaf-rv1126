@@ -3506,7 +3506,7 @@
   (symbol (lib_id "Memory_DDR:Micron_DDR4_MT40A512M16TB") (at 245.11 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05f33942-3f4a-4f18-9805-76372fd990e6)
-    (property "Reference" "U7" (at 245.11 23.7871 0)
+    (property "Reference" "U2" (at 245.11 23.7871 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Micron DDR4 MT40A512M16TB" (at 245.11 25.7081 0)
@@ -3617,7 +3617,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "U7") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -3646,7 +3646,7 @@
           (reference "R22") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "R27") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3678,7 +3678,7 @@
           (reference "C59") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "C49") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -3707,7 +3707,7 @@
           (reference "R22") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "R25") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -3736,7 +3736,7 @@
           (reference "R22") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "R26") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3768,7 +3768,7 @@
           (reference "C59") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "C79") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -3777,7 +3777,7 @@
   (symbol (lib_id "power:GND") (at 191.77 119.38 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 416cd60a-297e-4634-971e-ac512243b889)
-    (property "Reference" "#PWR055" (at 198.12 119.38 0)
+    (property "Reference" "#PWR02" (at 198.12 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.945 119.6968 90)
@@ -3793,7 +3793,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -3822,7 +3822,7 @@
           (reference "R22") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "R28") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -3831,7 +3831,7 @@
   (symbol (lib_id "power:GND") (at 172.72 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62ceb975-5293-4aa5-8269-ce44b1ae043d)
-    (property "Reference" "#PWR057" (at 179.07 124.46 0)
+    (property "Reference" "#PWR01" (at 179.07 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.895 124.7768 90)
@@ -3847,7 +3847,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -3876,7 +3876,7 @@
           (reference "R22") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "R32") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -3885,7 +3885,7 @@
   (symbol (lib_id "power:GND") (at 273.05 133.35 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 743abfc0-1d9d-4aae-995b-9c476878bbe6)
-    (property "Reference" "#PWR064" (at 279.4 133.35 0)
+    (property "Reference" "#PWR05" (at 279.4 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 276.225 133.6668 90)
@@ -3901,7 +3901,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3910,7 +3910,7 @@
   (symbol (lib_id "power:GND") (at 220.98 124.46 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8495fd77-1640-450c-bbf1-8bed626b2fd2)
-    (property "Reference" "#PWR068" (at 220.98 130.81 0)
+    (property "Reference" "#PWR04" (at 220.98 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 221.2968 127.635 90)
@@ -3926,7 +3926,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -3935,7 +3935,7 @@
   (symbol (lib_id "power:GND") (at 205.74 104.14 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6bd509a-9fe0-494e-a21f-f7f23354a2b9)
-    (property "Reference" "#PWR0129" (at 205.74 110.49 0)
+    (property "Reference" "#PWR03" (at 205.74 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 206.0568 107.315 90)
@@ -3951,7 +3951,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "#PWR0129") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -3960,13 +3960,13 @@
   (symbol (lib_id "CPU_Rockchip:rv1126_rv1109") (at 60.96 57.15 0) (unit 14)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0f005af-9975-48ca-8159-9ee849333c10)
-    (property "Reference" "U2" (at 60.96 22.5171 0)
+    (property "Reference" "U1" (at 60.96 22.5171 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "rv1126/rv1109" (at 60.96 24.4381 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 78.74 91.44 0)
+    (property "Footprint" "Rockchip_SoC:Rockchip_RV1126_FCCSP409LD_14.0x14.0mm" (at 78.74 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 78.74 91.44 0)
@@ -4387,7 +4387,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "U2") (unit 14)
+          (reference "U1") (unit 14)
         )
       )
     )

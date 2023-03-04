@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "Memory_micron")(type "KiCad")(uri "${IOTPI_LIB}/footprints/Memory_micron.pretty")(options "")(descr ""))
+  (lib (name "Leaf_RF_Module")(type "KiCad")(uri "${IOTPI_LIB}/footprints/Leaf_RF_Module.pretty")(options "")(descr ""))
+  (lib (name "Rockchip_SoC")(type "KiCad")(uri "${IOTPI_LIB}/footprints/Rockchip_SoC.pretty")(options "")(descr ""))
 )

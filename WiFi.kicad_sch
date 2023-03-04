@@ -594,7 +594,7 @@
   (symbol (lib_id "Device:Crystal") (at 78.74 41.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d26777c-adb6-4672-8be5-b2b4a3ba8aec)
-    (property "Reference" "Y2" (at 82.0674 41.2663 90)
+    (property "Reference" "Y1" (at 82.0674 41.2663 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Crystal" (at 82.0674 43.1873 90)
@@ -611,7 +611,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cbba8301-b827-481f-8620-b434aac08349"
-          (reference "Y2") (unit 1)
+          (reference "Y1") (unit 1)
         )
       )
     )
@@ -620,13 +620,13 @@
   (symbol (lib_id "Leaf_RF_Wifi:AP6256") (at 148.59 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d8d13a4-7410-4822-9e1b-a0f54956e87f)
-    (property "Reference" "U9" (at 147.955 46.6471 0)
+    (property "Reference" "U4" (at 147.955 46.6471 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AP6526" (at 147.955 48.5681 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 147.955 59.69 0)
+    (property "Footprint" "Leaf_RF_Module:QFN-44_12x12_Pitch0.9mm" (at 147.955 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 147.955 59.69 0)
@@ -679,7 +679,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cbba8301-b827-481f-8620-b434aac08349"
-          (reference "U9") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -688,7 +688,7 @@
   (symbol (lib_id "power:GND") (at 176.53 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2f68d17-727a-435c-aabc-8beb82065ceb)
-    (property "Reference" "#PWR056" (at 176.53 92.71 0)
+    (property "Reference" "#PWR045" (at 176.53 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 176.53 90.4955 0)
@@ -704,7 +704,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cbba8301-b827-481f-8620-b434aac08349"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )

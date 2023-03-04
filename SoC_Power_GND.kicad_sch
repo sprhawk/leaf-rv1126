@@ -5776,7 +5776,7 @@
           (reference "C80") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C95") (unit 1)
+          (reference "C38") (unit 1)
         )
       )
     )
@@ -5811,7 +5811,7 @@
           (reference "C85") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C99") (unit 1)
+          (reference "C42") (unit 1)
         )
       )
     )
@@ -5842,7 +5842,7 @@
           (reference "#PWR056") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -5857,7 +5857,7 @@
     (property "Value" "rv1126/rv1109" (at 182.88 24.4381 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 200.66 91.44 0)
+    (property "Footprint" "Rockchip_SoC:Rockchip_RV1126_FCCSP409LD_14.0x14.0mm" (at 200.66 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 200.66 91.44 0)
@@ -6310,7 +6310,7 @@
           (reference "R26") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "R33") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -6345,7 +6345,7 @@
           (reference "C84") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C90") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -6380,7 +6380,7 @@
           (reference "C80") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C1") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -6411,7 +6411,7 @@
           (reference "#PWR056") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -6442,7 +6442,7 @@
           (reference "#PWR056") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -6477,7 +6477,7 @@
           (reference "C84") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C98") (unit 1)
+          (reference "C41") (unit 1)
         )
       )
     )
@@ -6512,7 +6512,7 @@
           (reference "C80") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C94") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -6541,7 +6541,7 @@
           (reference "C57") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C87") (unit 1)
+          (reference "C37") (unit 1)
         )
       )
     )
@@ -6569,7 +6569,7 @@
           (reference "#PWR02") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -6597,7 +6597,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -6612,7 +6612,7 @@
     (property "Value" "rv1126/rv1109" (at 80.01 23.1681 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 97.79 90.17 0)
+    (property "Footprint" "Rockchip_SoC:Rockchip_RV1126_FCCSP409LD_14.0x14.0mm" (at 97.79 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 97.79 90.17 0)
@@ -7067,7 +7067,7 @@
           (reference "#PWR056") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -7095,7 +7095,7 @@
           (reference "#PWR03") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -7130,7 +7130,7 @@
           (reference "C80") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C93") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -7165,7 +7165,7 @@
           (reference "C85") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C91") (unit 1)
+          (reference "C35") (unit 1)
         )
       )
     )
@@ -7200,7 +7200,7 @@
           (reference "C82") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C97") (unit 1)
+          (reference "C40") (unit 1)
         )
       )
     )
@@ -7235,7 +7235,7 @@
           (reference "C81") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C88") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -7270,7 +7270,7 @@
           (reference "C82") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C89") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -7305,7 +7305,7 @@
           (reference "C86") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C92") (unit 1)
+          (reference "C36") (unit 1)
         )
       )
     )
@@ -7334,7 +7334,7 @@
           (reference "R26") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "R34") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -7369,7 +7369,7 @@
           (reference "C81") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C96") (unit 1)
+          (reference "C39") (unit 1)
         )
       )
     )

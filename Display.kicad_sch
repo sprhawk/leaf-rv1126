@@ -3140,7 +3140,7 @@
           (reference "#PWR0101") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -3168,7 +3168,7 @@
           (reference "#PWR0100") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -3215,7 +3215,7 @@
           (reference "C118") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "C127") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -3224,7 +3224,7 @@
   (symbol (lib_id "power:GND") (at 214.63 96.52 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26a85540-2bc5-45ea-8a30-c279eadb3f7a)
-    (property "Reference" "#PWR0121" (at 208.28 96.52 0)
+    (property "Reference" "#PWR040" (at 208.28 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 211.4551 96.8368 90)
@@ -3240,7 +3240,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "#PWR0121") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -3278,7 +3278,7 @@
           (reference "R58") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "R63") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -3287,7 +3287,7 @@
   (symbol (lib_id "power:GND") (at 214.63 35.56 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e2711ae-456d-4271-90d7-622b8cc3a2b8)
-    (property "Reference" "#PWR0118" (at 208.28 35.56 0)
+    (property "Reference" "#PWR033" (at 208.28 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 211.4551 35.8768 90)
@@ -3303,7 +3303,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -3331,7 +3331,7 @@
           (reference "#PWR0103") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -3346,7 +3346,7 @@
     (property "Value" "rv1126/rv1109" (at 68.58 25.7081 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 100.33 83.82 0)
+    (property "Footprint" "Rockchip_SoC:Rockchip_RV1126_FCCSP409LD_14.0x14.0mm" (at 100.33 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 100.33 83.82 0)
@@ -3805,7 +3805,7 @@
           (reference "R59") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "R62") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -3814,7 +3814,7 @@
   (symbol (lib_id "power:GND") (at 214.63 66.04 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95597ae9-d235-40ea-8263-d0fb69410c64)
-    (property "Reference" "#PWR0114" (at 208.28 66.04 0)
+    (property "Reference" "#PWR037" (at 208.28 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 211.4551 66.3568 90)
@@ -3830,7 +3830,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "#PWR0114") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -3839,7 +3839,7 @@
   (symbol (lib_id "power:GND") (at 214.63 86.36 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95fe551c-f027-4936-ab4e-950013bfd28d)
-    (property "Reference" "#PWR0120" (at 208.28 86.36 0)
+    (property "Reference" "#PWR039" (at 208.28 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 211.4551 86.6768 90)
@@ -3855,7 +3855,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -3902,7 +3902,7 @@
           (reference "C119") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "C126") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -3911,7 +3911,7 @@
   (symbol (lib_id "power:GND") (at 214.63 43.18 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a3d4402-eff6-4446-87d6-c260a80325fe)
-    (property "Reference" "#PWR0116" (at 208.28 43.18 0)
+    (property "Reference" "#PWR034" (at 208.28 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 211.4551 43.4968 90)
@@ -3927,7 +3927,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -3936,7 +3936,7 @@
   (symbol (lib_id "power:GND") (at 214.63 50.8 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0507b2c-3a81-4f6a-82a9-4e5ad55092e6)
-    (property "Reference" "#PWR0117" (at 208.28 50.8 0)
+    (property "Reference" "#PWR035" (at 208.28 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 211.4551 51.1168 90)
@@ -3952,7 +3952,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -3961,7 +3961,7 @@
   (symbol (lib_id "power:GND") (at 214.63 58.42 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid afd5d5ac-babc-4856-8156-48eb0e0ac985)
-    (property "Reference" "#PWR0115" (at 208.28 58.42 0)
+    (property "Reference" "#PWR036" (at 208.28 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 211.4551 58.7368 90)
@@ -3977,7 +3977,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -3986,7 +3986,7 @@
   (symbol (lib_id "Connector:Conn_01x30_Pin") (at 226.06 60.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6422e72-3b4d-478b-af1f-5205f75ea6c8)
-    (property "Reference" "J4" (at 226.7712 61.5863 0)
+    (property "Reference" "J3" (at 226.7712 61.5863 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x30_Pin" (at 226.7712 63.5073 0)
@@ -4031,7 +4031,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "J4") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -4059,7 +4059,7 @@
           (reference "#PWR0102") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -4068,7 +4068,7 @@
   (symbol (lib_id "power:GND") (at 214.63 73.66 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd04915c-417c-407d-a9a2-70be73b93de9)
-    (property "Reference" "#PWR0119" (at 208.28 73.66 0)
+    (property "Reference" "#PWR038" (at 208.28 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 211.4551 73.9768 90)
@@ -4084,7 +4084,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -4112,7 +4112,7 @@
           (reference "#PWR0108") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )

@@ -2826,7 +2826,7 @@
           (reference "C90") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "C110") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2855,7 +2855,7 @@
           (reference "D4") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "D10") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -2884,7 +2884,7 @@
           (reference "D4") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "D8") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -2922,7 +2922,7 @@
           (reference "C90") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "C100") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2931,7 +2931,7 @@
   (symbol (lib_id "power:GND") (at 193.04 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 322c1f87-9a74-4779-b580-0c13219d5e2d)
-    (property "Reference" "#PWR087" (at 193.04 160.02 0)
+    (property "Reference" "#PWR010" (at 193.04 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 157.8055 0)
@@ -2947,7 +2947,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2956,7 +2956,7 @@
   (symbol (lib_id "power:GND") (at 96.52 119.38 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a8140b0-1dfc-4f28-82ee-d4db586e0238)
-    (property "Reference" "#PWR075" (at 102.87 119.38 0)
+    (property "Reference" "#PWR07" (at 102.87 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.695 119.6968 90)
@@ -2972,7 +2972,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -3001,7 +3001,7 @@
           (reference "D4") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "D12") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -3030,7 +3030,7 @@
           (reference "D4") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "D11") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -3068,7 +3068,7 @@
           (reference "C90") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "C109") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -3131,7 +3131,7 @@
           (reference "D4") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "D13") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -3160,7 +3160,7 @@
           (reference "D4") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "D15") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -3189,7 +3189,7 @@
           (reference "R40") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "R49") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -3204,7 +3204,7 @@
     (property "Value" "rv1126/rv1109" (at 127 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 144.78 93.98 0)
+    (property "Footprint" "Rockchip_SoC:Rockchip_RV1126_FCCSP409LD_14.0x14.0mm" (at 144.78 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 144.78 93.98 0)
@@ -3654,7 +3654,7 @@
           (reference "R40") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "R46") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -3683,7 +3683,7 @@
           (reference "D4") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "D14") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -3712,7 +3712,7 @@
           (reference "D4") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "D9") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -3741,7 +3741,7 @@
           (reference "R40") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "R48") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -3770,7 +3770,7 @@
           (reference "R40") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "R45") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -3779,7 +3779,7 @@
   (symbol (lib_id "power:GND") (at 99.06 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c54bc515-829a-400e-b246-51112e5655a7)
-    (property "Reference" "#PWR086" (at 99.06 160.02 0)
+    (property "Reference" "#PWR08" (at 99.06 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.06 157.8055 0)
@@ -3795,7 +3795,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3804,7 +3804,7 @@
   (symbol (lib_id "power:GND") (at 22.86 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf8a6077-91eb-4a4e-ba09-bb6b1ed02cb6)
-    (property "Reference" "#PWR073" (at 22.86 138.43 0)
+    (property "Reference" "#PWR06" (at 22.86 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 22.86 136.2155 0)
@@ -3820,7 +3820,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -3849,7 +3849,7 @@
           (reference "R40") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "R47") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -3858,7 +3858,7 @@
   (symbol (lib_id "power:GND") (at 191.77 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5df395e-7f6f-4852-add2-d6a9b1f77bda)
-    (property "Reference" "#PWR074" (at 191.77 83.82 0)
+    (property "Reference" "#PWR09" (at 191.77 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.77 81.6055 0)
@@ -3874,7 +3874,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3903,7 +3903,7 @@
           (reference "R40") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "R44") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )

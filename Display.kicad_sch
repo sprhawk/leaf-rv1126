@@ -4016,7 +4016,7 @@
     (property "Value" "Conn_01x30_Pin" (at 226.7712 63.5073 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 226.06 60.96 0)
+    (property "Footprint" "Connector_FFC-FPC:Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal" (at 226.06 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 226.06 60.96 0)

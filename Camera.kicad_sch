@@ -3365,7 +3365,7 @@
     (property "Value" "MIPI-CSI" (at 274.955 39.4749 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_FFC-FPC:Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal" (at 275.59 68.58 0)
+    (property "Footprint" "Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal" (at 275.59 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 275.59 68.58 0)

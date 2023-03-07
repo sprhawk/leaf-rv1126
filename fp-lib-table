@@ -5,4 +5,5 @@
   (lib (name "Rockchip_SoC")(type "KiCad")(uri "${IOTPI_LIB}/footprints/Rockchip_SoC.pretty")(options "")(descr ""))
   (lib (name "Leaf_Connector")(type "KiCad")(uri "${IOTPI_LIB}/footprints/Leaf_Connector.pretty")(options "")(descr ""))
   (lib (name "Leaf_Connector_PCBEdge")(type "KiCad")(uri "${IOTPI_LIB}/footprints/Leaf_Connector_PCBEdge.pretty")(options "")(descr ""))
+  (lib (name "Leaf_Button_Switch_SMD")(type "KiCad")(uri "${IOTPI_LIB}/footprints/Leaf_Button_Switch_SMD.pretty")(options "")(descr ""))
 )

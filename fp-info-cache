@@ -1,4 +1,4 @@
-10067457962157
+11745696100509
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60386,8 +60386,15 @@ SW_SPST_ALPS_SKSG_3.9x2.7mm
 
 
 0
+6
+3
+Leaf_Connector
+microSD
+
+
 0
-0
+13
+10
 Leaf_Connector_PCBEdge
 PCIe_MiniCard
 

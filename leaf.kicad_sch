@@ -120,6 +120,23 @@
     )
   )
 
+  (sheet (at 172.72 97.79) (size 29.21 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 56630686-fff3-4c34-8fc7-0dd6f7e78092)
+    (property "Sheetname" "Other SoC" (at 172.72 97.0784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "OtherSoC.kicad_sch" (at 172.72 116.1546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "leaf"
+        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "23"))
+      )
+    )
+  )
+
   (sheet (at 81.28 96.52) (size 29.21 17.78) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

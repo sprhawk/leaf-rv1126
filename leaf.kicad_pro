@@ -584,6 +584,10 @@
     [
       "42834052-256a-43ae-b5b1-2328aa6298dd",
       "LCD_Power"
+    ],
+    [
+      "56630686-fff3-4c34-8fc7-0dd6f7e78092",
+      "Other SoC"
     ]
   ],
   "text_variables": {}

@@ -7,4 +7,5 @@
   (lib (name "Leaf_Converter_DCDC")(type "KiCad")(uri "${IOTPI_LIB}/symbols/Leaf_Converter_DCDC.kicad_sym")(options "")(descr ""))
   (lib (name "Leaf_RF_Wifi")(type "KiCad")(uri "${IOTPI_LIB}/symbols/Leaf_RF_Wifi.kicad_sym")(options "")(descr ""))
   (lib (name "Leaf_Switch")(type "KiCad")(uri "${IOTPI_LIB}/symbols/Leaf_Switch.kicad_sym")(options "")(descr ""))
+  (lib (name "Leaf_Regulator_Linear")(type "KiCad")(uri "${IOTPI_LIB}/symbols/Leaf_Regulator_Linear.kicad_sym")(options "")(descr ""))
 )

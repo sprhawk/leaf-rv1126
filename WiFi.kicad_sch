@@ -741,7 +741,7 @@
   )
 
   (symbol (lib_id "Leaf_RF_Wifi:AP6256") (at 148.59 73.66 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 4d8d13a4-7410-4822-9e1b-a0f54956e87f)
     (property "Reference" "U4" (at 147.955 46.6471 0)
       (effects (font (size 1.27 1.27)))

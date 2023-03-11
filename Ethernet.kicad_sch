@@ -28,13 +28,13 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "rv1126_rv1109_1_1"
-        (rectangle (start -16.51 31.75) (end 16.51 -35.56)
+        (rectangle (start -17.78 31.75) (end 16.51 -35.56)
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy -16.51 -26.67)
+            (xy -17.78 -26.67)
             (xy 16.51 -26.67)
           )
           (stroke (width 0) (type default))
@@ -43,7 +43,7 @@
         (text "ARM/LOGIC/VEPU/NPU Power" (at -1.27 29.21 0)
           (effects (font (size 1.27 1.27)))
         )
-        (text "Supply for VCCIO~7 Power" (at -3.81 -29.21 0)
+        (text "Supply for VCCIO1~7 Power" (at -3.81 -29.21 0)
           (effects (font (size 1.27 1.27)))
         )
         (pin power_in line (at 22.86 -11.43 180) (length 6.35)
@@ -1029,10 +1029,6 @@
           (name "LCDC_VSYNC/UART3_RTSN_M2/PWM9_M1/SPI1_MOSI_M2/GPIO2_D6_d" (effects (font (size 1.27 1.27))))
           (number "C21" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 60.96 16.51 180) (length 6.35)
-          (name "LCDC_CLK/UART3_CTSN_M2/PWM8_M1/SPI1_MISO_M2/GPIO2_D7_d" (effects (font (size 1.27 1.27))))
-          (number "D20" (effects (font (size 1.27 1.27))))
-        )
         (pin bidirectional line (at 60.96 13.97 180) (length 6.35)
           (name "LCDC_CLK/UART3_CTSN_M2/PWM8_M1/SPI1_MISO_M2/GPIO2_D7_d" (effects (font (size 1.27 1.27))))
           (number "D21" (effects (font (size 1.27 1.27))))
@@ -1691,7 +1687,7 @@
           (name "DDR_DQ6/LPDDR4_D14_A/LPDDR3_D5" (effects (font (size 1.27 1.27))))
           (number "M4" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 97.79 -69.85 180) (length 6.35)
+        (pin power_out line (at 97.79 -69.85 180) (length 6.35)
           (name "DDR_VREF" (effects (font (size 1.27 1.27))))
           (number "M6" (effects (font (size 1.27 1.27))))
         )
@@ -1974,6 +1970,7 @@
   )
 
 
+
   (no_connect (at 276.86 72.39) (uuid 0a93f607-55c0-4ece-bb39-05770bb9b8ed))
   (no_connect (at 144.78 69.85) (uuid 0c1ebf8e-999a-415a-ab85-46dae774854b))
   (no_connect (at 144.78 87.63) (uuid 0c7975c2-4d03-4bc2-9930-7673c606ea97))
@@ -2253,7 +2250,6 @@
     (pin "W21" (uuid e3304274-6168-4333-9f48-28748f7da6ca))
     (pin "Y21" (uuid 79996c91-7735-4228-9b86-3bb81375b003))
     (pin "C21" (uuid d9b5a8d0-7110-4b0b-9e39-3b3636f84983))
-    (pin "D20" (uuid 7ed7a3c5-3f97-496a-bb70-fbf29499d355))
     (pin "D21" (uuid d65719e2-ce66-4784-a0b3-7bd13b03ce41))
     (pin "E19" (uuid 3e42e7a5-6559-4cd2-b2b2-affd107f85a4))
     (pin "E20" (uuid 770e46c9-b0ed-4f0a-a8f4-4c7e39e5fd0d))
@@ -2689,7 +2685,6 @@
     (pin "W21" (uuid b3db8219-751d-416c-a845-4241fa0badb7))
     (pin "Y21" (uuid 413d0b31-d0d3-41ef-9f20-8e367b523a2d))
     (pin "C21" (uuid e47cc1a9-8689-4827-957b-4a0efdb03023))
-    (pin "D20" (uuid 99be620a-ec3c-4059-8377-1dbd25e4efc4))
     (pin "D21" (uuid 2f0a19c2-75c7-48d8-928e-b726042982c5))
     (pin "E19" (uuid e00cc997-587d-4238-9dc7-71f722cb8ca3))
     (pin "E20" (uuid c222109b-fbeb-45a5-937e-5429b0a6af2a))

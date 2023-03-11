@@ -98,6 +98,7 @@
     )
   )
 
+
   (junction (at 50.8 93.98) (diameter 0) (color 0 0 0 0)
     (uuid 00b70c80-b321-46a4-9902-efeedbfaa08a)
   )
@@ -673,7 +674,7 @@
   (symbol (lib_id "Device:C") (at 62.23 54.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0053f881-e6c3-4993-b96b-0ef2617a3c0b)
-    (property "Reference" "C57" (at 60.96 55.88 90)
+    (property "Reference" "C?" (at 60.96 55.88 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 66.04 45.72 90)
@@ -702,10 +703,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C105") (unit 1)
+          (reference "C117") (unit 1)
         )
       )
     )
@@ -714,7 +715,7 @@
   (symbol (lib_id "Device:C") (at 59.69 156.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 056bc791-6c6b-46f0-b543-fa49e1a90414)
-    (property "Reference" "C57" (at 58.42 157.48 90)
+    (property "Reference" "C?" (at 58.42 157.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 63.5 149.86 90)
@@ -743,10 +744,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C104") (unit 1)
+          (reference "C116") (unit 1)
         )
       )
     )
@@ -755,7 +756,7 @@
   (symbol (lib_id "Device:C") (at 62.23 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d3fc930-3be8-4700-8852-92f4cf79fd83)
-    (property "Reference" "C57" (at 60.96 105.41 90)
+    (property "Reference" "C?" (at 60.96 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 10V" (at 66.04 95.25 90)
@@ -784,10 +785,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C112") (unit 1)
+          (reference "C118") (unit 1)
         )
       )
     )
@@ -796,7 +797,7 @@
   (symbol (lib_id "Device:C") (at 106.68 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12fc674e-7fee-4231-bcd6-debeeafd51d0)
-    (property "Reference" "C57" (at 105.41 105.41 90)
+    (property "Reference" "C?" (at 105.41 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 110.49 95.25 90)
@@ -825,10 +826,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C128") (unit 1)
+          (reference "C129") (unit 1)
         )
       )
     )
@@ -837,7 +838,7 @@
   (symbol (lib_id "Device:C") (at 107.95 54.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ad8940b-f3f1-48ac-aeb7-2753f7182df8)
-    (property "Reference" "C57" (at 106.68 55.88 90)
+    (property "Reference" "C?" (at 106.68 55.88 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF X5R 50V" (at 111.76 45.72 90)
@@ -863,10 +864,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C117") (unit 1)
+          (reference "C130") (unit 1)
         )
       )
     )
@@ -875,7 +876,7 @@
   (symbol (lib_id "Device:C") (at 85.09 54.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2314669e-5fb5-4eaa-a623-cd8918772510)
-    (property "Reference" "C57" (at 83.82 55.88 90)
+    (property "Reference" "C?" (at 83.82 55.88 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 88.9 45.72 90)
@@ -904,10 +905,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C111") (unit 1)
+          (reference "C124") (unit 1)
         )
       )
     )
@@ -916,7 +917,7 @@
   (symbol (lib_id "Device:C") (at 71.12 156.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31f63d1d-1e55-4c39-a3d6-41017b479f61)
-    (property "Reference" "C57" (at 69.85 157.48 90)
+    (property "Reference" "C?" (at 69.85 157.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 74.93 149.86 90)
@@ -945,10 +946,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C107") (unit 1)
+          (reference "C119") (unit 1)
         )
       )
     )
@@ -957,7 +958,7 @@
   (symbol (lib_id "Device:C") (at 130.81 54.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35173a3f-191d-47dd-b015-bff73d20a6e7)
-    (property "Reference" "C57" (at 129.54 55.88 90)
+    (property "Reference" "C?" (at 129.54 55.88 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 134.62 45.72 90)
@@ -986,10 +987,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C123") (unit 1)
+          (reference "C134") (unit 1)
         )
       )
     )
@@ -998,7 +999,7 @@
   (symbol (lib_id "Device:C") (at 73.66 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48b6039a-5dcd-4e60-8dd2-e93d7f36cc21)
-    (property "Reference" "C57" (at 72.39 105.41 90)
+    (property "Reference" "C?" (at 72.39 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 77.47 95.25 90)
@@ -1027,10 +1028,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C115") (unit 1)
+          (reference "C121") (unit 1)
         )
       )
     )
@@ -1039,7 +1040,7 @@
   (symbol (lib_id "Device:C") (at 50.8 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a071e98-478c-4053-9521-3c3af44b04ba)
-    (property "Reference" "C57" (at 49.53 105.41 90)
+    (property "Reference" "C?" (at 49.53 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 10V" (at 54.61 95.25 90)
@@ -1068,10 +1069,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C109") (unit 1)
+          (reference "C115") (unit 1)
         )
       )
     )
@@ -1080,7 +1081,7 @@
   (symbol (lib_id "power:GND") (at 36.83 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ac93270-dd3b-4893-9d92-21fe5d8322ae)
-    (property "Reference" "#PWR0124" (at 36.83 182.88 0)
+    (property "Reference" "#PWR0123" (at 36.83 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 36.83 180.6655 0)
@@ -1096,7 +1097,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "#PWR0124") (unit 1)
+          (reference "#PWR0123") (unit 1)
         )
       )
     )
@@ -1105,7 +1106,7 @@
   (symbol (lib_id "Device:C") (at 105.41 156.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ce39f9c-6eac-41cc-b063-bf7e9b3a7ada)
-    (property "Reference" "C57" (at 104.14 157.48 90)
+    (property "Reference" "C?" (at 104.14 157.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 109.22 149.86 90)
@@ -1134,10 +1135,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C116") (unit 1)
+          (reference "C128") (unit 1)
         )
       )
     )
@@ -1146,7 +1147,7 @@
   (symbol (lib_id "Device:C") (at 39.37 54.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 646db793-29c6-422a-84c1-39efa5daf510)
-    (property "Reference" "C57" (at 38.1 55.88 90)
+    (property "Reference" "C?" (at 38.1 55.88 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 43.18 45.72 90)
@@ -1175,10 +1176,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C99") (unit 1)
+          (reference "C111") (unit 1)
         )
       )
     )
@@ -1187,7 +1188,7 @@
   (symbol (lib_id "Device:C") (at 73.66 54.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 778f800d-06dc-44e4-b464-06776d4c88d3)
-    (property "Reference" "C57" (at 72.39 55.88 90)
+    (property "Reference" "C?" (at 72.39 55.88 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 77.47 45.72 90)
@@ -1216,10 +1217,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C108") (unit 1)
+          (reference "C120") (unit 1)
         )
       )
     )
@@ -1228,7 +1229,7 @@
   (symbol (lib_id "Device:C") (at 39.37 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ed6ccfd-f3ff-4e31-9691-e9c406374693)
-    (property "Reference" "C57" (at 38.1 105.41 90)
+    (property "Reference" "C?" (at 38.1 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF X5R 6.3V" (at 43.18 95.25 90)
@@ -1257,10 +1258,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C100") (unit 1)
+          (reference "C112") (unit 1)
         )
       )
     )
@@ -1269,7 +1270,7 @@
   (symbol (lib_id "Device:C") (at 48.26 156.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82a29d1e-cb0e-4549-9027-cb1cad053628)
-    (property "Reference" "C57" (at 46.99 157.48 90)
+    (property "Reference" "C?" (at 46.99 157.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 52.07 149.86 90)
@@ -1298,10 +1299,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C101") (unit 1)
+          (reference "C113") (unit 1)
         )
       )
     )
@@ -1310,7 +1311,7 @@
   (symbol (lib_id "Device:C") (at 50.8 54.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85297d33-2023-4381-8994-a207fdb4cdb1)
-    (property "Reference" "C57" (at 49.53 55.88 90)
+    (property "Reference" "C?" (at 49.53 55.88 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 54.61 45.72 90)
@@ -1339,10 +1340,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C102") (unit 1)
+          (reference "C114") (unit 1)
         )
       )
     )
@@ -1351,7 +1352,7 @@
   (symbol (lib_id "Device:C") (at 116.84 156.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a076029-8dd0-4c2f-beef-8cd3e5210e3f)
-    (property "Reference" "C57" (at 115.57 157.48 90)
+    (property "Reference" "C?" (at 115.57 157.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 120.65 149.86 90)
@@ -1380,10 +1381,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C119") (unit 1)
+          (reference "C131") (unit 1)
         )
       )
     )
@@ -1392,7 +1393,7 @@
   (symbol (lib_id "Device:C") (at 119.38 54.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7b20996-4d22-436c-9f17-ce8c8755754b)
-    (property "Reference" "C57" (at 118.11 55.88 90)
+    (property "Reference" "C?" (at 118.11 55.88 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 123.19 45.72 90)
@@ -1421,10 +1422,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C120") (unit 1)
+          (reference "C132") (unit 1)
         )
       )
     )
@@ -1433,7 +1434,7 @@
   (symbol (lib_id "Device:C") (at 95.25 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b946ee22-1681-4a92-b6e1-9307d86fd389)
-    (property "Reference" "C57" (at 93.98 105.41 90)
+    (property "Reference" "C?" (at 93.98 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 99.06 95.25 90)
@@ -1462,7 +1463,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
           (reference "C126") (unit 1)
@@ -1474,7 +1475,7 @@
   (symbol (lib_id "power:GND") (at 39.37 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4d4e355-fd98-4768-a2cf-9acc94261f5c)
-    (property "Reference" "#PWR0126" (at 39.37 128.27 0)
+    (property "Reference" "#PWR0125" (at 39.37 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.275 123.5068 0)
@@ -1490,7 +1491,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "#PWR0126") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
       )
     )
@@ -1499,7 +1500,7 @@
   (symbol (lib_id "Device:C") (at 96.52 54.61 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9815b0b-e32c-402f-a8cd-561a6f52b610)
-    (property "Reference" "C57" (at 95.25 55.88 90)
+    (property "Reference" "C?" (at 95.25 55.88 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 100.33 45.72 90)
@@ -1528,10 +1529,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C114") (unit 1)
+          (reference "C127") (unit 1)
         )
       )
     )
@@ -1540,7 +1541,7 @@
   (symbol (lib_id "Device:C") (at 93.98 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d09ab884-34e6-4fe2-9b17-5cdff0dfd982)
-    (property "Reference" "C57" (at 92.71 161.29 90)
+    (property "Reference" "C?" (at 92.71 161.29 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF X5R 10V" (at 97.79 165.1 90)
@@ -1569,10 +1570,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C113") (unit 1)
+          (reference "C125") (unit 1)
         )
       )
     )
@@ -1581,7 +1582,7 @@
   (symbol (lib_id "Device:C") (at 128.27 156.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8e0da4e-f07a-457e-8ffe-666527311803)
-    (property "Reference" "C57" (at 127 157.48 90)
+    (property "Reference" "C?" (at 127 157.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 132.08 149.86 90)
@@ -1610,10 +1611,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C122") (unit 1)
+          (reference "C133") (unit 1)
         )
       )
     )
@@ -1622,7 +1623,7 @@
   (symbol (lib_id "Device:C") (at 83.82 104.14 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e42b9e3f-b41b-4505-bfd0-13db137a97a0)
-    (property "Reference" "C57" (at 82.55 105.41 90)
+    (property "Reference" "C?" (at 82.55 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 87.63 95.25 90)
@@ -1651,10 +1652,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C124") (unit 1)
+          (reference "C123") (unit 1)
         )
       )
     )
@@ -1663,7 +1664,7 @@
   (symbol (lib_id "Device:C") (at 82.55 156.21 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eeb1fda8-dab8-4c16-b4ff-9226ecc8044e)
-    (property "Reference" "C57" (at 81.28 157.48 90)
+    (property "Reference" "C?" (at 81.28 157.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 86.36 149.86 90)
@@ -1692,10 +1693,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C110") (unit 1)
+          (reference "C122") (unit 1)
         )
       )
     )
@@ -1704,7 +1705,7 @@
   (symbol (lib_id "power:GND") (at 39.37 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2510869-e6cc-4f89-bb7a-b2fb6fbf195d)
-    (property "Reference" "#PWR0125" (at 39.37 73.66 0)
+    (property "Reference" "#PWR0124" (at 39.37 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.275 68.8968 0)
@@ -1720,7 +1721,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR0124") (unit 1)
         )
       )
     )
@@ -1729,7 +1730,7 @@
   (symbol (lib_id "Device:C") (at 36.83 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f73171fa-9b2a-49df-8dae-82a6fdb55395)
-    (property "Reference" "C57" (at 35.56 161.29 90)
+    (property "Reference" "C?" (at 35.56 161.29 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF X5R 10V" (at 40.64 165.1 90)
@@ -1758,10 +1759,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C98") (unit 1)
+          (reference "C110") (unit 1)
         )
       )
     )

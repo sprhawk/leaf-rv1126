@@ -446,6 +446,7 @@
     )
   )
 
+
   (junction (at 140.97 116.84) (diameter 0) (color 0 0 0 0)
     (uuid 018d5cc3-9a56-4be2-9d95-b9c02d9ffed6)
   )
@@ -1003,7 +1004,7 @@
   (symbol (lib_id "Device:Q_PMOS_GSD") (at 128.27 39.37 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02305570-035a-4f80-8bfc-e840a810265c)
-    (property "Reference" "Q3" (at 128.27 31.9151 90)
+    (property "Reference" "Q?" (at 128.27 31.9151 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Q_PMOS_GSD" (at 128.27 33.8361 90)
@@ -1021,7 +1022,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "Q3") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
           (reference "Q2") (unit 1)
@@ -1033,7 +1034,7 @@
   (symbol (lib_id "Device:R") (at 105.41 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c452cab-7d9f-4f78-83a6-439568ef292a)
-    (property "Reference" "R40" (at 104.14 45.72 90)
+    (property "Reference" "R?" (at 104.14 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5M 5%" (at 102.87 52.07 90)
@@ -1050,22 +1051,22 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "R44") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "R51") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "R58") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "R67") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "R64") (unit 1)
+          (reference "R60") (unit 1)
         )
       )
     )
@@ -1074,7 +1075,7 @@
   (symbol (lib_id "Device:C") (at 210.82 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d853a9a-0376-4c74-8fb3-4bf0605be4fd)
-    (property "Reference" "C57" (at 212.09 123.19 90)
+    (property "Reference" "C?" (at 212.09 123.19 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2uF X5R 35V" (at 207.01 134.62 90)
@@ -1103,25 +1104,25 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C59") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "C84") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C90") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "C100") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "C117") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "C146") (unit 1)
+          (reference "C142") (unit 1)
         )
       )
     )
@@ -1130,7 +1131,7 @@
   (symbol (lib_id "Device:C") (at 110.49 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 276253f9-c501-4033-b9ff-fb50427bf9dd)
-    (property "Reference" "C57" (at 111.76 123.19 90)
+    (property "Reference" "C?" (at 111.76 123.19 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF X5R 10V" (at 106.68 134.62 90)
@@ -1159,25 +1160,25 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C59") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "C84") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C90") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "C100") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "C117") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "C141") (unit 1)
+          (reference "C137") (unit 1)
         )
       )
     )
@@ -1186,7 +1187,7 @@
   (symbol (lib_id "Device:C") (at 248.92 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34df3609-f835-4a93-a4ef-c669ced61c9e)
-    (property "Reference" "C57" (at 250.19 52.07 90)
+    (property "Reference" "C?" (at 250.19 52.07 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 35V" (at 245.11 63.5 90)
@@ -1215,31 +1216,31 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C59") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "C84") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C90") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "C100") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "C111") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "C119") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "C130") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "C150") (unit 1)
+          (reference "C146") (unit 1)
         )
       )
     )
@@ -1248,7 +1249,7 @@
   (symbol (lib_id "Device:C") (at 214.63 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3870be99-1ec1-4365-a41f-d343469d5ff1)
-    (property "Reference" "C57" (at 215.9 50.8 90)
+    (property "Reference" "C?" (at 215.9 50.8 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 210.82 62.23 90)
@@ -1277,31 +1278,31 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C59") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "C84") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C90") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "C100") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "C111") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "C119") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "C128") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "C147") (unit 1)
+          (reference "C143") (unit 1)
         )
       )
     )
@@ -1310,7 +1311,7 @@
   (symbol (lib_id "Device:R") (at 203.2 52.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 409e5c5e-5675-404f-afaa-d338b487c105)
-    (property "Reference" "R40" (at 201.93 46.99 90)
+    (property "Reference" "R?" (at 201.93 46.99 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5M 5%" (at 200.66 53.34 90)
@@ -1327,22 +1328,22 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "R44") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "R51") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "R58") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "R64") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "R69") (unit 1)
+          (reference "R65") (unit 1)
         )
       )
     )
@@ -1387,7 +1388,7 @@
   (symbol (lib_id "power:GND") (at 135.89 134.62 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4546689b-eef8-4c66-80b6-b0e6297772fc)
-    (property "Reference" "#PWR0130" (at 129.54 134.62 0)
+    (property "Reference" "#PWR0129" (at 129.54 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.7151 134.9368 90)
@@ -1403,7 +1404,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "#PWR0130") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
       )
     )
@@ -1412,7 +1413,7 @@
   (symbol (lib_id "Device:R") (at 184.15 147.32 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 499a13bc-11cb-46bd-b26e-9f4bad09c90c)
-    (property "Reference" "R40" (at 185.42 142.24 90)
+    (property "Reference" "R?" (at 185.42 142.24 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2R 1%" (at 181.61 147.32 90)
@@ -1429,22 +1430,22 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "R44") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "R51") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "R58") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "R65") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "R66") (unit 1)
+          (reference "R62") (unit 1)
         )
       )
     )
@@ -1453,7 +1454,7 @@
   (symbol (lib_id "Device:R") (at 190.5 147.32 0) (mirror x) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 4bd40215-a4bf-477b-8028-c06754ba3360)
-    (property "Reference" "R40" (at 191.77 142.24 90)
+    (property "Reference" "R?" (at 191.77 142.24 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2R 1%" (at 187.96 147.32 90)
@@ -1470,22 +1471,22 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "R44") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "R51") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "R58") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "R65") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "R68") (unit 1)
+          (reference "R64") (unit 1)
         )
       )
     )
@@ -1494,7 +1495,7 @@
   (symbol (lib_id "Device:C") (at 224.79 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ca84c9c-b3ce-47a2-b6d3-336d6c1d320f)
-    (property "Reference" "C57" (at 226.06 123.19 90)
+    (property "Reference" "C?" (at 226.06 123.19 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 35V" (at 220.98 134.62 90)
@@ -1523,31 +1524,31 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C59") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "C84") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C90") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "C100") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "C111") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "C119") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "C126") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "C148") (unit 1)
+          (reference "C144") (unit 1)
         )
       )
     )
@@ -1556,7 +1557,7 @@
   (symbol (lib_id "Device:C") (at 142.24 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5cce87ec-56e8-4b3a-bb63-82403adf5a1a)
-    (property "Reference" "C57" (at 143.51 50.8 90)
+    (property "Reference" "C?" (at 143.51 50.8 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF X5R 10V" (at 138.43 62.23 90)
@@ -1585,31 +1586,31 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C59") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "C84") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C90") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "C100") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "C111") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "C119") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "C132") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "C144") (unit 1)
+          (reference "C140") (unit 1)
         )
       )
     )
@@ -1618,7 +1619,7 @@
   (symbol (lib_id "power:GND") (at 142.24 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62ef24a1-f291-4441-85bc-4bd3fe614fcd)
-    (property "Reference" "#PWR0132" (at 142.24 157.48 0)
+    (property "Reference" "#PWR0131" (at 142.24 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 155.2655 0)
@@ -1634,7 +1635,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "#PWR0132") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
       )
     )
@@ -1643,7 +1644,7 @@
   (symbol (lib_id "Device:C") (at 151.13 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a1334f4-0d08-48bc-b616-e1acff24de42)
-    (property "Reference" "C57" (at 152.4 50.8 90)
+    (property "Reference" "C?" (at 152.4 50.8 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 35V" (at 147.32 62.23 90)
@@ -1672,31 +1673,31 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C59") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "C84") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C90") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "C100") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "C111") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "C119") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "C133") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "C145") (unit 1)
+          (reference "C141") (unit 1)
         )
       )
     )
@@ -1705,7 +1706,7 @@
   (symbol (lib_id "Device:C") (at 121.92 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b3b8fd4-1fee-4845-835f-5b641b729ffc)
-    (property "Reference" "C57" (at 123.19 123.19 90)
+    (property "Reference" "C?" (at 123.19 123.19 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 118.11 134.62 90)
@@ -1734,31 +1735,31 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C59") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "C84") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C90") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "C100") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "C111") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "C119") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "C126") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "C143") (unit 1)
+          (reference "C139") (unit 1)
         )
       )
     )
@@ -1767,7 +1768,7 @@
   (symbol (lib_id "Device:R") (at 91.44 60.96 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e1abd88-aec2-4115-837a-069ac8887b77)
-    (property "Reference" "R40" (at 86.36 59.69 90)
+    (property "Reference" "R?" (at 86.36 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100K 5%" (at 99.06 59.69 90)
@@ -1784,22 +1785,22 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "R44") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "R51") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "R58") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "R66") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "R63") (unit 1)
+          (reference "R59") (unit 1)
         )
       )
     )
@@ -1808,7 +1809,7 @@
   (symbol (lib_id "Device:C") (at 116.84 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ee6b3ca-ad2d-4c0c-b6b9-d0db2c82491f)
-    (property "Reference" "C57" (at 118.11 49.53 90)
+    (property "Reference" "C?" (at 118.11 49.53 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 113.03 60.96 90)
@@ -1837,31 +1838,31 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C59") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "C84") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C90") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "C100") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "C111") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "C119") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "C131") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "C142") (unit 1)
+          (reference "C138") (unit 1)
         )
       )
     )
@@ -1870,7 +1871,7 @@
   (symbol (lib_id "Device:Q_PMOS_GSD") (at 226.06 40.64 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97757445-fe37-4f7a-a7d4-bb71d2f481dd)
-    (property "Reference" "Q2" (at 226.06 33.1851 90)
+    (property "Reference" "Q?" (at 226.06 33.1851 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Q_PMOS_GSD" (at 226.06 35.1061 90)
@@ -1888,7 +1889,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "Q2") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
           (reference "Q3") (unit 1)
@@ -1900,7 +1901,7 @@
   (symbol (lib_id "Device:R") (at 189.23 62.23 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5529c9f-4f5d-4767-932b-5a27190e4e02)
-    (property "Reference" "R40" (at 184.15 60.96 90)
+    (property "Reference" "R?" (at 184.15 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100K 5%" (at 196.85 60.96 90)
@@ -1917,22 +1918,22 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "R44") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "R51") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "R58") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "R65") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "R67") (unit 1)
+          (reference "R63") (unit 1)
         )
       )
     )
@@ -1941,7 +1942,7 @@
   (symbol (lib_id "power:GND") (at 190.5 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b426d612-2239-4fee-b6d3-ca30b4d262d0)
-    (property "Reference" "#PWR0133" (at 190.5 160.02 0)
+    (property "Reference" "#PWR0132" (at 190.5 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 190.5 157.8055 0)
@@ -1957,7 +1958,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "#PWR0133") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -1966,7 +1967,7 @@
   (symbol (lib_id "power:GND") (at 142.24 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid baa980d4-d5ba-4670-83ec-89612e281d8f)
-    (property "Reference" "#PWR0123" (at 142.24 74.93 0)
+    (property "Reference" "#PWR?" (at 142.24 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 72.7155 0)
@@ -1982,10 +1983,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "#PWR0131") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
       )
     )
@@ -2032,7 +2033,7 @@
   (symbol (lib_id "power:GND") (at 110.49 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf598e13-1f76-4c87-a9cf-20843c65e560)
-    (property "Reference" "#PWR0129" (at 110.49 146.05 0)
+    (property "Reference" "#PWR0128" (at 110.49 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 110.49 143.8355 0)
@@ -2048,7 +2049,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "#PWR0129") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
     )
@@ -2101,7 +2102,7 @@
   (symbol (lib_id "power:GND") (at 240.03 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d85623bf-0829-412f-83b3-f90b15a1ddbf)
-    (property "Reference" "#PWR0122" (at 240.03 76.2 0)
+    (property "Reference" "#PWR?" (at 240.03 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.03 73.9855 0)
@@ -2117,10 +2118,10 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "#PWR0135") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
       )
     )
@@ -2129,7 +2130,7 @@
   (symbol (lib_id "power:GND") (at 210.82 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e228e2ad-b279-4b6a-886e-785fae4dce02)
-    (property "Reference" "#PWR0134" (at 210.82 143.51 0)
+    (property "Reference" "#PWR0133" (at 210.82 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 141.2955 0)
@@ -2145,7 +2146,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "#PWR0134") (unit 1)
+          (reference "#PWR0133") (unit 1)
         )
       )
     )
@@ -2154,7 +2155,7 @@
   (symbol (lib_id "Device:C") (at 240.03 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2ac67bd-2503-419a-941a-fbc394f53d59)
-    (property "Reference" "C57" (at 241.3 52.07 90)
+    (property "Reference" "C?" (at 241.3 52.07 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF X5R 10V" (at 236.22 63.5 90)
@@ -2183,31 +2184,31 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-          (reference "C57") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45/b7d33089-b835-4c65-840f-b2075d1befa5"
-          (reference "C59") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-          (reference "C84") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-          (reference "C90") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "C100") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "C111") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "C119") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "C129") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "C149") (unit 1)
+          (reference "C145") (unit 1)
         )
       )
     )
@@ -2216,7 +2217,7 @@
   (symbol (lib_id "Device:R") (at 142.24 146.05 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4f54dec-d151-429e-92a2-3e376368b4e5)
-    (property "Reference" "R40" (at 143.51 140.97 90)
+    (property "Reference" "R?" (at 143.51 140.97 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100K 5%" (at 139.7 146.05 90)
@@ -2233,22 +2234,22 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-          (reference "R44") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "R51") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "R58") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "R65") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e/42834052-256a-43ae-b5b1-2328aa6298dd"
-          (reference "R65") (unit 1)
+          (reference "R61") (unit 1)
         )
       )
     )

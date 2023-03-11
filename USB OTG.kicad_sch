@@ -19,10 +19,10 @@
       (property "Value" "rv1126/rv1109" (at 3.81 33.02 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "" (at 26.67 -26.67 0)
+      (property "Footprint" "" (at 31.75 -26.67 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "" (at 26.67 -26.67 0)
+      (property "Datasheet" "" (at 31.75 -26.67 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_locked" "" (at 0 0 0)
@@ -35,13 +35,13 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "rv1126_rv1109_1_1"
-        (rectangle (start -16.51 31.75) (end 16.51 -35.56)
+        (rectangle (start -17.78 31.75) (end 16.51 -35.56)
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy -16.51 -26.67)
+            (xy -17.78 -26.67)
             (xy 16.51 -26.67)
           )
           (stroke (width 0) (type default))
@@ -50,7 +50,7 @@
         (text "ARM/LOGIC/VEPU/NPU Power" (at -1.27 29.21 0)
           (effects (font (size 1.27 1.27)))
         )
-        (text "Supply for VCCIO~7 Power" (at -3.81 -29.21 0)
+        (text "Supply for VCCIO1~7 Power" (at -3.81 -29.21 0)
           (effects (font (size 1.27 1.27)))
         )
         (pin power_in line (at 22.86 -11.43 180) (length 6.35)
@@ -676,14 +676,14 @@
         )
       )
       (symbol "rv1126_rv1109_5_1"
-        (rectangle (start -27.94 25.4) (end 27.94 -27.94)
+        (rectangle (start -35.56 25.4) (end 33.02 -27.94)
           (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy -27.94 -20.32)
-            (xy 27.94 -20.32)
+            (xy -35.56 -20.32)
+            (xy 33.02 -20.32)
           )
           (stroke (width 0) (type default))
           (fill (type none))
@@ -691,51 +691,51 @@
         (text "PMUIO1 Domain" (at 0 22.86 0)
           (effects (font (size 1.27 1.27)))
         )
-        (pin bidirectional line (at 34.29 -5.08 180) (length 6.35)
-          (name "PMU_DEBUG/UART1_CTSN_M0/PWM3_IR_M0/GPIO0_C1_d" (effects (font (size 1.27 1.27))))
+        (pin bidirectional line (at 39.37 -5.08 180) (length 6.35)
+          (name "USB_CTRL/PMU_DEBUG/UART1_CTSN_M0/PWM3_IR_M0/GPIO0_C1_d" (effects (font (size 1.27 1.27))))
           (number "AA4" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 34.29 7.62 180) (length 6.35)
+        (pin bidirectional line (at 39.37 7.62 180) (length 6.35)
           (name "I2C2_SCL/PWM4_M0/GPIO0_C2_d" (effects (font (size 1.27 1.27))))
           (number "AA6" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 34.29 13.97 180) (length 6.35)
+        (pin bidirectional line (at 39.37 13.97 180) (length 6.35)
           (name "I2C0_SCL/GPIO0_B4_u" (effects (font (size 1.27 1.27))))
           (number "AA7" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 34.29 -24.13 180) (length 6.35)
+        (pin power_in line (at 39.37 -24.13 180) (length 6.35)
           (name "PMUIO1_VDD" (effects (font (size 1.27 1.27))))
           (number "R8" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 34.29 -8.89 180) (length 6.35)
+        (pin bidirectional line (at 39.37 -8.89 180) (length 6.35)
           (name "SDMMC0_PWM/UART1_RTSN_M0/PWM2_M0/GPIO0_C0_d" (effects (font (size 1.27 1.27))))
           (number "U9" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 34.29 -13.97 180) (length 6.35)
+        (pin bidirectional line (at 39.37 -13.97 180) (length 6.35)
           (name "UART1_RX_M0/PWM1_M0/GPIO0_B7_d" (effects (font (size 1.27 1.27))))
           (number "V9" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 34.29 1.27 180) (length 6.35)
+        (pin bidirectional line (at 39.37 1.27 180) (length 6.35)
           (name "PMIC_IN/PWM7_IR_M0/GPIO0_B1_d" (effects (font (size 1.27 1.27))))
           (number "W10" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 34.29 -16.51 180) (length 6.35)
+        (pin bidirectional line (at 39.37 -16.51 180) (length 6.35)
           (name "UART1_TX_M0/PWM0_M0/GPIO0_B6_d" (effects (font (size 1.27 1.27))))
           (number "W8" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 34.29 -1.27 180) (length 6.35)
+        (pin bidirectional line (at 39.37 -1.27 180) (length 6.35)
           (name "PMIC_SLEEP/TSADC_SHUT_M1/PWM6_M0/GPIO0_B2_d" (effects (font (size 1.27 1.27))))
           (number "Y10" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 34.29 5.08 180) (length 6.35)
+        (pin bidirectional line (at 39.37 5.08 180) (length 6.35)
           (name "I2C2_SDA/PWM5_M0/GPIO0_C3_d" (effects (font (size 1.27 1.27))))
           (number "Y6" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 34.29 11.43 180) (length 6.35)
+        (pin bidirectional line (at 39.37 11.43 180) (length 6.35)
           (name "I2C0_SDA/GPIO0_B5_u" (effects (font (size 1.27 1.27))))
           (number "Y7" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 34.29 17.78 180) (length 6.35)
+        (pin bidirectional line (at 39.37 17.78 180) (length 6.35)
           (name "FLASH_VOL_SEL/GPIO0_B3_d" (effects (font (size 1.27 1.27))))
           (number "Y8" (effects (font (size 1.27 1.27))))
         )
@@ -764,63 +764,63 @@
           (name "FLASH_RDYn/FSPI_D1/I2S1_SCLK_M0/GPIO1_A1_u" (effects (font (size 1.27 1.27))))
           (number "R2" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 33.02 -15.24 180) (length 6.35)
+        (pin bidirectional line (at 33.02 -7.62 180) (length 6.35)
           (name "FLASH_WPn/EMMC_RSTn/FSPI_CLK/GPIO1_A3_d" (effects (font (size 1.27 1.27))))
           (number "R3" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 33.02 -10.16 180) (length 6.35)
+        (pin bidirectional line (at 33.02 -17.78 180) (length 6.35)
           (name "FLASH_RDn/FSPI_D3/I2S1_SDI_M0/GPIO1_A2_u" (effects (font (size 1.27 1.27))))
           (number "R4" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 33.02 15.24 180) (length 6.35)
+        (pin bidirectional line (at 33.02 -5.08 180) (length 6.35)
           (name "FLASH_CLE/EMMC_CLKO/GPIO0_D7_d" (effects (font (size 1.27 1.27))))
           (number "T1" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 33.02 17.78 180) (length 6.35)
+        (pin bidirectional line (at 33.02 -10.16 180) (length 6.35)
           (name "FLASH_ALE/FSPI_D0/I2S1_LRCK_M0/GPIO1_A0_d" (effects (font (size 1.27 1.27))))
           (number "T2" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 33.02 -20.32 180) (length 6.35)
+        (pin bidirectional line (at 33.02 -15.24 180) (length 6.35)
           (name "FSPI_D2/I2S1_SDO_M0/GPIO0_D6_d" (effects (font (size 1.27 1.27))))
           (number "T3" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 33.02 -17.78 180) (length 6.35)
+        (pin bidirectional line (at 33.02 -2.54 180) (length 6.35)
           (name "FLASH_WRn/EMMC_CMD/GPIO0_D5_u" (effects (font (size 1.27 1.27))))
           (number "T4" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 33.02 12.7 180) (length 6.35)
+        (pin bidirectional line (at 33.02 -20.32 180) (length 6.35)
           (name "FLASH_CS0n/FSPI_CS0n/I2S1_MCLK_M0/GPIO0_D4_u" (effects (font (size 1.27 1.27))))
           (number "U2" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 33.02 -7.62 180) (length 6.35)
+        (pin bidirectional line (at 33.02 0 180) (length 6.35)
           (name "FLASH_D7/EMMC_D7/GPIO0_D3_u" (effects (font (size 1.27 1.27))))
           (number "U3" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 33.02 -5.08 180) (length 6.35)
+        (pin bidirectional line (at 33.02 2.54 180) (length 6.35)
           (name "FLASH_D6/EMMC_D6/GPIO0_D2_u" (effects (font (size 1.27 1.27))))
           (number "U4" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 33.02 -2.54 180) (length 6.35)
+        (pin bidirectional line (at 33.02 5.08 180) (length 6.35)
           (name "FLASH_D5/EMMC_D5/FSPI_CS1n/GPIO0_D1_u" (effects (font (size 1.27 1.27))))
           (number "V1" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 33.02 0 180) (length 6.35)
+        (pin bidirectional line (at 33.02 7.62 180) (length 6.35)
           (name "FLASH_D4/EMMC_D4/GPIO0_D0_u" (effects (font (size 1.27 1.27))))
           (number "V2" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 33.02 2.54 180) (length 6.35)
+        (pin bidirectional line (at 33.02 10.16 180) (length 6.35)
           (name "FLASH_D3/EMMC_D3/GPIO0_C7_u" (effects (font (size 1.27 1.27))))
           (number "V3" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 33.02 5.08 180) (length 6.35)
+        (pin bidirectional line (at 33.02 12.7 180) (length 6.35)
           (name "FLASH_D2/EMMC_D2/GPIO0_C6_u" (effects (font (size 1.27 1.27))))
           (number "V4" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 33.02 7.62 180) (length 6.35)
+        (pin bidirectional line (at 33.02 15.24 180) (length 6.35)
           (name "FLASH_D1/EMMC_D1/GPIO0_C5_u" (effects (font (size 1.27 1.27))))
           (number "W1" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 33.02 10.16 180) (length 6.35)
+        (pin bidirectional line (at 33.02 17.78 180) (length 6.35)
           (name "FLASH_D0/EMMC_D0/GPIO0_C4_u" (effects (font (size 1.27 1.27))))
           (number "W2" (effects (font (size 1.27 1.27))))
         )
@@ -1035,10 +1035,6 @@
         (pin bidirectional line (at 60.96 -58.42 180) (length 6.35)
           (name "LCDC_VSYNC/UART3_RTSN_M2/PWM9_M1/SPI1_MOSI_M2/GPIO2_D6_d" (effects (font (size 1.27 1.27))))
           (number "C21" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 60.96 16.51 180) (length 6.35)
-          (name "LCDC_CLK/UART3_CTSN_M2/PWM8_M1/SPI1_MISO_M2/GPIO2_D7_d" (effects (font (size 1.27 1.27))))
-          (number "D20" (effects (font (size 1.27 1.27))))
         )
         (pin bidirectional line (at 60.96 13.97 180) (length 6.35)
           (name "LCDC_CLK/UART3_CTSN_M2/PWM8_M1/SPI1_MISO_M2/GPIO2_D7_d" (effects (font (size 1.27 1.27))))
@@ -1698,7 +1694,7 @@
           (name "DDR_DQ6/LPDDR4_D14_A/LPDDR3_D5" (effects (font (size 1.27 1.27))))
           (number "M4" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 97.79 -69.85 180) (length 6.35)
+        (pin power_out line (at 97.79 -69.85 180) (length 6.35)
           (name "DDR_VREF" (effects (font (size 1.27 1.27))))
           (number "M6" (effects (font (size 1.27 1.27))))
         )
@@ -2620,6 +2616,9 @@
     (uuid e09d18e6-307a-43b0-a54a-cb5565ba5e5f)
   )
 
+  (no_connect (at 154.94 81.28) (uuid 3fcd2418-7bc1-4e17-8218-0c54b9490870))
+  (no_connect (at 154.94 83.82) (uuid e57a7dfe-9df5-4f7d-91ff-1a12d04af4f6))
+
   (wire (pts (xy 137.16 60.96) (xy 154.94 60.96))
     (stroke (width 0) (type default))
     (uuid 0138e7b5-037e-437f-bccd-dd0bf5294bdd)
@@ -3197,7 +3196,7 @@
   (symbol (lib_id "Device:R") (at 58.42 152.4 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0cc909ba-1cb5-49a5-be60-531d8866c859)
-    (property "Reference" "R26" (at 58.42 148.3741 90)
+    (property "Reference" "R22" (at 58.42 148.3741 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2K 5%" (at 58.42 150.2951 90)
@@ -3226,7 +3225,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "R26") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -3235,7 +3234,7 @@
   (symbol (lib_id "Device:C") (at 163.83 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19b3cbf9-2c11-47d5-bfcf-503f48c90437)
-    (property "Reference" "C24" (at 165.1 121.92 90)
+    (property "Reference" "C30" (at 165.1 121.92 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 167.64 125.73 90)
@@ -3264,7 +3263,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "C24") (unit 1)
+          (reference "C30") (unit 1)
         )
       )
     )
@@ -3273,7 +3272,7 @@
   (symbol (lib_id "power:GND") (at 236.22 76.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 207effdd-c06f-49ec-a390-31a77eb4cb27)
-    (property "Reference" "#PWR049" (at 236.22 82.55 0)
+    (property "Reference" "#PWR048" (at 236.22 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.22 80.3355 0)
@@ -3289,7 +3288,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -3298,7 +3297,7 @@
   (symbol (lib_id "power:GND") (at 152.4 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 208f9bc2-d1c9-42ff-9b6f-19bd6e5ddfc0)
-    (property "Reference" "#PWR046" (at 152.4 139.7 0)
+    (property "Reference" "#PWR045" (at 152.4 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 137.4855 0)
@@ -3314,7 +3313,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -3351,7 +3350,7 @@
   (symbol (lib_id "Device:C") (at 242.57 109.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cc3a5e8-732c-4959-bd3a-e8f03fd36ad9)
-    (property "Reference" "C28" (at 241.3 107.95 90)
+    (property "Reference" "C34" (at 241.3 107.95 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 238.76 118.11 90)
@@ -3380,7 +3379,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "C28") (unit 1)
+          (reference "C34") (unit 1)
         )
       )
     )
@@ -3389,7 +3388,7 @@
   (symbol (lib_id "Device:R") (at 261.62 109.22 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33f9097b-4ecf-4071-ae70-5b2b6164643c)
-    (property "Reference" "R35" (at 259.842 108.5763 0)
+    (property "Reference" "R31" (at 259.842 108.5763 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10K 1%" (at 259.842 110.4973 0)
@@ -3406,7 +3405,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "R35") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -3415,7 +3414,7 @@
   (symbol (lib_id "power:GND") (at 242.57 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 37297455-61d2-4342-9d02-ec124e3c184a)
-    (property "Reference" "#PWR050" (at 242.57 124.46 0)
+    (property "Reference" "#PWR049" (at 242.57 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 242.57 122.2455 0)
@@ -3431,7 +3430,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -3466,7 +3465,7 @@
   (symbol (lib_id "power:GND") (at 261.62 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38169588-55ae-4e8d-97e9-60dd679ed6f1)
-    (property "Reference" "#PWR053" (at 261.62 124.46 0)
+    (property "Reference" "#PWR052" (at 261.62 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 261.62 122.2455 0)
@@ -3482,7 +3481,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -3491,7 +3490,7 @@
   (symbol (lib_id "Device:R") (at 165.1 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3932c948-2baa-43ff-98b8-90bee35a7f5b)
-    (property "Reference" "R31" (at 165.1 70.9041 90)
+    (property "Reference" "R27" (at 165.1 70.9041 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200R 1%" (at 165.1 72.8251 90)
@@ -3508,7 +3507,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "R31") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -3517,7 +3516,7 @@
   (symbol (lib_id "power:GND") (at 182.88 74.93 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 449d4215-04ac-4e8e-846e-94a9a6013c7f)
-    (property "Reference" "#PWR047" (at 189.23 74.93 0)
+    (property "Reference" "#PWR046" (at 189.23 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 187.0155 74.93 0)
@@ -3533,7 +3532,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -3572,7 +3571,7 @@
   (symbol (lib_id "Device:C") (at 152.4 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 587a1466-314a-491c-9373-6046d6addd85)
-    (property "Reference" "C23" (at 153.67 121.92 90)
+    (property "Reference" "C29" (at 153.67 121.92 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 156.21 125.73 90)
@@ -3601,7 +3600,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "C23") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -3610,7 +3609,7 @@
   (symbol (lib_id "Device:R") (at 199.39 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e1d5208-f057-49cb-b29d-348294159369)
-    (property "Reference" "R33" (at 199.39 51.8541 90)
+    (property "Reference" "R29" (at 199.39 51.8541 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R 5%" (at 199.39 53.7751 90)
@@ -3627,7 +3626,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "R33") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -3636,7 +3635,7 @@
   (symbol (lib_id "Device:R") (at 102.87 171.45 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f151a8d-0ea2-4b99-860d-2dec88433eb4)
-    (property "Reference" "R28" (at 104.648 170.8063 0)
+    (property "Reference" "R24" (at 104.648 170.8063 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "220R 5%" (at 104.648 172.7273 0)
@@ -3653,7 +3652,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "R28") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -3662,7 +3661,7 @@
   (symbol (lib_id "Device:R") (at 162.56 39.37 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 670df46f-3308-4513-8d98-01b518025201)
-    (property "Reference" "R30" (at 162.56 35.3441 90)
+    (property "Reference" "R26" (at 162.56 35.3441 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2R 5%" (at 162.56 37.2651 90)
@@ -3679,7 +3678,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "R30") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -3688,7 +3687,7 @@
   (symbol (lib_id "Device:R") (at 261.62 95.25 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 685e66d9-6ace-466e-808b-7df61d7bd659)
-    (property "Reference" "R34" (at 259.842 94.6063 0)
+    (property "Reference" "R30" (at 259.842 94.6063 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "18K 1%" (at 259.842 96.5273 0)
@@ -3705,7 +3704,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "R34") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -3714,7 +3713,7 @@
   (symbol (lib_id "Device:C") (at 226.06 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68a4d9ab-6dcb-4bc0-84c6-2316582c7df4)
-    (property "Reference" "C26" (at 227.33 38.1 90)
+    (property "Reference" "C32" (at 227.33 38.1 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 229.87 41.91 90)
@@ -3743,7 +3742,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "C26") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -3752,7 +3751,7 @@
   (symbol (lib_id "power:GND") (at 255.27 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 805e6bec-4a94-44cb-9965-21e1ac9acce6)
-    (property "Reference" "#PWR051" (at 255.27 38.1 0)
+    (property "Reference" "#PWR050" (at 255.27 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 255.27 35.8855 0)
@@ -3768,7 +3767,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -3803,7 +3802,7 @@
   (symbol (lib_id "power:GND") (at 259.08 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b9a33a8-c5f0-4c5c-83d4-45f4065a20d9)
-    (property "Reference" "#PWR052" (at 259.08 71.12 0)
+    (property "Reference" "#PWR051" (at 259.08 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 259.08 68.9055 0)
@@ -3819,7 +3818,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -3854,7 +3853,7 @@
   (symbol (lib_id "Device:C") (at 233.68 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e5760d3-a912-4941-9d08-aa08c8d224d5)
-    (property "Reference" "C27" (at 234.95 38.1 90)
+    (property "Reference" "C33" (at 234.95 38.1 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF X5R 10V" (at 237.49 41.91 90)
@@ -3883,7 +3882,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "C27") (unit 1)
+          (reference "C33") (unit 1)
         )
       )
     )
@@ -3892,7 +3891,7 @@
   (symbol (lib_id "Device:R") (at 165.1 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0c3ecf9-b184-41fd-8548-99810f8e23d7)
-    (property "Reference" "R32" (at 165.1 84.8741 90)
+    (property "Reference" "R28" (at 165.1 84.8741 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200R 1%" (at 165.1 86.7951 90)
@@ -3909,7 +3908,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "R32") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -4136,7 +4135,6 @@
     (pin "W21" (uuid 421f2980-99d3-4384-9d12-19022f2e7b13))
     (pin "Y21" (uuid e5b23ee4-c67a-49fe-82d5-6d0e1a19d011))
     (pin "C21" (uuid 50d6c740-7f38-456d-bd27-af217fffcfda))
-    (pin "D20" (uuid dd09e6df-2e0e-47a5-9fa3-48a6608c0712))
     (pin "D21" (uuid 8349b054-69d7-410d-a97a-af2a2adacaa5))
     (pin "E19" (uuid 33c8cdf3-fe16-49da-aa38-13c6e89b712c))
     (pin "E20" (uuid 17c042c5-e768-41d8-b33d-a8a50868cd98))
@@ -4380,7 +4378,7 @@
   (symbol (lib_id "Device:C") (at 175.26 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8a8c9d4-9d13-43bf-b50b-d259befb399e)
-    (property "Reference" "C25" (at 176.53 121.92 90)
+    (property "Reference" "C31" (at 176.53 121.92 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF X5R 6.3V" (at 179.07 125.73 90)
@@ -4409,7 +4407,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "C25") (unit 1)
+          (reference "C31") (unit 1)
         )
       )
     )
@@ -4418,7 +4416,7 @@
   (symbol (lib_id "Device:R") (at 80.01 142.24 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d75500a0-205b-4892-ab78-74bfc7a91c75)
-    (property "Reference" "R27" (at 81.788 141.5963 0)
+    (property "Reference" "R23" (at 81.788 141.5963 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1K 5%" (at 81.788 143.5173 0)
@@ -4435,7 +4433,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "R27") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -4444,7 +4442,7 @@
   (symbol (lib_id "Device:R") (at 162.56 21.59 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc3f5a1f-733c-45c6-84af-f50e17d4adbe)
-    (property "Reference" "R29" (at 162.56 17.5641 90)
+    (property "Reference" "R25" (at 162.56 17.5641 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2R 5%" (at 162.56 19.4851 90)
@@ -4461,7 +4459,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "R29") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -4470,7 +4468,7 @@
   (symbol (lib_id "power:GND") (at 182.88 88.9 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e102013c-b0e4-411b-bb76-980801f359a0)
-    (property "Reference" "#PWR048" (at 189.23 88.9 0)
+    (property "Reference" "#PWR047" (at 189.23 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 187.0155 88.9 0)
@@ -4486,7 +4484,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )

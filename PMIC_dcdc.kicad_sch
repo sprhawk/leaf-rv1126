@@ -1116,10 +1116,6 @@
     (stroke (width 0) (type default))
     (uuid 816758b3-f38c-406f-aef6-111fa1a65ea3)
   )
-  (wire (pts (xy 232.41 113.03) (xy 232.41 114.3))
-    (stroke (width 0) (type default))
-    (uuid 89e3f0ed-f9ad-4289-abf4-b17f8e67750d)
-  )
   (wire (pts (xy 55.88 114.3) (xy 66.04 114.3))
     (stroke (width 0) (type default))
     (uuid 8abd72a4-0d75-4f09-bd8b-72ddeac7ef48)
@@ -2319,31 +2315,6 @@
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126/2d95e8c5-bd08-40b5-b7b2-fac89748aabf"
           (reference "C65") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 232.41 113.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ba4c3fde-26f8-4b85-82dc-79dce5ba2663)
-    (property "Reference" "#FLG011" (at 232.41 111.125 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 232.41 109.5281 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 232.41 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 232.41 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dbfd97aa-dc5a-4a21-8119-f6e31be2cdfb))
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126/2d95e8c5-bd08-40b5-b7b2-fac89748aabf"
-          (reference "#FLG011") (unit 1)
         )
       )
     )

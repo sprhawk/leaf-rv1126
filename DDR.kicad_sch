@@ -2106,6 +2106,7 @@
     )
   )
 
+
   (junction (at 97.79 189.23) (diameter 0) (color 0 0 0 0)
     (uuid 0dcfaf60-04fb-44a0-aae7-5cc2ab5c60eb)
   )
@@ -2952,11 +2953,6 @@
     (uuid 9d8d41eb-ec93-4442-b8f2-e24cf71dad84)
   )
 
-  (text "DNP" (at 187.96 142.24 0)
-    (effects (font (size 1.27 1.27) (color 194 194 0 1)) (justify left bottom))
-    (uuid 511a400d-d445-46d6-bd81-44cad8085a55)
-  )
-
   (label "DDR4_CLKP" (at 213.36 110.49 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 021b76b7-6945-46a5-bf78-76f6043617a1)
@@ -3677,7 +3673,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 189.23 138.43 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 6f4cb3c6-1672-4def-b866-2a1656de83c4)
     (property "Reference" "R58" (at 189.23 134.4041 90)
       (effects (font (size 1.27 1.27)))

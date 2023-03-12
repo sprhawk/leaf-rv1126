@@ -1841,7 +1841,7 @@
     (property "Value" "NetTie_3_Tee" (at 260.35 41.9641 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 260.35 43.18 0)
+    (property "Footprint" "NetTie:NetTie-3_SMD_Pad2.0mm" (at 260.35 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 260.35 43.18 0)

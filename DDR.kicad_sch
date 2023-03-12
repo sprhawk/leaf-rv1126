@@ -4672,10 +4672,6 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 1039e20c-30ae-4161-9e35-6f848f1d8e7c)
     )
-    (pin "DDR_BG0" input (at 267.97 110.49 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid d08f41b6-eb2a-4776-9d29-1cab8a1256d5)
-    )
     (pin "DDR4_A12" input (at 219.71 52.07 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 8f33e983-672d-4c96-9f92-c6751df9df99)
@@ -4727,6 +4723,10 @@
     (pin "DDR4_A5" input (at 219.71 34.29 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 9cbdf783-7205-43d3-aa15-274f5416342c)
+    )
+    (pin "DDR4_BG0" input (at 267.97 110.49 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 36bf5a33-feaa-4494-b9af-5b8a375b1fa2)
     )
     (instances
       (project "leaf"

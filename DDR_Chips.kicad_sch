@@ -326,7 +326,7 @@
         )
       )
       (symbol "Micron_DDR4_MT40A512M16TB_2_1"
-        (rectangle (start -11.43 28.575) (end 11.43 -34.925)
+        (rectangle (start -11.43 28.575) (end 11.43 -35.56)
           (stroke (width 0) (type default))
           (fill (type none))
         )
@@ -498,7 +498,7 @@
           (name "V_{SS}" (effects (font (size 1.27 1.27))))
           (number "T1" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at -5.08 -41.275 90) (length 6.35) hide
+        (pin no_connect line (at -2.54 -41.91 90) (length 6.35) hide
           (name "NF/NC" (effects (font (size 1.27 1.27))))
           (number "T7" (effects (font (size 1.27 1.27))))
         )
@@ -549,7 +549,6 @@
       )
     )
   )
-
 
   (junction (at 91.44 153.67) (diameter 0) (color 0 0 0 0)
     (uuid 5c1b60f1-0e3d-4632-8447-d13bc8d0111d)
@@ -2166,7 +2165,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 37d3afe1-9053-429a-a951-83e356c19b31)
   )
-  (hierarchical_label "DDR_BG0" (shape input) (at 30.48 96.52 180) (fields_autoplaced)
+  (hierarchical_label "DDR4_BG0" (shape input) (at 30.48 96.52 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3e256f99-7eec-4428-9b30-baf041650fa6)
   )

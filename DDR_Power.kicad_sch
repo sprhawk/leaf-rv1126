@@ -379,7 +379,7 @@
         )
       )
       (symbol "Micron_DDR4_MT40A512M16TB_2_1"
-        (rectangle (start -11.43 28.575) (end 11.43 -34.925)
+        (rectangle (start -11.43 28.575) (end 11.43 -35.56)
           (stroke (width 0) (type default))
           (fill (type none))
         )
@@ -551,7 +551,7 @@
           (name "V_{SS}" (effects (font (size 1.27 1.27))))
           (number "T1" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at -5.08 -41.275 90) (length 6.35) hide
+        (pin no_connect line (at -2.54 -41.91 90) (length 6.35) hide
           (name "NF/NC" (effects (font (size 1.27 1.27))))
           (number "T7" (effects (font (size 1.27 1.27))))
         )

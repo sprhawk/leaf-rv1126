@@ -2265,7 +2265,7 @@
           (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/74154bd6-827c-4e46-8351-0d1a22db546e"
-          (reference "C136") (unit 1)
+          (reference "C20001") (unit 1)
         )
       )
     )
@@ -2274,7 +2274,7 @@
   (symbol (lib_id "CPU_Rockchip:rv1126_rv1109") (at 93.98 81.28 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f85d8f3-2ae6-45db-a42f-6b0ec084618c)
-    (property "Reference" "U1" (at 92.71 52.9971 0)
+    (property "Reference" "U3001" (at 92.71 52.9971 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "rv1126/rv1109" (at 92.71 54.9181 0)
@@ -2699,7 +2699,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/74154bd6-827c-4e46-8351-0d1a22db546e"
-          (reference "U1") (unit 5)
+          (reference "U3001") (unit 5)
         )
       )
     )
@@ -2708,7 +2708,7 @@
   (symbol (lib_id "power:GND") (at 151.13 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96ecea77-c9bd-4eb6-b037-424f775b5968)
-    (property "Reference" "#PWR0127" (at 151.13 129.54 0)
+    (property "Reference" "#PWR020001" (at 151.13 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 151.13 127.3255 0)
@@ -2724,7 +2724,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/74154bd6-827c-4e46-8351-0d1a22db546e"
-          (reference "#PWR0127") (unit 1)
+          (reference "#PWR020001") (unit 1)
         )
       )
     )

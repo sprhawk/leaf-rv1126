@@ -909,7 +909,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 0617e100-3b8d-4f54-9fb6-be70b30253c7)
-    (at 181.74 36.16)
+    (at 181.27 101.85)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Description" "容值: 2.2uF 精度: ±10% 额定电压: 10V 材质(温度系数): X5R")
@@ -2028,7 +2028,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tstamp 200fbc21-aa69-4c52-b85d-8f53f1176c59)
-    (at 184.4 31.45)
+    (at 183.09 99.31)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Description" "容值: 100nF 精度: ±10% 额定电压: 6.3V 材质(温度系数): X5R 材质:X5R")
@@ -2140,7 +2140,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 23fa1edc-d10a-4728-bbba-c6821064db96)
-    (at 181.74 28.28)
+    (at 181 99.82)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Description" "容值: 1uF 精度: ±10% 额定电压: 6.3V 材质(温度系数): X5R 材质:X5R")
@@ -2545,7 +2545,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tstamp 2b1c7f16-9830-4066-a989-e3ed7b88be17)
-    (at 184.4 29.7)
+    (at 182.6 96.35)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Description" "容值: 100nF 精度: ±10% 额定电压: 6.3V 材质(温度系数): X5R 材质:X5R")
@@ -2943,7 +2943,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tstamp 3636f8c5-b843-4dbb-a8d5-f268c5238cae)
-    (at 184.4 27.95)
+    (at 180.77 95.85)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Description" "容值: 27pF 精度: ±2% 额定电压: 50V 材质(温度系数): C0G 材质:C0G")
@@ -3163,7 +3163,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 3a6c02b7-5571-4689-a765-421196f0e9cc)
-    (at 178.85 32.29)
+    (at 192.83 106.52)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Description" "电阻类型: 厚膜电阻 阻值: 22.1Ω 精度: ±1% 功率: 1/16W 温度系数: ±100ppm/℃ 最大工作电压: 50V 工作温度")
@@ -3565,7 +3565,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 40564d52-16e4-4d6f-9867-8fe4e691e753)
-    (at 178.85 28.31)
+    (at 189.85 105.38)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Description" "电阻类型: 厚膜电阻 阻值: 22.1Ω 精度: ±1% 功率: 1/16W 温度系数: ±100ppm/℃ 最大工作电压: 50V 工作温度")
@@ -5471,7 +5471,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 64cf0a40-4741-4a12-a434-8438877f226f)
-    (at 181.74 32.22)
+    (at 181.88 103.11)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Description" "容值: 1uF 精度: ±10% 额定电压: 6.3V 材质(温度系数): X5R 材质:X5R")
@@ -6909,7 +6909,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tstamp 74976187-d7ae-4e7d-8178-072afa8987d5)
-    (at 184.4 26.2)
+    (at 183.95 103.79)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Description" "容值: 27pF 精度: ±2% 额定电压: 50V 材质(温度系数): C0G 材质:C0G")
@@ -8096,7 +8096,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 84bc2f04-cc1d-4211-bd57-747444658b66)
-    (at 181.74 30.25)
+    (at 185.27 104.73)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Description" "容值: 2.2uF 精度: ±10% 额定电压: 10V 材质(温度系数): X5R")
@@ -10255,7 +10255,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tstamp ad451624-9536-48a3-9a43-2b70f4d84adc)
-    (at 181.74 26.31)
+    (at 187.18 87.93)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Description" "容值: 10uF 精度: ±20% 额定电压: 10V 材质(温度系数): X5R 材质:X5R")
@@ -10774,7 +10774,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp bf064726-84b5-4f4a-ad48-69297ccac721)
-    (at 178.85 26.32)
+    (at 193.21 104.43)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Description" "电阻类型: 厚膜电阻 阻值: 22.1Ω 精度: ±1% 功率: 1/16W 温度系数: ±100ppm/℃ 最大工作电压: 50V 工作温度")
@@ -11204,7 +11204,7 @@
 
   (footprint "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal" (layer "F.Cu")
     (tstamp c33250ce-8b66-4646-87d9-f5fa31792541)
-    (at 168.3 47.97)
+    (at 199.22 63.23)
     (descr "USB Micro-B receptacle, horizontal, SMD, 10118194, https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf")
     (tags "USB Micro B horizontal SMD")
     (property "Sheetfile" "USB OTG.kicad_sch")
@@ -11533,7 +11533,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp ce557b7e-599d-4d18-8007-d6d02252a433)
-    (at 178.85 36.27)
+    (at 191.8 103.41)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Description" "电阻类型: 厚膜电阻 阻值: 22.1Ω 精度: ±1% 功率: 1/16W 温度系数: ±100ppm/℃ 最大工作电压: 50V 工作温度")
@@ -12211,7 +12211,7 @@
 
   (footprint "Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal" (layer "F.Cu")
     (tstamp e61be5c2-eb1e-4932-842e-a714efca519e)
-    (at 126.16 42.12)
+    (at 155.47 85.98)
     (descr "Hirose FH12, FFC/FPC connector, FH12-24S-0.5SH, 24 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator")
     (tags "connector Hirose FH12 horizontal")
     (property "Sheetfile" "Camera.kicad_sch")
@@ -12632,7 +12632,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tstamp ea13c476-b251-412e-ad2a-624c6359ea2f)
-    (at 181.74 34.19)
+    (at 180.4 96.91)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Description" "容值: 1uF 精度: ±10% 额定电压: 6.3V 材质(温度系数): X5R 材质:X5R")
@@ -12912,7 +12912,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp eb210d4b-1d6f-44cb-ad7e-3c7b0c398ba2)
-    (at 178.85 34.28)
+    (at 195.75 106.93)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Description" "电阻类型: 厚膜电阻 阻值: 22.1Ω 精度: ±1% 功率: 1/16W 温度系数: ±100ppm/℃ 最大工作电压: 50V 工作温度")
@@ -13082,7 +13082,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp eeeae0d9-b914-4e3c-92c4-b5f98c005c8a)
-    (at 178.85 38.26)
+    (at 198.63 105.31)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Description" "电阻类型: 厚膜电阻 阻值: 0Ω 精度: ±1% 功率: 1/16W 温度系数: ±800ppm/℃ 最大工作电压: 50V 工作")
@@ -13224,7 +13224,7 @@
 
   (footprint "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm" (layer "F.Cu")
     (tstamp f193ad61-2a06-46e5-b8a2-eca2266132a3)
-    (at 142.46 67.14)
+    (at 138.68 93.43)
     (descr "SMD Crystal SERIES SMD2520/4 http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf, 2.5x2.0mm^2 package")
     (tags "SMD SMT crystal")
     (property "Description" "晶振类型: 贴片无源晶振 频率: 24MHz 频率公差: ±10ppm 负载电容: 10pF 等效串联电阻(ESR): 80Ω 工")
@@ -13525,7 +13525,7 @@
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tstamp f36190d3-d212-42c4-b0cc-10e7b7929dbb)
-    (at 178.85 30.3)
+    (at 195.89 104.26)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Description" "电阻类型: 厚膜电阻 阻值: 22.1Ω 精度: ±1% 功率: 1/16W 温度系数: ±100ppm/℃ 最大工作电压: 50V 工作温度")

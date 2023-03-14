@@ -18559,7 +18559,7 @@
   (dimension (type aligned) (layer "Cmts.User") (tstamp 438f9744-8f6b-4ff4-8874-7e0f62d59fdc)
     (pts (xy 120.86 110.11) (xy 204.46 110.11))
     (height 35.95)
-    (gr_text "83.6000 mm" (at 162.66 144.91) (layer "Cmts.User") (tstamp 11046dc5-6af9-4319-8e98-594934a2791e)
+    (gr_text "83.6000 mm" (at 162.66 144.91) (layer "Cmts.User") (tstamp 438f9744-8f6b-4ff4-8874-7e0f62d59fdc)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))

@@ -111,10 +111,10 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.09,
+        "min_clearance": 0.07619999999999999,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.09999999999999999,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
@@ -123,9 +123,9 @@
         "min_text_height": 1.0,
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.09,
-        "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.3,
+        "min_track_width": 0.07619999999999999,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.35,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -172,12 +172,18 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2032,
+        0.254
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.254,
+          "drill": 0.127
         },
         {
           "diameter": 0.35,
@@ -458,32 +464,15 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.2032,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.133858,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "External_Diff_100R",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "External_SingleEnded_50R",
+        "name": "50R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.172466,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -491,19 +480,36 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.2032,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.084328,
+        "diff_pair_width": 0.1339,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Internal_Diff_100R",
+        "name": "Diff_100R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.1331,
+        "via_diameter": 0.35,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1707,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Diff_90R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.1699,
+        "via_diameter": 0.35,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -515,10 +521,10 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Internal_SingleEnded_50R",
+        "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.254,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -531,8 +537,16 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Internal_Diff_100R",
-        "pattern": "/DDR/DDR4_A*"
+        "netclass": "Diff_100R",
+        "pattern": "/DDR/DDR4_CLK*"
+      },
+      {
+        "netclass": "Diff_90R",
+        "pattern": "/USB OTG/OTG_D[MP]"
+      },
+      {
+        "netclass": "Diff_90R",
+        "pattern": "/USB OTG/USB_HOST_D[MP]"
       }
     ]
   },
@@ -554,7 +568,23 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "LCSC",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Description",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Vendor",
+          "url": false,
+          "visible": false
+        }
+      ],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,

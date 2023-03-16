@@ -62,7 +62,7 @@
       (layer "B.Paste" (type "Bottom Solder Paste"))
       (layer "B.SilkS" (type "Bottom Silk Screen"))
       (copper_finish "None")
-      (dielectric_constraints yes)
+      (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
     (aux_axis_origin 144.46 113.22)
@@ -18597,7 +18597,8 @@
 
   (segment (start 156.81 101.54) (end 156.82 101.54) (width 0.1339) (layer "F.Cu") (net 42) (tstamp 8597e68c-dd86-4a01-8494-4f1ea442b0fe))
   (segment (start 141.02 106.79) (end 141.02 106.789999) (width 0.1339) (layer "F.Cu") (net 42) (tstamp b9cbacdf-155e-4ef9-b3bf-c1cc8d4b3448))
-  (via (at 156.42 101.94) (size 0.35) (drill 0.2) (layers "F.Cu" "B.Cu") (net 42) (tstamp ca915838-99da-4356-8b17-28e92bfb8764))
+  (segment (start 156.82 100.74) (end 156.77 100.74) (width 0.1339) (layer "F.Cu") (net 43) (tstamp 19100cd2-101c-4f5d-bd51-1035d3b852ec))
+  (segment (start 156.81 100.74) (end 156.82 100.74) (width 0.1339) (layer "F.Cu") (net 43) (tstamp c709631c-a761-4d30-8e23-981495202e31))
 
   (zone (net 0) (net_name "") (layers "F&B.Cu") (tstamp 619c0908-9d9b-4af2-b182-38584d708bcb) (name "Hold Down Area 2") (hatch edge 0.5)
     (connect_pads (clearance 0))

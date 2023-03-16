@@ -542,11 +542,11 @@
       },
       {
         "netclass": "Diff_90R",
-        "pattern": "/USB OTG/OTG_D[MP]"
+        "pattern": "/USB/OTG_D[MP]"
       },
       {
         "netclass": "Diff_90R",
-        "pattern": "/USB OTG/USB_HOST_D[MP]"
+        "pattern": "/USB/USB_HOST_D[MP]"
       },
       {
         "netclass": "50R",

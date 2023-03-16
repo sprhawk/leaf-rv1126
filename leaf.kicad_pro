@@ -706,7 +706,7 @@
     ],
     [
       "afbf9781-0fb6-4aca-82c1-c35bb86b79e4",
-      "Ethernet | PoE"
+      "Ethernet"
     ],
     [
       "56630686-fff3-4c34-8fc7-0dd6f7e78092",
@@ -714,7 +714,7 @@
     ],
     [
       "56cc099e-27f5-4b56-badd-873635da3ec1",
-      "SoC OSC_PLL"
+      "SoC OSC PLL"
     ],
     [
       "43b336b1-9a2a-4a37-8b6d-a408b4dd9ca2",

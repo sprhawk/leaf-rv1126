@@ -3,7 +3,8 @@
 	(layer inner)
 	(condition "A.NetClass == 'Diff_100R'")
 	(constraint track_width (opt 0.1036mm))
-	(constraint diff_pair_gap (opt 0.4mm)))
+	(constraint diff_pair_gap (opt 0.4mm))
+	(constraint skew (max 200mil)))
 
 (rule "Inner Layer Differential 90R"
 	(layer inner)

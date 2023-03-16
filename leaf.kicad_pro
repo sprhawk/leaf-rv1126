@@ -124,7 +124,7 @@
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.07619999999999999,
-        "min_via_annular_width": 0.15,
+        "min_via_annular_width": 0.075,
         "min_via_diameter": 0.35,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -554,11 +554,23 @@
       },
       {
         "netclass": "PWR",
-        "pattern": "VCC_DDR"
+        "pattern": "VCC_*"
       },
       {
         "netclass": "PWR",
         "pattern": "/DDR/DDR Power/VCC25_DDR"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VDD_*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/DDR/VREF_DDR"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "GND*"
       }
     ]
   },

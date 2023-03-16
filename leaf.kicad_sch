@@ -443,10 +443,10 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid bca9f05a-f031-46a4-95a9-25be55b42bf6)
-    (property "Sheetname" "Camera | VCCIO4" (at 127 69.1384 0)
+    (property "Sheetname" "VCCIO4" (at 127 69.1384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "Camera.kicad_sch" (at 127 88.2146 0)
+    (property "Sheetfile" "VCCIO4.kicad_sch" (at 127 88.2146 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances

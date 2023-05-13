@@ -115,14 +115,14 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.09999999999999999,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.15,
         "min_text_height": 1.0,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.07619999999999999,
         "min_via_annular_width": 0.075,
         "min_via_diameter": 0.35,
@@ -173,8 +173,7 @@
       ],
       "track_widths": [
         0.0,
-        0.2032,
-        0.254
+        0.1
       ],
       "via_dimensions": [
         {
@@ -456,7 +455,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.1,
         "via_diameter": 0.35,
         "via_drill": 0.2,
         "wire_width": 6
@@ -473,7 +472,7 @@
         "name": "50R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 153, 0)",
-        "track_width": 0.172466,
+        "track_width": 0.1,
         "via_diameter": 0.35,
         "via_drill": 0.2,
         "wire_width": 6
@@ -481,16 +480,16 @@
       {
         "bus_width": 12,
         "clearance": 0.1,
-        "diff_pair_gap": 0.2032,
+        "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1339,
+        "diff_pair_width": 0.1,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Diff_100R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 153, 0)",
-        "track_width": 0.1331,
+        "track_width": 0.1,
         "via_diameter": 0.35,
         "via_drill": 0.2,
         "wire_width": 6
@@ -498,16 +497,16 @@
       {
         "bus_width": 12,
         "clearance": 0.1,
-        "diff_pair_gap": 0.2032,
+        "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1707,
+        "diff_pair_width": 0.1,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Diff_90R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1699,
+        "track_width": 0.1,
         "via_diameter": 0.35,
         "via_drill": 0.2,
         "wire_width": 6
@@ -579,6 +578,10 @@
       {
         "netclass": "50R",
         "pattern": "/DDR/DDR_~{RESET}"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/DDR/DDR4_BG*"
       }
     ]
   },
@@ -633,6 +636,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,

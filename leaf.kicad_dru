@@ -1,18 +1,26 @@
 (version 1)
-(rule "Inner Layer Differential 100R"
-	(layer inner)
-	(condition "A.NetClass == 'Diff_100R'")
-	(constraint track_width (opt 0.1036mm))
-	(constraint diff_pair_gap (opt 0.4mm))
-	(constraint skew (max 200mil)))
-
-(rule "Inner Layer Differential 90R"
-	(layer inner)
-	(condition "A.NetClass == 'Diff_90R'")
-	(constraint track_width (opt 0.1334mm))
-	(constraint diff_pair_gap (opt 0.4mm)))
-
-(rule "Inner Layer Single Ended 50R"
-	(layer inner)
-	(condition "A.NetClass == '50R'")
-	(constraint track_width (opt 0.1105mm)))
+#(rule "Inner Layer Differential 100R"
+#	(layer inner)
+#	(condition "A.NetClass == 'Diff_100R'")
+#	(constraint track_width (min 0.1mm ) (opt 0.1036mm))
+#	(constraint diff_pair_gap (opt 0.4mm))
+#	(constraint skew (max 200mil)))
+#
+#(rule "Inner Layer Differential 90R"
+#	(layer inner)
+#	(condition "A.NetClass == 'Diff_90R'")
+#	(constraint track_width (opt 0.1115mm))
+#	(constraint diff_pair_gap (opt 0.2mm)))
+#
+#(rule "Inner Layer Single Ended 50R"
+#	(layer inner)
+#	(condition "A.NetClass == '50R'")
+#	(constraint track_width (opt 0.1105mm)))
+#
+#(rule "BGA Via Rules"
+#	(constraint hole_clearance (min 0.1mm)))
+#
+#(rule "DDR Differential 100R"
+#	(condition "A.NetClass == 'Diff_100R'")
+#	(constraint skew (max 200mil)))
+#

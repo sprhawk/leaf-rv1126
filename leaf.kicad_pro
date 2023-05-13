@@ -474,7 +474,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.172466,
-        "via_diameter": 0.4,
+        "via_diameter": 0.35,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -491,7 +491,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.1331,
-        "via_diameter": 0.4,
+        "via_diameter": 0.35,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -508,7 +508,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1699,
-        "via_diameter": 0.4,
+        "via_diameter": 0.35,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -525,7 +525,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
-        "via_diameter": 0.4,
+        "via_diameter": 0.35,
         "via_drill": 0.2,
         "wire_width": 6
       }
@@ -550,7 +550,7 @@
       },
       {
         "netclass": "50R",
-        "pattern": "/DDR/DDR4_[AD][0-9]+.*"
+        "pattern": "/DDR/DDR4_[AD]M?[0-9]+.*"
       },
       {
         "netclass": "PWR",
@@ -571,6 +571,14 @@
       {
         "netclass": "PWR",
         "pattern": "GND*"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/DDR/DDR4_CKE"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/DDR/DDR_~{RESET}"
       }
     ]
   },

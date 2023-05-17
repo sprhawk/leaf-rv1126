@@ -920,7 +920,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0bea5a3f-795c-44f7-a303-7f1d09284aef)
   )
-  (label "DDR4_~{CS0}-B" (at 53.34 124.46 0) (fields_autoplaced)
+  (label "DDR4_~{CS0}_B" (at 53.34 124.46 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0c967f58-71c3-438e-a8c8-3816240daf87)
   )

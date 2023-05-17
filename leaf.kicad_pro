@@ -426,7 +426,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -720,6 +720,10 @@
       "RK809 Codec"
     ],
     [
+      "b59aadab-b32d-4586-82d3-a10e29f1cd55",
+      "DDR4_Sheet1"
+    ],
+    [
       "f6658df5-193a-49b6-ab60-4ac3c0bbbc45",
       "DDR Power"
     ],
@@ -750,6 +754,10 @@
     [
       "43b336b1-9a2a-4a37-8b6d-a408b4dd9ca2",
       "DDR Chips"
+    ],
+    [
+      "c5996722-c916-43bd-91c1-647d75e652e6",
+      "DDR4_Sheet"
     ]
   ],
   "text_variables": {}

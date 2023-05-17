@@ -1448,7 +1448,7 @@
   (symbol (lib_id "Device:R") (at 193.04 114.3 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 042c2af0-a313-43d2-8f4e-f11491997887)
-    (property "Reference" "R45" (at 193.04 110.2741 90)
+    (property "Reference" "R46" (at 193.04 110.2741 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "110K 1%" (at 193.04 112.1951 90)
@@ -1465,7 +1465,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126/2d95e8c5-bd08-40b5-b7b2-fac89748aabf"
-          (reference "R45") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -1499,7 +1499,7 @@
   (symbol (lib_id "Device:R") (at 102.87 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fb5ae3e-efa2-4c0f-8237-7eea91d0ccd9)
-    (property "Reference" "R43" (at 102.87 72.1741 90)
+    (property "Reference" "R44" (at 102.87 72.1741 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R 5%" (at 102.87 74.0951 90)
@@ -1528,7 +1528,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126/2d95e8c5-bd08-40b5-b7b2-fac89748aabf"
-          (reference "R43") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -1942,7 +1942,7 @@
   (symbol (lib_id "Device:R") (at 182.88 119.38 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 48abc270-166e-44a7-abc3-01886e22c7c3)
-    (property "Reference" "R46" (at 184.658 118.7363 0)
+    (property "Reference" "R47" (at 184.658 118.7363 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "120K 1%" (at 184.658 120.6573 0)
@@ -1959,7 +1959,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126/2d95e8c5-bd08-40b5-b7b2-fac89748aabf"
-          (reference "R46") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -2056,7 +2056,7 @@
   (symbol (lib_id "Device:NetTie_2") (at 190.5 76.2 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69d93f47-f6b4-4a59-ba3f-1b449631dca7)
-    (property "Reference" "NT3" (at 190.5 71.12 0)
+    (property "Reference" "NT2" (at 190.5 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NetTie_2" (at 190.5 73.66 0)
@@ -2073,7 +2073,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126/2d95e8c5-bd08-40b5-b7b2-fac89748aabf"
-          (reference "NT3") (unit 1)
+          (reference "NT2") (unit 1)
         )
       )
     )
@@ -2283,7 +2283,7 @@
   (symbol (lib_id "Device:NetTie_2") (at 87.63 99.06 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ac69651-024b-458c-962c-e1a1764c020b)
-    (property "Reference" "NT2" (at 87.63 93.98 0)
+    (property "Reference" "NT3" (at 87.63 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NetTie_2" (at 87.63 96.52 0)
@@ -2300,7 +2300,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126/2d95e8c5-bd08-40b5-b7b2-fac89748aabf"
-          (reference "NT2") (unit 1)
+          (reference "NT3") (unit 1)
         )
       )
     )
@@ -2347,7 +2347,7 @@
   (symbol (lib_id "Device:R") (at 104.14 114.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4ea25ce-ad90-417e-b2e0-c90688003e9e)
-    (property "Reference" "R44" (at 104.14 110.2741 90)
+    (property "Reference" "R45" (at 104.14 110.2741 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R 5%" (at 104.14 112.1951 90)
@@ -2376,7 +2376,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126/2d95e8c5-bd08-40b5-b7b2-fac89748aabf"
-          (reference "R44") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )

@@ -2259,7 +2259,7 @@
           (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/74154bd6-827c-4e46-8351-0d1a22db546e"
-          (reference "C139") (unit 1)
+          (reference "C118") (unit 1)
         )
       )
     )
@@ -2710,7 +2710,7 @@
   (symbol (lib_id "power:GND") (at 151.13 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96ecea77-c9bd-4eb6-b037-424f775b5968)
-    (property "Reference" "#PWR0122" (at 151.13 129.54 0)
+    (property "Reference" "#PWR0117" (at 151.13 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 151.13 127.3255 0)
@@ -2726,7 +2726,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/74154bd6-827c-4e46-8351-0d1a22db546e"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR0117") (unit 1)
         )
       )
     )

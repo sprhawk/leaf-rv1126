@@ -3208,7 +3208,7 @@
           (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "R23") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -3304,7 +3304,7 @@
           (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "R20") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -3366,7 +3366,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 114.3 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e099a1f-a02f-4a07-8551-715b75c4ec10)
-    (property "Reference" "#FLG07" (at 114.3 169.545 0)
+    (property "Reference" "#FLG08" (at 114.3 169.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 114.3 167.9481 0)
@@ -3382,7 +3382,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "#FLG07") (unit 1)
+          (reference "#FLG08") (unit 1)
         )
       )
     )
@@ -3787,7 +3787,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 69.85 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc38fc77-716f-4d1d-9259-a7de69689c77)
-    (property "Reference" "#FLG06" (at 69.85 168.275 0)
+    (property "Reference" "#FLG07" (at 69.85 168.275 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 69.85 166.6781 0)
@@ -3803,7 +3803,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "#FLG06") (unit 1)
+          (reference "#FLG07") (unit 1)
         )
       )
     )
@@ -3850,7 +3850,7 @@
           (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "R21") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -4467,7 +4467,7 @@
           (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/bca9f05a-f031-46a4-95a9-25be55b42bf6"
-          (reference "R22") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )

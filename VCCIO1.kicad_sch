@@ -3670,7 +3670,7 @@
           (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "R18") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -3814,7 +3814,7 @@
           (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "R71") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -4154,7 +4154,7 @@
           (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "R15") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -4519,7 +4519,7 @@
           (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "R19") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -4563,7 +4563,7 @@
           (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "R17") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -4672,7 +4672,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 60.96 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1ba6c8f-c927-4f5b-8cae-27e2f20a30a2)
-    (property "Reference" "#FLG08" (at 60.96 111.125 0)
+    (property "Reference" "#FLG06" (at 60.96 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 60.96 107.95 0)
@@ -4688,7 +4688,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "#FLG08") (unit 1)
+          (reference "#FLG06") (unit 1)
         )
       )
     )
@@ -4757,7 +4757,7 @@
           (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-          (reference "R16") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )

@@ -572,23 +572,6 @@
     )
   )
 
-  (sheet (at 88.9 135.89) (size 27.94 17.78) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid fba3f144-6b35-47ae-b616-9ead32e4b269)
-    (property "Sheetname" "mini PCIe" (at 88.9 135.1784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "minipcie.kicad_sch" (at 88.9 154.2546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "11"))
-      )
-    )
-  )
-
   (sheet_instances
     (path "/" (page "1"))
   )

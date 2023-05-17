@@ -2118,7 +2118,7 @@
   (symbol (lib_id "CPU_Rockchip:rv1126_rv1109") (at 68.58 57.15 0) (unit 16)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b016e0e-f3c5-46b4-a04a-e675196f4c72)
-    (property "Reference" "U3001" (at 68.58 23.7871 0)
+    (property "Reference" "U2" (at 68.58 23.7871 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "rv1126/rv1109" (at 68.58 25.7081 0)
@@ -2543,7 +2543,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/abba4c44-e9bc-404f-bbc8-3409461eb15e"
-          (reference "U3001") (unit 16)
+          (reference "U2") (unit 16)
         )
       )
     )

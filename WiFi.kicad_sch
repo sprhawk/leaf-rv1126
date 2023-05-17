@@ -738,7 +738,7 @@
   (symbol (lib_id "Device:Crystal") (at 78.74 41.91 90) (unit 1)
     (in_bom no) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid 3d26777c-adb6-4672-8be5-b2b4a3ba8aec)
-    (property "Reference" "Y9001" (at 82.0674 41.2663 90)
+    (property "Reference" "Y1" (at 82.0674 41.2663 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Crystal" (at 82.0674 43.1873 90)
@@ -755,7 +755,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cbba8301-b827-481f-8620-b434aac08349"
-          (reference "Y9001") (unit 1)
+          (reference "Y1") (unit 1)
         )
       )
     )
@@ -764,7 +764,7 @@
   (symbol (lib_id "Leaf_RF_Wifi:AP6256") (at 148.59 73.66 0) (unit 1)
     (in_bom no) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid 4d8d13a4-7410-4822-9e1b-a0f54956e87f)
-    (property "Reference" "U9001" (at 147.955 46.6471 0)
+    (property "Reference" "U4" (at 147.955 46.6471 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AP6526" (at 147.955 48.5681 0)
@@ -823,7 +823,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cbba8301-b827-481f-8620-b434aac08349"
-          (reference "U9001") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -832,7 +832,7 @@
   (symbol (lib_id "Device:Antenna_Chip") (at 234.95 48.26 0) (unit 1)
     (in_bom no) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid 53b3fd7b-4aea-42ae-9154-e1235d6771ad)
-    (property "Reference" "AE9001" (at 239.522 45.0763 0)
+    (property "Reference" "AE1" (at 239.522 45.0763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Antenna_Chip" (at 239.522 46.9973 0)
@@ -849,7 +849,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cbba8301-b827-481f-8620-b434aac08349"
-          (reference "AE9001") (unit 1)
+          (reference "AE1") (unit 1)
         )
       )
     )
@@ -858,7 +858,7 @@
   (symbol (lib_id "power:GND") (at 237.49 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 745c2b81-8980-42c6-999d-4a64a65611b3)
-    (property "Reference" "#PWR09002" (at 237.49 69.85 0)
+    (property "Reference" "#PWR040" (at 237.49 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 237.49 67.6355 0)
@@ -874,7 +874,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cbba8301-b827-481f-8620-b434aac08349"
-          (reference "#PWR09002") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -883,7 +883,7 @@
   (symbol (lib_id "Device:C") (at 237.49 57.15 0) (unit 1)
     (in_bom no) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid b8517061-09df-4aea-be9a-37c6ddbcbd13)
-    (property "Reference" "C9001" (at 240.411 56.5063 0)
+    (property "Reference" "C32" (at 240.411 56.5063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 240.411 58.4273 0)
@@ -900,7 +900,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cbba8301-b827-481f-8620-b434aac08349"
-          (reference "C9001") (unit 1)
+          (reference "C32") (unit 1)
         )
       )
     )
@@ -909,7 +909,7 @@
   (symbol (lib_id "power:GND") (at 176.53 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2f68d17-727a-435c-aabc-8beb82065ceb)
-    (property "Reference" "#PWR09001" (at 176.53 92.71 0)
+    (property "Reference" "#PWR039" (at 176.53 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 176.53 90.4955 0)
@@ -925,7 +925,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cbba8301-b827-481f-8620-b434aac08349"
-          (reference "#PWR09001") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )

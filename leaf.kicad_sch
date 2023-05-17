@@ -206,7 +206,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 128.27 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3dcbc07-4dc3-4856-b276-b755ea428463)
-    (property "Reference" "H1001" (at 130.81 183.5063 0)
+    (property "Reference" "H1" (at 130.81 183.5063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 130.81 185.4273 0)
@@ -233,7 +233,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
-          (reference "H1001") (unit 1)
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -242,7 +242,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 154.94 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c30a2875-8fdb-4912-9c13-7e27e460c00b)
-    (property "Reference" "H1002" (at 157.48 183.5063 0)
+    (property "Reference" "H2" (at 157.48 183.5063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 157.48 185.4273 0)
@@ -269,7 +269,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
-          (reference "H1002") (unit 1)
+          (reference "H2") (unit 1)
         )
       )
     )

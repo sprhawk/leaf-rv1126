@@ -2025,7 +2025,7 @@
   (symbol (lib_id "CPU_Rockchip:rv1126_rv1109") (at 222.25 90.17 0) (unit 11)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e0865dd-efff-4def-891a-c5f91570daa6)
-    (property "Reference" "U3001" (at 222.25 60.6171 0)
+    (property "Reference" "U2" (at 222.25 60.6171 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "rv1126/rv1109" (at 222.25 62.5381 0)
@@ -2450,7 +2450,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/afbf9781-0fb6-4aca-82c1-c35bb86b79e4"
-          (reference "U3001") (unit 11)
+          (reference "U2") (unit 11)
         )
       )
     )
@@ -2459,7 +2459,7 @@
   (symbol (lib_id "CPU_Rockchip:rv1126_rv1109") (at 83.82 57.15 0) (unit 10)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6100110-5567-4008-b640-5f026813b600)
-    (property "Reference" "U3001" (at 83.82 25.0571 0)
+    (property "Reference" "U2" (at 83.82 25.0571 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "rv1126/rv1109" (at 83.82 26.9781 0)
@@ -2884,7 +2884,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/afbf9781-0fb6-4aca-82c1-c35bb86b79e4"
-          (reference "U3001") (unit 10)
+          (reference "U2") (unit 10)
         )
       )
     )

@@ -2005,7 +2005,7 @@
   (symbol (lib_id "CPU_Rockchip:rv1126_rv1109") (at 191.77 106.68 0) (unit 13)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f739266-23a8-4acf-99ef-d112588b0f53)
-    (property "Reference" "U3001" (at 191.77 92.3671 0)
+    (property "Reference" "U2" (at 191.77 92.3671 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "rv1126/rv1109" (at 191.77 94.2881 0)
@@ -2430,7 +2430,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56630686-fff3-4c34-8fc7-0dd6f7e78092"
-          (reference "U3001") (unit 13)
+          (reference "U2") (unit 13)
         )
       )
     )
@@ -2439,7 +2439,7 @@
   (symbol (lib_id "CPU_Rockchip:rv1126_rv1109") (at 67.31 46.99 0) (unit 8)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a091fdab-9f47-4a8a-996b-2355bd71bce2)
-    (property "Reference" "U3001" (at 67.31 27.5971 0)
+    (property "Reference" "U2" (at 67.31 27.5971 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "rv1126/rv1109" (at 67.31 29.5181 0)
@@ -2864,7 +2864,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56630686-fff3-4c34-8fc7-0dd6f7e78092"
-          (reference "U3001") (unit 8)
+          (reference "U2") (unit 8)
         )
       )
     )
@@ -2873,7 +2873,7 @@
   (symbol (lib_id "CPU_Rockchip:rv1126_rv1109") (at 207.01 49.53 0) (unit 12)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8824aeb-60eb-49ae-958f-16878b91738a)
-    (property "Reference" "U3001" (at 207.01 26.3271 0)
+    (property "Reference" "U2" (at 207.01 26.3271 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "rv1126/rv1109" (at 207.01 28.2481 0)
@@ -3298,7 +3298,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56630686-fff3-4c34-8fc7-0dd6f7e78092"
-          (reference "U3001") (unit 12)
+          (reference "U2") (unit 12)
         )
       )
     )

@@ -2544,7 +2544,7 @@
           (reference "C12015") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56cc099e-27f5-4b56-badd-873635da3ec1"
-          (reference "C23004") (unit 1)
+          (reference "C141") (unit 1)
         )
       )
     )
@@ -2591,7 +2591,7 @@
           (reference "C12016") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56cc099e-27f5-4b56-badd-873635da3ec1"
-          (reference "C23007") (unit 1)
+          (reference "C144") (unit 1)
         )
       )
     )
@@ -2625,7 +2625,7 @@
           (reference "#PWR034") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56cc099e-27f5-4b56-badd-873635da3ec1"
-          (reference "#PWR023003") (unit 1)
+          (reference "#PWR0123") (unit 1)
         )
       )
     )
@@ -2666,7 +2666,7 @@
           (reference "R36") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56cc099e-27f5-4b56-badd-873635da3ec1"
-          (reference "R23001") (unit 1)
+          (reference "R58") (unit 1)
         )
       )
     )
@@ -2722,7 +2722,7 @@
           (reference "C26") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56cc099e-27f5-4b56-badd-873635da3ec1"
-          (reference "C23001") (unit 1)
+          (reference "C138") (unit 1)
         )
       )
     )
@@ -2756,7 +2756,7 @@
           (reference "#PWR034") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56cc099e-27f5-4b56-badd-873635da3ec1"
-          (reference "#PWR023004") (unit 1)
+          (reference "#PWR0124") (unit 1)
         )
       )
     )
@@ -2803,7 +2803,7 @@
           (reference "C12016") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56cc099e-27f5-4b56-badd-873635da3ec1"
-          (reference "C23005") (unit 1)
+          (reference "C142") (unit 1)
         )
       )
     )
@@ -2837,7 +2837,7 @@
           (reference "#PWR034") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56cc099e-27f5-4b56-badd-873635da3ec1"
-          (reference "#PWR023006") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
       )
     )
@@ -2871,7 +2871,7 @@
           (reference "#PWR034") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56cc099e-27f5-4b56-badd-873635da3ec1"
-          (reference "#PWR023005") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
       )
     )
@@ -2880,7 +2880,7 @@
   (symbol (lib_id "Device:Crystal_GND24") (at 134.62 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 898467a2-8e42-4448-a998-48d99c962184)
-    (property "Reference" "Y23001" (at 146.0609 41.3131 90)
+    (property "Reference" "Y3" (at 146.0609 41.3131 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "24MHz ±10ppm 10pF" (at 147.32 38.1 90)
@@ -2911,7 +2911,7 @@
     (instances
       (project "leaf"
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56cc099e-27f5-4b56-badd-873635da3ec1"
-          (reference "Y23001") (unit 1)
+          (reference "Y3") (unit 1)
         )
       )
     )
@@ -2952,7 +2952,7 @@
           (reference "C58") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56cc099e-27f5-4b56-badd-873635da3ec1"
-          (reference "C23003") (unit 1)
+          (reference "C140") (unit 1)
         )
       )
     )
@@ -2999,7 +2999,7 @@
           (reference "C12015") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56cc099e-27f5-4b56-badd-873635da3ec1"
-          (reference "C23006") (unit 1)
+          (reference "C143") (unit 1)
         )
       )
     )
@@ -3040,7 +3040,7 @@
           (reference "C58") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56cc099e-27f5-4b56-badd-873635da3ec1"
-          (reference "C23002") (unit 1)
+          (reference "C139") (unit 1)
         )
       )
     )
@@ -3074,7 +3074,7 @@
           (reference "#PWR033") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56cc099e-27f5-4b56-badd-873635da3ec1"
-          (reference "#PWR023001") (unit 1)
+          (reference "#PWR0121") (unit 1)
         )
       )
     )
@@ -3511,7 +3511,7 @@
           (reference "U1") (unit 3)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56cc099e-27f5-4b56-badd-873635da3ec1"
-          (reference "U3001") (unit 3)
+          (reference "U2") (unit 3)
         )
       )
     )
@@ -3545,7 +3545,7 @@
           (reference "#PWR034") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/56cc099e-27f5-4b56-badd-873635da3ec1"
-          (reference "#PWR023002") (unit 1)
+          (reference "#PWR0122") (unit 1)
         )
       )
     )

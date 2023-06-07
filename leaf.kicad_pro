@@ -583,6 +583,22 @@
       {
         "netclass": "50R",
         "pattern": "/DDR/DDR4_BG*"
+      },
+      {
+        "netclass": "Diff_100R",
+        "pattern": "/DDR/DDR Chips/DDR4.*(_B)?_[NP]"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/DDR/DDR Chips/DDR4_[AD]M?[0-9]+.*(_B)?"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/DDR/DDR Chips/DDR4_CKE(_B)?"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/DDR/DDR Chips/DDR4_B[AG].*(_B)?"
       }
     ]
   },

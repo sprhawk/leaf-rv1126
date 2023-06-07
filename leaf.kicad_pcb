@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "Leaf LV1126")
+    (company "Yang Hongbo")
+    (comment 1 "License: CC BY-SA")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (1 "In1.Cu" power "In1_Gnd.Cu")

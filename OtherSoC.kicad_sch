@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Leaf RV1126")
+    (date "2023-06-07")
+    (company "Yang Hongbo")
+    (comment 1 "License: CC BY-SA")
+  )
+
   (lib_symbols
     (symbol "CPU_Rockchip:rv1126_rv1109" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -10.16 33.02 0)

@@ -5,10 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "Leaf RV1126 RK809 USB OTG")
-    (date "2023-02-25")
+    (title "Leaf RV1126")
+    (date "2023-06-07")
     (rev "1")
-    (company "Qingdao IotPi Information Technology")
+    (company "Yang Hongbo")
+    (comment 1 "License: CC BY-SA")
   )
 
   (lib_symbols

@@ -8,7 +8,18 @@
 	(layer In3_Signal.Cu)
 	(condition "A.NetClass == '50R'")
 	(constraint track_width (opt 0.1425mm)))
-
+(rule "Outer Layer Differential 100R"
+	(layer outer)
+	(condition "A.NetClass == 'Diff_100R'")
+	(constraint track_width (min 0.1mm ) (opt 0.1240mm))
+	(constraint diff_pair_gap (opt 0.2032mm))
+	(constraint skew (max 200mil)))
+(rule "Inner Layer Differential 100R"
+	(layer In3_Signal.Cu)
+	(condition "A.NetClass == 'Diff_100R'")
+	(constraint track_width (min 0.1mm ) (opt 0.1128mm))
+	(constraint diff_pair_gap (opt 0.2032mm))
+	(constraint skew (max 200mil)))
 #(rule "Inner Layer Differential 100R"
 #	(layer inner)
 #	(condition "A.NetClass == 'Diff_100R'")

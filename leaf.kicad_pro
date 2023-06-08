@@ -599,6 +599,10 @@
       {
         "netclass": "50R",
         "pattern": "/DDR/DDR Chips/DDR4_B[AG].*(_B)?"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/DDR/DDR4_BA*"
       }
     ]
   },

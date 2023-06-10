@@ -524,7 +524,7 @@
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
+        "track_width": 0.3048,
         "via_diameter": 0.35,
         "via_drill": 0.2,
         "wire_width": 6
@@ -603,6 +603,10 @@
       {
         "netclass": "50R",
         "pattern": "/DDR/DDR4_BA*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/DDR/VCC2V5*"
       }
     ]
   },

@@ -5,6 +5,12 @@
 	(condition "A.NetClass == '50R'")
 	(constraint track_width (min 0.1mm) (opt 0.1184mm))
 	(constraint clearance (min 0.2368mm)))
+(rule "Outer Layer Single Ended 50R with BGA Exception"
+	(layer outer)
+	(condition "A.insideCourtyard('U*')")
+	(constraint track_width (opt 0.1mm))
+	(constraint clearance (min 0.1mm)))
+
 (rule "Inner Layer Single Ended 50R"
 	(layer In3_Signal.Cu)
 	(condition "A.NetClass == '50R'")
@@ -24,11 +30,6 @@
 	(constraint diff_pair_gap (opt 0.2032mm))
 	(constraint clearance (min 0.2mm))
 	(constraint skew (max 200mil)))
-
-(rule "Minimize Clearance between wires and pads"
-	(layer outer)
-	(condition "A.insideCourtyard('U*')")
-	(constraint clearance (min 0.1mm)))
 
 #(rule "Inner Layer Differential 100R"
 #	(layer inner)

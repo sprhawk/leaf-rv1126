@@ -5,9 +5,9 @@
 	(condition "A.NetClass == '50R'")
 	(constraint track_width (min 0.1mm) (opt 0.1184mm))
 	(constraint clearance (min 0.2368mm)))
-(rule "Outer Layer Single Ended 50R with BGA Exception"
+(rule "Outer Layer Single Ended 50R with Exception"
 	(layer outer)
-	(condition "A.insideCourtyard('U*')")
+	(condition "A.NetClass == '50R' && A.insideArea('SoC_Clearance_Rule')")
 	(constraint track_width (opt 0.1mm))
 	(constraint clearance (min 0.1mm)))
 

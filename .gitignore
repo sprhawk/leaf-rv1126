@@ -6,3 +6,4 @@
 # backup files
 *.bak
 *-backups
+*.kicad_prl

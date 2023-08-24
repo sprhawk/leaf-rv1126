@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.6,
-          "height": 2.6,
-          "width": 2.6
+          "drill": 0.0,
+          "height": 0.4,
+          "width": 0.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -482,6 +482,57 @@
       {
         "bus_width": 12,
         "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DDR_CK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.35,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DDR_DSQ0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.35,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DDR_DSQ1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.35,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
         "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1,
@@ -538,20 +589,12 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Diff_100R",
-        "pattern": "/DDR/DDR4_.*[NP]"
-      },
-      {
         "netclass": "Diff_90R",
         "pattern": "/USB/OTG_D[MP]"
       },
       {
         "netclass": "Diff_90R",
         "pattern": "/USB/USB_HOST_D[MP]"
-      },
-      {
-        "netclass": "50R",
-        "pattern": "/DDR/DDR4_[AD]M?[0-9]+.*"
       },
       {
         "netclass": "PWR",
@@ -574,40 +617,80 @@
         "pattern": "GND*"
       },
       {
-        "netclass": "50R",
+        "netclass": "PWR",
+        "pattern": "/DDR/VCC2V5*"
+      },
+      {
+        "netclass": "DDR_CK",
+        "pattern": "/DDR/.*/DDR4_A[0-9]+.*"
+      },
+      {
+        "netclass": "DDR_DSQ0",
+        "pattern": "/DDR/DDR4_D[0-7]"
+      },
+      {
+        "netclass": "DDR_DSQ1",
+        "pattern": "/DDR/DDR4_D[89]"
+      },
+      {
+        "netclass": "DDR_DSQ1",
+        "pattern": "/DDR/DDR4_D1[0-5]"
+      },
+      {
+        "netclass": "DDR_DSQ0",
+        "pattern": "/DDR/DDR4_D1[6-9]"
+      },
+      {
+        "netclass": "DDR_DSQ0",
+        "pattern": "/DDR/DDR4_D2[0-3]"
+      },
+      {
+        "netclass": "DDR_DSQ1",
+        "pattern": "/DDR/DDR4_D2[4-9]"
+      },
+      {
+        "netclass": "DDR_DSQ1",
+        "pattern": "/DDR/DDR4_D3[01]"
+      },
+      {
+        "netclass": "DDR_DSQ0",
+        "pattern": "/DDR/DDR4_DQS[02][NP]"
+      },
+      {
+        "netclass": "DDR_DSQ1",
+        "pattern": "/DDR/DDR4_DQS[13][NP]"
+      },
+      {
+        "netclass": "DDR_CK",
+        "pattern": "/DDR/DDR4_A[0-9]+"
+      },
+      {
+        "netclass": "DDR_CK",
+        "pattern": "/DDR/DDR4_B[AG].*"
+      },
+      {
+        "netclass": "DDR_CK",
+        "pattern": "/DDR/DDR Chips/DDR4_B[AG].*"
+      },
+      {
+        "netclass": "DDR_CK",
         "pattern": "/DDR/DDR4_CKE"
       },
       {
-        "netclass": "50R",
-        "pattern": "/DDR/DDR_~{RESET}"
+        "netclass": "DDR_CK",
+        "pattern": "/DDR/DDR4_ODT*"
       },
       {
-        "netclass": "50R",
-        "pattern": "/DDR/DDR4_BG*"
+        "netclass": "DDR_CK",
+        "pattern": "/DDR/DDR4_~{CS*}"
       },
       {
-        "netclass": "Diff_100R",
-        "pattern": "/DDR/DDR Chips/DDR4.*(_B)?_[NP]"
+        "netclass": "DDR_CK",
+        "pattern": "/DDR/DDR4_~{ACT}"
       },
       {
-        "netclass": "50R",
-        "pattern": "/DDR/DDR Chips/DDR4_[AD]M?[0-9]+.*(_B)?"
-      },
-      {
-        "netclass": "50R",
-        "pattern": "/DDR/DDR Chips/DDR4_CKE(_B)?"
-      },
-      {
-        "netclass": "50R",
-        "pattern": "/DDR/DDR Chips/DDR4_B[AG].*(_B)?"
-      },
-      {
-        "netclass": "50R",
-        "pattern": "/DDR/DDR4_BA*"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "/DDR/VCC2V5*"
+        "netclass": "DDR_CK",
+        "pattern": "/DDR/DDR_~{RE*}"
       }
     ]
   },

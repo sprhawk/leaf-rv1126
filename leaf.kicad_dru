@@ -1,5 +1,24 @@
 (version 1)
 #HuaQiu 06161H01-1080
+
+(rule "Outer layer Single Ended 40R"
+	(layer outer)
+	(condition "A.NetClass == 'DDR_CK' || A.NetClass == 'DDR_DSQ0' || A.NetClass == 'DDR_DSQ1'")
+	(constraint track_width (min 5mil) (opt 6.84mil))
+	(constraint clearance (min 5mil)))
+
+(rule "Inner Layer Single Ended 40R"
+	(layer inner)
+	(condition "A.NetClass == 'DDR_CK' || A.NetClass == 'DDR_DSQ0' || A.NetClass == 'DDR_DSQ1'")
+	(constraint track_width (min 5mil) (opt 7.10mil))
+	(constraint clearance (min 5mil) (opt 7.10mil)))
+
+(rule "Outer Layer Single Ended 40R with Exception"
+	(layer outer)
+	(condition "(A.NetClass == 'DDR_CK' || A.NetClass == 'DDR_DSQ0' || A.NetClass == 'DDR_DSQ1') && A.intersectsFrontCourtyard('U2')")
+	(constraint track_width (min 0.1mm) (opt 0.1mm) (max 0.1mm))
+	(constraint clearance (min 0.1mm)))
+
 (rule "Outer layer Differential Pair 80R"
 	(layer outer)
 	(condition "(A.NetClass == 'DDR_CK' || A.NetClass == 'DDR_DSQ0' || A.NetClass == 'DDR_DSQ1') && AB.isCoupledDiffPair()")
@@ -13,18 +32,6 @@
 	(constraint track_width (min 5mil) (opt 6.11mil))
 	(constraint diff_pair_gap (min 8.89mil) (max 8.89mil))
 	(constraint clearance (min 6mil) (opt 6.11mil)))
-
-(rule "Outer layer Single Ended 40R"
-	(layer outer)
-	(condition "A.NetClass == 'DDR_CK' || A.NetClass == 'DDR_DSQ0' || A.NetClass == 'DDR_DSQ1'")
-	(constraint track_width (min 5mil) (opt 6.84mil))
-	(constraint clearance (min 5mil)))
-
-(rule "Inner Layer Single Ended 40R"
-	(layer inner)
-	(condition "A.NetClass == 'DDR_CK' || A.NetClass == 'DDR_DSQ0' || A.NetClass == 'DDR_DSQ1'")
-	(constraint track_width (min 5mil) (opt 7.10mil))
-	(constraint clearance (min 5mil) (opt 7.10mil)))
 
 (rule "Outer layer Single Ended 50R"
 	(layer outer)

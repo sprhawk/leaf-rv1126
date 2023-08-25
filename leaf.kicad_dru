@@ -1,36 +1,90 @@
 (version 1)
-# JLC06161H-1080A
-(rule "Outer Layer Single Ended 50R"
+#HuaQiu 06161H01-1080
+(rule "Outer layer Differential Pair 80R"
+	(layer outer)
+	(condition "(A.NetClass == 'DDR_CK' || A.NetClass == 'DDR_DSQ0' || A.NetClass == 'DDR_DSQ1') && AB.isCoupledDiffPair()")
+	(constraint track_width (min 5mil) (opt 6.11mil))
+	(constraint diff_pair_gap (min 8.89mil) (max 8.89mil))
+	(constraint clearance (min 6mil) (opt 6.11mil)))
+
+(rule "Inner layer Differential Pair 80R"
+	(layer inner)
+	(condition "(A.NetClass == 'DDR_CK' || A.NetClass == 'DDR_DSQ0' || A.NetClass == 'DDR_DSQ1') && AB.isCoupledDiffPair()")
+	(constraint track_width (min 5mil) (opt 6.11mil))
+	(constraint diff_pair_gap (min 8.89mil) (max 8.89mil))
+	(constraint clearance (min 6mil) (opt 6.11mil)))
+
+(rule "Outer layer Single Ended 40R"
+	(layer outer)
+	(condition "A.NetClass == 'DDR_CK' || A.NetClass == 'DDR_DSQ0' || A.NetClass == 'DDR_DSQ1'")
+	(constraint track_width (min 5mil) (opt 6.84mil))
+	(constraint clearance (min 5mil)))
+
+(rule "Inner Layer Single Ended 40R"
+	(layer inner)
+	(condition "A.NetClass == 'DDR_CK' || A.NetClass == 'DDR_DSQ0' || A.NetClass == 'DDR_DSQ1'")
+	(constraint track_width (min 5mil) (opt 7.10mil))
+	(constraint clearance (min 5mil) (opt 7.10mil)))
+
+(rule "Outer layer Single Ended 50R"
 	(layer outer)
 	(condition "A.NetClass == '50R'")
-	(constraint track_width (min 0.1mm) (opt 0.1184mm))
-	(constraint clearance (min 0.2368mm)))
-(rule "Outer Layer Single Ended 50R with Exception"
-	(layer outer)
-	(condition "A.NetClass == '50R' && A.insideArea('SoC_Clearance_Rule')")
-	(constraint track_width (opt 0.1mm))
-	(constraint clearance (min 0.1mm)))
+	(constraint track_width (min 4.45mil) (max 4.45mil))
+	(constraint clearance (min 5mil)))
 
 (rule "Inner Layer Single Ended 50R"
-	(layer In3_Signal.Cu)
+	(layer inner)
 	(condition "A.NetClass == '50R'")
-	(constraint track_width (min 0.1mm) (opt 0.1232mm))
-	(constraint clearance (min 0.2464mm)))
-(rule "Outer Layer Differential 100R"
-	(layer outer)
-	(condition "A.NetClass == 'Diff_100R'")
-	(constraint track_width (opt 0.0991mm) (max 0.1mm))
-	(constraint diff_pair_gap (opt 0.2032mm))
-	(constraint clearance (min 0.2mm))
-	(constraint skew (max 200mil)))
-(rule "Inner Layer Differential 100R"
-	(layer In3_Signal.Cu)
-	(condition "A.NetClass == 'Diff_100R'")
-	(constraint track_width (opt 0.1006mm))
-	(constraint diff_pair_gap (opt 0.2032mm))
-	(constraint clearance (min 0.2mm))
-	(constraint skew (max 200mil)))
+	(constraint track_width (min 4.64mil) (max 4.64mil))
+	(constraint clearance (min 4.64mil) (max 4.64mil)))
 
+(rule "Outer layer Differential Pair 90R"
+	(layer outer)
+	(condition "A.NetClass == 'Diff_90R' && AB.isCoupledDiffPair()")
+	(constraint track_width (min 4.97mil) (max 4.97mil))
+	(constraint diff_pair_gap (min 10.03mil) (max 10.03mil))
+	(constraint clearance (min 10.3mil)))
+
+(rule "Inner layer Differential Pair 90R"
+	(layer inner)
+	(condition "A.NetClass == 'Diff_90R' && AB.isCoupledDiffPair()")
+	(constraint track_width (min 4.86mil) (max 4.86mil))
+	(constraint diff_pair_gap (min 10.14mil) (max 10.14mil))
+	(constraint clearance (min 10.13mil)))
+
+
+# JLC06161H-1080A
+#(rule "Outer Layer Single Ended 50R"
+#	(layer outer)
+#	(condition "A.NetClass == '50R'")
+#	(constraint track_width (min 0.1mm) (opt 0.1184mm))
+#	(constraint clearance (min 0.2368mm)))
+#(rule "Outer Layer Single Ended 50R with Exception"
+#	(layer outer)
+#	(condition "A.NetClass == '50R' && A.insideArea('SoC_Clearance_Rule')")
+#	(constraint track_width (opt 0.1mm))
+#	(constraint clearance (min 0.1mm)))
+#
+#(rule "Inner Layer Single Ended 50R"
+#	(layer In3_Signal.Cu)
+#	(condition "A.NetClass == '50R'")
+#	(constraint track_width (min 0.1mm) (opt 0.1232mm))
+#	(constraint clearance (min 0.2464mm)))
+#(rule "Outer Layer Differential 100R"
+#	(layer outer)
+#	(condition "A.NetClass == 'Diff_100R'")
+#	(constraint track_width (opt 0.0991mm) (max 0.1mm))
+#	(constraint diff_pair_gap (opt 0.2032mm))
+#	(constraint clearance (min 0.2mm))
+#	(constraint skew (max 200mil)))
+#(rule "Inner Layer Differential 100R"
+#	(layer In3_Signal.Cu)
+#	(condition "A.NetClass == 'Diff_100R'")
+#	(constraint track_width (opt 0.1006mm))
+#	(constraint diff_pair_gap (opt 0.2032mm))
+#	(constraint clearance (min 0.2mm))
+#	(constraint skew (max 200mil)))
+#
 #(rule "Inner Layer Differential 100R"
 #	(layer inner)
 #	(condition "A.NetClass == 'Diff_100R'")
@@ -50,4 +104,4 @@
 #(rule "DDR Differential 100R"
 #	(condition "A.NetClass == 'Diff_100R'")
 #	(constraint skew (max 200mil)))
-#
+

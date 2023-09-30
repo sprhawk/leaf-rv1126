@@ -13,7 +13,97 @@
   )
 
   (lib_symbols
-    (symbol "CPU_Rockchip:rv1126_rv1109" (in_bom yes) (on_board yes)
+    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.635 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "C" (at 0.635 -2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0.9652 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_0_1"
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_1_1"
+        (pin passive line (at 0 3.81 270) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 2.032 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "R" (at 0 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at -1.778 0 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "R res resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "R_0_1"
+        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "R_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "IotPi_CPU_Rockchip:rv1126_rv1109" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -10.16 33.02 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -38,7 +128,7 @@
       (symbol "rv1126_rv1109_1_1"
         (rectangle (start -17.78 31.75) (end 16.51 -35.56)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -138,7 +228,7 @@
       (symbol "rv1126_rv1109_2_1"
         (rectangle (start -19.05 30.48) (end 19.05 -114.3)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (text "VSS/AVSS" (at 0 24.13 0)
           (effects (font (size 1.27 1.27)))
@@ -559,7 +649,7 @@
       (symbol "rv1126_rv1109_3_1"
         (rectangle (start -15.24 29.21) (end 15.24 -8.89)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -622,7 +712,7 @@
       (symbol "rv1126_rv1109_4_1"
         (rectangle (start -26.67 21.59) (end 26.67 -24.13)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -679,7 +769,7 @@
       (symbol "rv1126_rv1109_5_1"
         (rectangle (start -35.56 25.4) (end 33.02 -27.94)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -744,7 +834,7 @@
       (symbol "rv1126_rv1109_6_1"
         (rectangle (start -26.67 24.13) (end 26.67 -30.48)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -829,7 +919,7 @@
       (symbol "rv1126_rv1109_7_1"
         (rectangle (start -39.37 24.13) (end 38.1 -7.62)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -874,7 +964,7 @@
       (symbol "rv1126_rv1109_8_1"
         (rectangle (start -40.64 16.51) (end 40.64 -38.1)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -959,7 +1049,7 @@
       (symbol "rv1126_rv1109_9_1"
         (rectangle (start -30.48 24.13) (end 30.48 -15.24)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -1020,7 +1110,7 @@
       (symbol "rv1126_rv1109_10_1"
         (rectangle (start -54.61 29.21) (end 54.61 -83.82)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -1173,7 +1263,7 @@
       (symbol "rv1126_rv1109_11_1"
         (rectangle (start -48.26 26.67) (end 48.26 -39.37)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -1274,7 +1364,7 @@
       (symbol "rv1126_rv1109_12_1"
         (rectangle (start -45.72 20.32) (end 45.72 -19.05)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -1335,7 +1425,7 @@
       (symbol "rv1126_rv1109_13_1"
         (rectangle (start -16.51 11.43) (end 16.51 -16.51)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -1380,7 +1470,7 @@
       (symbol "rv1126_rv1109_14_1"
         (rectangle (start -20.32 31.75) (end 91.44 -102.87)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (text "DDR" (at 31.75 29.21 0)
           (effects (font (size 1.27 1.27)))
@@ -1725,7 +1815,7 @@
       (symbol "rv1126_rv1109_15_1"
         (rectangle (start -16.51 31.75) (end 16.51 -69.85)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -1841,7 +1931,7 @@
       (symbol "rv1126_rv1109_16_1"
         (rectangle (start -17.78 30.48) (end 17.78 -24.13)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -1906,7 +1996,7 @@
       (symbol "rv1126_rv1109_17_1"
         (rectangle (start -16.51 25.4) (end 16.51 -33.02)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -1962,96 +2052,6 @@
         (pin input line (at 22.86 11.43 180) (length 6.35)
           (name "OTG_ID" (effects (font (size 1.27 1.27))))
           (number "Y3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R" (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -4024,7 +4024,7 @@
     )
   )
 
-  (symbol (lib_id "CPU_Rockchip:rv1126_rv1109") (at 76.2 71.12 0) (unit 14)
+  (symbol (lib_id "IotPi_CPU_Rockchip:rv1126_rv1109") (at 76.2 71.12 0) (unit 14)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0f005af-9975-48ca-8159-9ee849333c10)
     (property "Reference" "U2" (at 76.2 36.4871 0)
@@ -4033,10 +4033,10 @@
     (property "Value" "rv1126/rv1109" (at 76.2 38.4081 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Rockchip_SoC:Rockchip_RV1126_FCCSP409LD_14.0x14.0mm" (at 93.98 105.41 0)
+    (property "Footprint" "Rockchip_SoC:Rockchip_RV1126_FCCSP409LD_14.0x14.0mm" (at 107.95 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 93.98 105.41 0)
+    (property "Datasheet" "" (at 107.95 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "" (at 76.2 71.12 0)

@@ -225,7 +225,7 @@
         )
       )
     )
-    (symbol "Leaf_Converter_DCDC:BL8039" (in_bom yes) (on_board yes)
+    (symbol "IotPi_Converter_DCDC:BL8039" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -1.27 3.81 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -238,13 +238,11 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "BL8039_0_1"
+      (symbol "BL8039_1_1"
         (rectangle (start -2.54 2.54) (end 7.62 -10.16)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
-      )
-      (symbol "BL8039_1_1"
         (pin input line (at -8.89 -6.35 0) (length 6.35)
           (name "EN" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -896,7 +894,7 @@
     (uuid d0f0ba44-6f0a-421a-9e23-60b8c70db35a)
   )
 
-  (symbol (lib_id "Leaf_Converter_DCDC:BL8039") (at 86.36 97.79 0) (unit 1)
+  (symbol (lib_id "IotPi_Converter_DCDC:BL8039") (at 86.36 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07178b5b-8578-4b1c-b35a-2c8c513dfc14)
     (property "Reference" "U1" (at 88.9 92.3671 0)
@@ -915,6 +913,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Vendor" "BL(上海贝岭)" (at 86.36 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 86.36 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 562545c2-9aab-4d84-913c-b2a8067cd011))

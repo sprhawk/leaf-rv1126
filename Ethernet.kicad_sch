@@ -12,7 +12,7 @@
   )
 
   (lib_symbols
-    (symbol "CPU_Rockchip:rv1126_rv1109" (in_bom yes) (on_board yes)
+    (symbol "IotPi_CPU_Rockchip:rv1126_rv1109" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -10.16 33.02 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -37,7 +37,7 @@
       (symbol "rv1126_rv1109_1_1"
         (rectangle (start -17.78 31.75) (end 16.51 -35.56)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -137,7 +137,7 @@
       (symbol "rv1126_rv1109_2_1"
         (rectangle (start -19.05 30.48) (end 19.05 -114.3)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (text "VSS/AVSS" (at 0 24.13 0)
           (effects (font (size 1.27 1.27)))
@@ -558,7 +558,7 @@
       (symbol "rv1126_rv1109_3_1"
         (rectangle (start -15.24 29.21) (end 15.24 -8.89)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -621,7 +621,7 @@
       (symbol "rv1126_rv1109_4_1"
         (rectangle (start -26.67 21.59) (end 26.67 -24.13)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -678,7 +678,7 @@
       (symbol "rv1126_rv1109_5_1"
         (rectangle (start -35.56 25.4) (end 33.02 -27.94)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -743,7 +743,7 @@
       (symbol "rv1126_rv1109_6_1"
         (rectangle (start -26.67 24.13) (end 26.67 -30.48)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -828,7 +828,7 @@
       (symbol "rv1126_rv1109_7_1"
         (rectangle (start -39.37 24.13) (end 38.1 -7.62)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -873,7 +873,7 @@
       (symbol "rv1126_rv1109_8_1"
         (rectangle (start -40.64 16.51) (end 40.64 -38.1)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -958,7 +958,7 @@
       (symbol "rv1126_rv1109_9_1"
         (rectangle (start -30.48 24.13) (end 30.48 -15.24)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -1019,7 +1019,7 @@
       (symbol "rv1126_rv1109_10_1"
         (rectangle (start -54.61 29.21) (end 54.61 -83.82)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -1172,7 +1172,7 @@
       (symbol "rv1126_rv1109_11_1"
         (rectangle (start -48.26 26.67) (end 48.26 -39.37)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -1273,7 +1273,7 @@
       (symbol "rv1126_rv1109_12_1"
         (rectangle (start -45.72 20.32) (end 45.72 -19.05)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -1334,7 +1334,7 @@
       (symbol "rv1126_rv1109_13_1"
         (rectangle (start -16.51 11.43) (end 16.51 -16.51)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -1379,7 +1379,7 @@
       (symbol "rv1126_rv1109_14_1"
         (rectangle (start -20.32 31.75) (end 91.44 -102.87)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (text "DDR" (at 31.75 29.21 0)
           (effects (font (size 1.27 1.27)))
@@ -1724,7 +1724,7 @@
       (symbol "rv1126_rv1109_15_1"
         (rectangle (start -16.51 31.75) (end 16.51 -69.85)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -1840,7 +1840,7 @@
       (symbol "rv1126_rv1109_16_1"
         (rectangle (start -17.78 30.48) (end 17.78 -24.13)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -1905,7 +1905,7 @@
       (symbol "rv1126_rv1109_17_1"
         (rectangle (start -16.51 25.4) (end 16.51 -33.02)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -2023,7 +2023,7 @@
   (no_connect (at 276.86 110.49) (uuid fd142775-ed59-429a-98c5-ae6ad28ae825))
   (no_connect (at 144.78 80.01) (uuid fd15d45b-3259-49ac-804f-2569b0165d40))
 
-  (symbol (lib_id "CPU_Rockchip:rv1126_rv1109") (at 222.25 90.17 0) (unit 11)
+  (symbol (lib_id "IotPi_CPU_Rockchip:rv1126_rv1109") (at 222.25 90.17 0) (unit 11)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e0865dd-efff-4def-891a-c5f91570daa6)
     (property "Reference" "U2" (at 222.25 60.6171 0)
@@ -2032,10 +2032,10 @@
     (property "Value" "rv1126/rv1109" (at 222.25 62.5381 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Rockchip_SoC:Rockchip_RV1126_FCCSP409LD_14.0x14.0mm" (at 254 116.84 0)
+    (property "Footprint" "Rockchip_SoC:Rockchip_RV1126_FCCSP409LD_14.0x14.0mm" (at 254 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 254 116.84 0)
+    (property "Datasheet" "" (at 254 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "" (at 222.25 90.17 0)
@@ -2465,7 +2465,7 @@
     )
   )
 
-  (symbol (lib_id "CPU_Rockchip:rv1126_rv1109") (at 83.82 57.15 0) (unit 10)
+  (symbol (lib_id "IotPi_CPU_Rockchip:rv1126_rv1109") (at 83.82 57.15 0) (unit 10)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6100110-5567-4008-b640-5f026813b600)
     (property "Reference" "U2" (at 83.82 25.0571 0)
@@ -2474,10 +2474,10 @@
     (property "Value" "rv1126/rv1109" (at 83.82 26.9781 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Rockchip_SoC:Rockchip_RV1126_FCCSP409LD_14.0x14.0mm" (at 115.57 83.82 0)
+    (property "Footprint" "Rockchip_SoC:Rockchip_RV1126_FCCSP409LD_14.0x14.0mm" (at 115.57 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 115.57 83.82 0)
+    (property "Datasheet" "" (at 115.57 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "" (at 83.82 57.15 0)

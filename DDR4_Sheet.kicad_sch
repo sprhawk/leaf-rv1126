@@ -102,7 +102,7 @@
         )
       )
     )
-    (symbol "Memory_DDR:Micron_DDR4_MT40A512M16TB" (in_bom yes) (on_board yes)
+    (symbol "IotPi_Memory_DDR:Micron_DDR4_MT40A512M16TB" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -12.7 39.37 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -121,7 +121,7 @@
       (symbol "Micron_DDR4_MT40A512M16TB_1_1"
         (rectangle (start -11.43 38.1) (end 11.43 -45.72)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (pin bidirectional line (at 17.78 8.89 180) (length 6.35)
           (name "DQ8" (effects (font (size 1.27 1.27))))
@@ -335,7 +335,7 @@
       (symbol "Micron_DDR4_MT40A512M16TB_2_1"
         (rectangle (start -11.43 28.575) (end 11.43 -35.56)
           (stroke (width 0) (type default))
-          (fill (type none))
+          (fill (type background))
         )
         (pin power_in line (at -17.78 0 0) (length 6.35)
           (name "V_{DDQ}" (effects (font (size 1.27 1.27))))
@@ -1990,7 +1990,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/43b336b1-9a2a-4a37-8b6d-a408b4dd9ca2"
-          (reference "#PWR024001") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/43b336b1-9a2a-4a37-8b6d-a408b4dd9ca2/c5996722-c916-43bd-91c1-647d75e652e6"
           (reference "#PWR0126") (unit 1)
@@ -2254,7 +2254,7 @@
     )
   )
 
-  (symbol (lib_id "Memory_DDR:Micron_DDR4_MT40A512M16TB") (at 95.25 62.23 0) (unit 1)
+  (symbol (lib_id "IotPi_Memory_DDR:Micron_DDR4_MT40A512M16TB") (at 95.25 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3add2f1c-6b40-4981-ab09-47755f66fc42)
     (property "Reference" "U?" (at 95.25 21.2471 0)
@@ -2383,7 +2383,7 @@
           (reference "U?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/43b336b1-9a2a-4a37-8b6d-a408b4dd9ca2"
-          (reference "U17002") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/43b336b1-9a2a-4a37-8b6d-a408b4dd9ca2/c5996722-c916-43bd-91c1-647d75e652e6"
           (reference "U7") (unit 1)
@@ -2555,7 +2555,7 @@
     )
   )
 
-  (symbol (lib_id "Memory_DDR:Micron_DDR4_MT40A512M16TB") (at 226.06 55.88 0) (unit 2)
+  (symbol (lib_id "IotPi_Memory_DDR:Micron_DDR4_MT40A512M16TB") (at 226.06 55.88 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5185e119-7e04-4d1c-a99e-feb194c4ff6b)
     (property "Reference" "U17002" (at 226.06 24.4221 0)
@@ -2775,7 +2775,7 @@
           (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/43b336b1-9a2a-4a37-8b6d-a408b4dd9ca2"
-          (reference "C24001") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/43b336b1-9a2a-4a37-8b6d-a408b4dd9ca2/c5996722-c916-43bd-91c1-647d75e652e6"
           (reference "C127") (unit 1)
@@ -3057,7 +3057,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/43b336b1-9a2a-4a37-8b6d-a408b4dd9ca2"
-          (reference "#PWR024002") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/43b336b1-9a2a-4a37-8b6d-a408b4dd9ca2/c5996722-c916-43bd-91c1-647d75e652e6"
           (reference "#PWR0128") (unit 1)
@@ -3327,7 +3327,7 @@
           (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/43b336b1-9a2a-4a37-8b6d-a408b4dd9ca2"
-          (reference "R24002") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/43b336b1-9a2a-4a37-8b6d-a408b4dd9ca2/c5996722-c916-43bd-91c1-647d75e652e6"
           (reference "R68") (unit 1)
@@ -3497,7 +3497,7 @@
           (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/43b336b1-9a2a-4a37-8b6d-a408b4dd9ca2"
-          (reference "R24001") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/43b336b1-9a2a-4a37-8b6d-a408b4dd9ca2/c5996722-c916-43bd-91c1-647d75e652e6"
           (reference "R67") (unit 1)

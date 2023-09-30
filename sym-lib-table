@@ -7,4 +7,5 @@
   (lib (name "IotPi_Memory_eMMC")(type "KiCad")(uri "${KIPRJMOD}/../symbols/IotPi_Memory_eMMC.kicad_sym")(options "")(descr ""))
   (lib (name "IotPi_RF_Wifi")(type "KiCad")(uri "${KIPRJMOD}/../symbols/IotPi_RF_Wifi.kicad_sym")(options "")(descr ""))
   (lib (name "IotPi_Regulator_Linear")(type "KiCad")(uri "${KIPRJMOD}/../symbols/IotPi_Regulator_Linear.kicad_sym")(options "")(descr ""))
+  (lib (name "IotPi_Switch")(type "KiCad")(uri "${KIPRJMOD}/../symbols/IotPi_Switch.kicad_sym")(options "")(descr ""))
 )

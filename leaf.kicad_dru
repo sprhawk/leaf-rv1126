@@ -49,13 +49,26 @@
 	(layer outer)
 	(condition "A.NetClass == 'DP_90R' && AB.isCoupledDiffPair()")
 	(constraint track_width (min 4mil) (opt 4.05mil))
-	(constraint diff_pair_gap (min 4mil) (max 4.95mil))
+	(constraint diff_pair_gap (min 4mil) (opt 4.95mil))
 	(constraint clearance (min 8mil)))
 
 (rule "DP 90R Inner"
 	(layer inner)
 	(condition "A.NetClass == 'DP_90R' && AB.isCoupledDiffPair()")
 	(constraint track_width (opt 3.52mil))
-	(constraint diff_pair_gap (opt 5.48mil))
+	(constraint diff_pair_gap (min 3.52mil) (opt 5.48mil))
 	(constraint clearance (min 7mil)))
 
+(rule "DP 100R Outer"
+	(layer outer)
+	(condition "A.NetClass == 'DP_100R' && AB.isCoupledDiffPair()")
+	(constraint track_width (opt 3.71mil))
+	(constraint diff_pair_gap (min 3.71mil) (opt 8.29mil))
+	(constraint clearance (min 7.4mil)))
+
+(rule "DP 100R Inner"
+	(layer inner)
+	(condition "A.NetClass == 'DP_100R' && AB.isCoupledDiffPair()")
+	(constraint track_width (opt 3.35mil))
+	(constraint diff_pair_gap (min 3.35mil) (opt 12.65mil))
+	(constraint clearance (min 6.7mil)))

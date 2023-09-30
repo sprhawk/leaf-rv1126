@@ -2294,7 +2294,7 @@
     (property "Value" "rv1126/rv1109" (at 157.48 49.53 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Rockchip_SoC:Rockchip_RV1126_FCCSP409LD_14.0x14.0mm" (at 185.42 124.46 0)
+    (property "Footprint" "IotPi_Rockchip_SoC:Rockchip_RV1126_FCCSP409LD_14.0x14.0mm" (at 185.42 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 185.42 124.46 0)

@@ -3090,7 +3090,7 @@
     (property "Value" "rv1126/rv1109" (at 48.26 79.0481 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Rockchip_SoC:Rockchip_RV1126_FCCSP409LD_14.0x14.0mm" (at 80.01 156.21 0)
+    (property "Footprint" "IotPi_Rockchip_SoC:Rockchip_RV1126_FCCSP409LD_14.0x14.0mm" (at 80.01 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 80.01 156.21 0)

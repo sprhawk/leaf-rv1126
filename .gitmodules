@@ -1,3 +1,6 @@
 [submodule "symbols"]
 	path = symbols
 	url = git@github.com:iotpi/kicad-symbols.git
+[submodule "footprints"]
+	path = footprints
+	url = git@github.com:iotpi/kicad-footprints.git

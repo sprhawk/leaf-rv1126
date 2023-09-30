@@ -1,114 +1,61 @@
 (version 1)
-#HuaQiu 06161H01-1080
+#HuaQiu 06121H05-1080
 
-(rule "Outer layer Single Ended 40R"
+(rule "40R Outer"
 	(layer outer)
-	(condition "A.NetClass == 'DDR_CK' || A.NetClass == 'DDR_DSQ0' || A.NetClass == 'DDR_DSQ1'")
-	(constraint track_width (min 5mil) (opt 6.84mil))
-	(constraint clearance (min 5mil)))
+	(condition "A.NetClass == '40R'")
+	(constraint track_width (min 4mil) (opt 6.69mil))
+	(constraint clearance (min 13mil)))
 
-(rule "Inner Layer Single Ended 40R"
+(rule "40R Inner"
 	(layer inner)
-	(condition "A.NetClass == 'DDR_CK' || A.NetClass == 'DDR_DSQ0' || A.NetClass == 'DDR_DSQ1'")
-	(constraint track_width (min 5mil) (opt 7.10mil))
-	(constraint clearance (min 5mil) (opt 7.10mil)))
+	(condition "A.NetClass == '40R'")
+	(constraint track_width (min 4mil) (opt 5.89mil))
+	(constraint clearance (min 13mil)))
 
-(rule "Outer Layer Single Ended 40R with Exception"
+(rule "40R Outer with Exception"
 	(layer outer)
-	(condition "(A.NetClass == 'DDR_CK' || A.NetClass == 'DDR_DSQ0' || A.NetClass == 'DDR_DSQ1') && A.intersectsFrontCourtyard('U2')")
+	(condition "(A.NetClass == '40R') && A.intersectsFrontCourtyard('U2')")
 	(constraint track_width (min 0.1mm) (opt 0.1mm) (max 0.1mm))
 	(constraint clearance (min 0.1mm)))
 
-(rule "Outer layer Differential Pair 80R"
+(rule "DP 80R Outer"
 	(layer outer)
-	(condition "(A.NetClass == 'DDR_CK' || A.NetClass == 'DDR_DSQ0' || A.NetClass == 'DDR_DSQ1') && AB.isCoupledDiffPair()")
-	(constraint track_width (min 5mil) (opt 6.11mil))
-	(constraint diff_pair_gap (min 8.89mil) (max 8.89mil))
-	(constraint clearance (min 6mil) (opt 6.11mil)))
+	(condition "(A.NetClass == '40R') && AB.isCoupledDiffPair()")
+	(constraint track_width (opt 4.91mil))
+	(constraint diff_pair_gap (min 4mil) (opt 4.09mil))
+	(constraint clearance (min 10mil)))
 
-(rule "Inner layer Differential Pair 80R"
+(rule "DP 80R Inner"
 	(layer inner)
-	(condition "(A.NetClass == 'DDR_CK' || A.NetClass == 'DDR_DSQ0' || A.NetClass == 'DDR_DSQ1') && AB.isCoupledDiffPair()")
-	(constraint track_width (min 5mil) (opt 6.11mil))
-	(constraint diff_pair_gap (min 8.89mil) (max 8.89mil))
-	(constraint clearance (min 6mil) (opt 6.11mil)))
+	(condition "(A.NetClass == '40R') && AB.isCoupledDiffPair()")
+	(constraint track_width (opt 4.33mil))
+	(constraint diff_pair_gap (opt 4.67mil))
+	(constraint clearance (min 8mil) (opt 8.66mil)))
 
-(rule "Outer layer Single Ended 50R"
+(rule "50R Outer"
 	(layer outer)
 	(condition "A.NetClass == '50R'")
 	(constraint track_width (min 4.45mil) (max 4.45mil))
 	(constraint clearance (min 5mil)))
 
-(rule "Inner Layer Single Ended 50R"
+(rule "50R Inner"
 	(layer inner)
 	(condition "A.NetClass == '50R'")
-	(constraint track_width (min 4.64mil) (max 4.64mil))
-	(constraint clearance (min 4.64mil) (max 4.64mil)))
+	(constraint track_width (min 4mil) (opt 4.31mil))
+	(constraint clearance (min 8mil) (opt 8.62mil)))
 
-(rule "Outer layer Differential Pair 90R"
+(rule "DP 90R Outer"
 	(layer outer)
-	(condition "A.NetClass == 'Diff_90R' && AB.isCoupledDiffPair()")
-	(constraint track_width (min 4.97mil) (max 4.97mil))
-	(constraint diff_pair_gap (min 10.03mil) (max 10.03mil))
-	(constraint clearance (min 10.3mil)))
+	(condition "A.NetClass == 'DP_90R' && AB.isCoupledDiffPair()")
+	(constraint track_width (min 4mil) (opt 4.05mil))
+	(constraint diff_pair_gap (min 4mil) (max 4.95mil))
+	(constraint clearance (min 8mil)))
 
-(rule "Inner layer Differential Pair 90R"
+(rule "DP 90R Inner"
 	(layer inner)
-	(condition "A.NetClass == 'Diff_90R' && AB.isCoupledDiffPair()")
-	(constraint track_width (min 4.86mil) (max 4.86mil))
-	(constraint diff_pair_gap (min 10.14mil) (max 10.14mil))
-	(constraint clearance (min 10.13mil)))
-
-
-# JLC06161H-1080A
-#(rule "Outer Layer Single Ended 50R"
-#	(layer outer)
-#	(condition "A.NetClass == '50R'")
-#	(constraint track_width (min 0.1mm) (opt 0.1184mm))
-#	(constraint clearance (min 0.2368mm)))
-#(rule "Outer Layer Single Ended 50R with Exception"
-#	(layer outer)
-#	(condition "A.NetClass == '50R' && A.insideArea('SoC_Clearance_Rule')")
-#	(constraint track_width (opt 0.1mm))
-#	(constraint clearance (min 0.1mm)))
-#
-#(rule "Inner Layer Single Ended 50R"
-#	(layer In3_Signal.Cu)
-#	(condition "A.NetClass == '50R'")
-#	(constraint track_width (min 0.1mm) (opt 0.1232mm))
-#	(constraint clearance (min 0.2464mm)))
-#(rule "Outer Layer Differential 100R"
-#	(layer outer)
-#	(condition "A.NetClass == 'Diff_100R'")
-#	(constraint track_width (opt 0.0991mm) (max 0.1mm))
-#	(constraint diff_pair_gap (opt 0.2032mm))
-#	(constraint clearance (min 0.2mm))
-#	(constraint skew (max 200mil)))
-#(rule "Inner Layer Differential 100R"
-#	(layer In3_Signal.Cu)
-#	(condition "A.NetClass == 'Diff_100R'")
-#	(constraint track_width (opt 0.1006mm))
-#	(constraint diff_pair_gap (opt 0.2032mm))
-#	(constraint clearance (min 0.2mm))
-#	(constraint skew (max 200mil)))
-#
-#(rule "Inner Layer Differential 100R"
-#	(layer inner)
-#	(condition "A.NetClass == 'Diff_100R'")
-#	(constraint track_width (min 0.1mm ) (opt 0.1036mm))
-#	(constraint diff_pair_gap (opt 0.4mm))
-#	(constraint skew (max 200mil)))
-#
-#(rule "Inner Layer Differential 90R"
-#	(layer inner)
-#	(condition "A.NetClass == 'Diff_90R'")
-#	(constraint track_width (opt 0.1115mm))
-#	(constraint diff_pair_gap (opt 0.2mm)))
-#
-#(rule "BGA Via Rules"
-#	(constraint hole_clearance (min 0.1mm)))
-#
-#(rule "DDR Differential 100R"
-#	(condition "A.NetClass == 'Diff_100R'")
-#	(constraint skew (max 200mil)))
+	(condition "A.NetClass == 'DP_90R' && AB.isCoupledDiffPair()")
+	(constraint track_width (opt 3.52mil))
+	(constraint diff_pair_gap (opt 5.48mil))
+	(constraint clearance (min 7mil)))
 

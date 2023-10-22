@@ -516,6 +516,23 @@
       {
         "bus_width": 12,
         "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DP_80R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.35,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
         "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1,
@@ -587,76 +604,76 @@
         "pattern": "/DDR/VCC2V5*"
       },
       {
-        "netclass": "40R",
+        "netclass": "50R",
         "pattern": "/DDR/.*/DDR4_A[0-9]+.*"
       },
       {
-        "netclass": "40R",
+        "netclass": "50R",
         "pattern": "/DDR/DDR4_D[0-7]"
       },
       {
-        "netclass": "40R",
+        "netclass": "50R",
         "pattern": "/DDR/DDR4_D[89]"
       },
       {
-        "netclass": "40R",
+        "netclass": "50R",
         "pattern": "/DDR/DDR4_D1[0-5]"
       },
       {
-        "netclass": "40R",
+        "netclass": "50R",
         "pattern": "/DDR/DDR4_D1[6-9]"
       },
       {
-        "netclass": "40R",
+        "netclass": "50R",
         "pattern": "/DDR/DDR4_D2[0-3]"
       },
       {
-        "netclass": "40R",
+        "netclass": "50R",
         "pattern": "/DDR/DDR4_D2[4-9]"
       },
       {
-        "netclass": "40R",
+        "netclass": "50R",
         "pattern": "/DDR/DDR4_D3[01]"
       },
       {
-        "netclass": "40R",
-        "pattern": "/DDR/DDR4_DQS[02][NP]"
+        "netclass": "DP_80R",
+        "pattern": "/DDR/DDR4_DQS[0123][NP]"
       },
       {
-        "netclass": "40R",
-        "pattern": "/DDR/DDR4_DQS[13][NP]"
-      },
-      {
-        "netclass": "40R",
+        "netclass": "50R",
         "pattern": "/DDR/DDR4_A[0-9]+.*"
       },
       {
-        "netclass": "40R",
+        "netclass": "50R",
         "pattern": "/DDR/DDR4_B[AG].*"
       },
       {
-        "netclass": "40R",
+        "netclass": "50R",
         "pattern": "/DDR/DDR Chips/DDR4_B[AG].*"
       },
       {
-        "netclass": "40R",
+        "netclass": "50R",
         "pattern": "/DDR/DDR4_CKE"
       },
       {
-        "netclass": "40R",
+        "netclass": "50R",
         "pattern": "/DDR/DDR4_ODT*"
       },
       {
-        "netclass": "40R",
+        "netclass": "50R",
         "pattern": "/DDR/DDR4_~{CS*}"
       },
       {
-        "netclass": "40R",
+        "netclass": "50R",
         "pattern": "/DDR/DDR4_~{ACT}"
       },
       {
-        "netclass": "40R",
+        "netclass": "50R",
         "pattern": "/DDR/DDR_~{RE*}"
+      },
+      {
+        "netclass": "DP_80R",
+        "pattern": "/DDR/DDR4_CLK_[NP]"
       }
     ]
   },

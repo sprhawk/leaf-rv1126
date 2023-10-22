@@ -617,26 +617,10 @@
       },
       {
         "netclass": "50R",
-        "pattern": "/DDR/DDR4_D1[0-5]"
+        "pattern": "/DDR/DDR4_D[0-9]+"
       },
       {
-        "netclass": "50R",
-        "pattern": "/DDR/DDR4_D1[6-9]"
-      },
-      {
-        "netclass": "50R",
-        "pattern": "/DDR/DDR4_D2[0-3]"
-      },
-      {
-        "netclass": "50R",
-        "pattern": "/DDR/DDR4_D2[4-9]"
-      },
-      {
-        "netclass": "50R",
-        "pattern": "/DDR/DDR4_D3[01]"
-      },
-      {
-        "netclass": "DP_80R",
+        "netclass": "DP_100R",
         "pattern": "/DDR/DDR4_DQS[0123][NP]"
       },
       {
@@ -672,7 +656,7 @@
         "pattern": "/DDR/DDR_~{RE*}"
       },
       {
-        "netclass": "DP_80R",
+        "netclass": "DP_100R",
         "pattern": "/DDR/DDR4_CLK_[NP]"
       }
     ]

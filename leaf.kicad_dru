@@ -1,6 +1,17 @@
 (version 1)
 #HuaQiu 06121H01-1080
 
+# DDR length matching constraints
+# The data follows RV11xx High Speed PCB Design Guide
+(rule "DDR Clock"
+	(condition "A.inDiffPair('/DDR/DDR4_CLK')")
+	(constraint skew (max 12mil)))
+(rule "DDR DQS"
+	(condition "A.inDiffPair('/DDR/DDR4_DQS*')")
+	(constraint skew (max 12mil)))
+
+
+
 (rule "40R Outer"
 	(layer outer)
 	(condition "A.NetClass == '40R'")

@@ -1,4 +1,4 @@
-(kicad_sch (version 20230121) (generator eeschema)
+(kicad_sch (version 20230819) (generator eeschema)
 
   (uuid 6b4e3141-6150-44c2-8343-7d8db3c61bdf)
 
@@ -13,7 +13,7 @@
   )
 
   (lib_symbols
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -26,10 +26,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+      (property "Description" "Unpolarized capacitor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "C_*" (at 0 0 0)
@@ -64,7 +64,7 @@
         )
       )
     )
-    (symbol "Device:L" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:L" (pin_numbers hide) (pin_names (offset 1.016) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "L" (at -1.27 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -77,10 +77,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
+      (property "Description" "Inductor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Inductor" (at 0 0 0)
+      (property "ki_keywords" "inductor choke coil reactor magnetic" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
@@ -115,7 +115,7 @@
         )
       )
     )
-    (symbol "IotPi_CPU_Rockchip:RK809" (in_bom yes) (on_board yes)
+    (symbol "IotPi_CPU_Rockchip:RK809" (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -13.97 29.21 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -126,6 +126,9 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 0.508 -9.652 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Description" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_locked" "" (at 0 0 0)
@@ -779,7 +782,7 @@
         )
       )
     )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:GND" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -792,10 +795,10 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "global power" (at 0 0 0)
+      (property "Description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "GND_0_1"
@@ -819,7 +822,7 @@
         )
       )
     )
-    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#FLG" (at 0 1.905 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -832,10 +835,10 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "flag power" (at 0 0 0)
+      (property "Description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
+      (property "ki_keywords" "flag power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "PWR_FLAG_0_0"
@@ -1501,7 +1504,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 110.49 123.19 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a1fead9-e5cf-41f0-a0e9-0619b2fb35e6)
     (property "Reference" "C93" (at 113.411 122.5463 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1539,7 +1542,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 215.9 76.2 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b8a3154-696c-4142-936b-edc463c265b8)
     (property "Reference" "#PWR089" (at 222.25 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1553,6 +1556,9 @@
     (property "Datasheet" "" (at 215.9 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 215.9 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0829356a-66bd-4d4f-b051-7f4d01e51413))
     (instances
       (project "leaf"
@@ -1564,7 +1570,7 @@
   )
 
   (symbol (lib_id "Device:L") (at 182.88 138.43 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 142ac335-e0a9-477b-95b8-8511af91369a)
     (property "Reference" "L?" (at 182.88 135.89 90)
       (effects (font (size 1.27 1.27)))
@@ -1605,7 +1611,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 110.49 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2390db42-843d-4867-b211-f715433045e7)
     (property "Reference" "#PWR084" (at 110.49 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1619,6 +1625,9 @@
     (property "Datasheet" "" (at 110.49 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 110.49 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 75af4c91-3d25-4284-af07-6156e699b0a7))
     (instances
       (project "leaf"
@@ -1630,7 +1639,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 110.49 71.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28add070-5210-4986-a052-c51d001e0b82)
     (property "Reference" "#PWR088" (at 110.49 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1644,6 +1653,9 @@
     (property "Datasheet" "" (at 110.49 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 110.49 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 30868402-e490-4cc1-b696-9b3f2f49a5f3))
     (instances
       (project "leaf"
@@ -1655,7 +1667,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 215.9 96.52 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 349d1f1e-c986-4a0f-9caf-bc8e44c4d92b)
     (property "Reference" "#PWR091" (at 222.25 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1669,6 +1681,9 @@
     (property "Datasheet" "" (at 215.9 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 215.9 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 75c81d03-01de-4e38-a24e-02e134c52edc))
     (instances
       (project "leaf"
@@ -1680,7 +1695,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 215.9 132.08 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35b11986-e24b-413d-ba0e-765eec62119c)
     (property "Reference" "#PWR096" (at 222.25 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1694,6 +1709,9 @@
     (property "Datasheet" "" (at 215.9 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 215.9 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 53a70136-e669-4ff7-993d-8ff274d9998b))
     (instances
       (project "leaf"
@@ -1705,7 +1723,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 215.9 87.63 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36ef0fbf-3624-479a-854d-fc2fd4ffc288)
     (property "Reference" "#PWR090" (at 222.25 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1719,6 +1737,9 @@
     (property "Datasheet" "" (at 215.9 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 215.9 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f24e2702-baa7-49c2-acc5-a2d31075ffb0))
     (instances
       (project "leaf"
@@ -1730,7 +1751,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 110.49 154.94 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43418dee-7ac7-4d4f-bdd5-dd5ff2e75b02)
     (property "Reference" "#PWR099" (at 110.49 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1744,6 +1765,9 @@
     (property "Datasheet" "" (at 110.49 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 110.49 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 84e90608-b10a-45fa-910c-cb5403cb3366))
     (instances
       (project "leaf"
@@ -1755,7 +1779,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 209.55 118.11 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5728a9e3-57b6-4abe-8400-15c408a5e815)
     (property "Reference" "C92" (at 208.28 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1793,7 +1817,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 209.55 87.63 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5bd0a395-522d-4198-8621-168ec6c193ac)
     (property "Reference" "C88" (at 208.28 83.82 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1831,7 +1855,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 209.55 45.72 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5edc884c-72a1-49f8-9266-cd1856a78c23)
     (property "Reference" "C83" (at 208.28 41.91 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1869,7 +1893,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 209.55 36.83 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 65d35476-3fcb-4e7a-b69d-e3b0dca38733)
     (property "Reference" "C82" (at 208.28 33.02 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1907,7 +1931,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 210.82 152.4 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67afed95-03a9-448d-9cbd-0c0093df7a43)
     (property "Reference" "#PWR?" (at 210.82 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1919,6 +1943,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 210.82 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 210.82 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a54dea5d-b123-4e38-91aa-dc9050d647df))
@@ -1935,7 +1962,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 215.9 36.83 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 722152bb-4030-469e-8a1a-e3b1d8c346de)
     (property "Reference" "#PWR083" (at 222.25 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1949,6 +1976,9 @@
     (property "Datasheet" "" (at 215.9 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 215.9 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a9a508f5-9d15-4efc-bdf0-3f346ebf1248))
     (instances
       (project "leaf"
@@ -1960,7 +1990,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 110.49 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 725b822d-61de-472a-865f-aa6821fc6a38)
     (property "Reference" "#PWR092" (at 110.49 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1974,6 +2004,9 @@
     (property "Datasheet" "" (at 110.49 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 110.49 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 54d7531d-31ed-427a-9efb-baa49b03cb51))
     (instances
       (project "leaf"
@@ -1985,7 +2018,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 209.55 29.21 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 755403fe-db4b-4500-ba3f-f2384043f495)
     (property "Reference" "C80" (at 208.28 25.4 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2023,7 +2056,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 215.9 67.31 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7927ac22-281d-4db1-8d93-7ed3e37fd5b0)
     (property "Reference" "#PWR087" (at 222.25 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2037,6 +2070,9 @@
     (property "Datasheet" "" (at 215.9 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 215.9 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d6f0ecc5-0e1c-40aa-9ccf-06c4a9c9c640))
     (instances
       (project "leaf"
@@ -2048,7 +2084,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 220.98 147.32 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 7bda57ec-3172-4426-9576-7d4e368837cc)
     (property "Reference" "C?" (at 219.71 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2089,7 +2125,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 215.9 45.72 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8076151c-4cc6-46ab-8392-f73787117db0)
     (property "Reference" "#PWR085" (at 222.25 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2103,6 +2139,9 @@
     (property "Datasheet" "" (at 215.9 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 215.9 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 77586c03-afdc-41fa-8a25-ecd7f2e0f198))
     (instances
       (project "leaf"
@@ -2114,7 +2153,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 110.49 36.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84222194-9d37-43c2-8f75-24b928475d76)
     (property "Reference" "C81" (at 113.411 36.1863 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2152,7 +2191,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 215.9 57.15 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8941ff7b-2512-4c88-bbf5-c4cfb5931fa0)
     (property "Reference" "#PWR086" (at 222.25 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2166,6 +2205,9 @@
     (property "Datasheet" "" (at 215.9 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 215.9 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b4f11fa2-9f8f-4088-bfe7-09064bcaf431))
     (instances
       (project "leaf"
@@ -2177,7 +2219,7 @@
   )
 
   (symbol (lib_id "IotPi_CPU_Rockchip:RK809") (at 142.24 54.61 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c716e4e-fa4b-479b-84af-c1c1600a1269)
     (property "Reference" "U5" (at 129.54 25.4 0)
       (effects (font (size 1.27 1.27)))
@@ -2191,10 +2233,10 @@
     (property "Datasheet" "" (at 142.748 64.262 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 142.24 54.61 0)
+    (property "Description" "" (at 142.24 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 142.24 54.61 0)
+    (property "LCSC" "" (at 142.24 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Vendor" "" (at 142.24 54.61 0)
@@ -2282,7 +2324,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 215.9 105.41 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c7cf8d9-0d44-4f17-a927-9f683864b018)
     (property "Reference" "#PWR093" (at 222.25 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2296,6 +2338,9 @@
     (property "Datasheet" "" (at 215.9 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 215.9 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid fa1b9f51-0867-4afd-a14f-6ca8089ff133))
     (instances
       (project "leaf"
@@ -2307,7 +2352,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 215.9 118.11 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1f86ab7-07dc-4905-a843-778e69a9ead2)
     (property "Reference" "#PWR094" (at 222.25 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2321,6 +2366,9 @@
     (property "Datasheet" "" (at 215.9 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 215.9 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7005521e-977b-4801-a5ad-b5b8bf5db5d5))
     (instances
       (project "leaf"
@@ -2332,7 +2380,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 209.55 67.31 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a4ba196c-8485-4064-b53b-c4b7a3dd4ecf)
     (property "Reference" "C86" (at 208.28 63.5 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2370,7 +2418,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 110.49 64.77 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b102443e-b8fa-42f7-aeb8-172c256997e6)
     (property "Reference" "C85" (at 113.411 64.1263 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2408,7 +2456,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 215.9 29.21 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4e3ddee-e2f7-422b-9ab9-6f4168779219)
     (property "Reference" "#PWR082" (at 222.25 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2422,6 +2470,9 @@
     (property "Datasheet" "" (at 215.9 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 215.9 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 3f052ff3-8e7c-4054-93e0-fe0a354dd12b))
     (instances
       (project "leaf"
@@ -2433,7 +2484,7 @@
   )
 
   (symbol (lib_id "power:PWR_FLAG") (at 220.98 142.24 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b630c112-6a74-4b70-a023-b85e46259b32)
     (property "Reference" "#FLG012" (at 220.98 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2447,6 +2498,9 @@
     (property "Datasheet" "~" (at 220.98 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 220.98 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 016076cb-5cd1-410a-bf98-b22bb388f8ef))
     (instances
       (project "leaf"
@@ -2458,7 +2512,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 209.55 105.41 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c7de56c1-ba50-4f7e-ab04-af92efab7f79)
     (property "Reference" "C91" (at 208.28 101.6 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2496,7 +2550,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 110.49 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb245dd3-3b34-4818-981d-05151ce8b02a)
     (property "Reference" "#PWR095" (at 110.49 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2510,6 +2564,9 @@
     (property "Datasheet" "" (at 110.49 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 110.49 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 77d8d1f8-5554-48ba-a60e-395a5d23fb55))
     (instances
       (project "leaf"
@@ -2521,7 +2578,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 209.55 96.52 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid d3a9bd3c-8ca5-41bf-b3d0-bd78953dd950)
     (property "Reference" "C90" (at 208.28 92.71 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2559,7 +2616,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 220.98 152.4 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db1a9481-6d79-4cc8-b827-fba64d1aacc5)
     (property "Reference" "#PWR?" (at 220.98 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2571,6 +2628,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 220.98 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (at 220.98 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 84c03d1b-4f84-4050-b6e2-724cb325a4b4))
@@ -2587,7 +2647,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 110.49 95.25 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2382db3-c74b-439a-8e06-aaa468fd2c02)
     (property "Reference" "C89" (at 113.411 94.6063 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2625,7 +2685,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 209.55 76.2 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e425b817-0fbd-415b-83b2-5533cec474f9)
     (property "Reference" "C87" (at 208.28 72.39 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2663,7 +2723,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 209.55 132.08 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ec39448a-79a3-4927-b888-cdf5b47d18c6)
     (property "Reference" "C94" (at 208.28 128.27 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2701,7 +2761,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 210.82 147.32 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ed852a72-650c-49c0-9d46-ab17455ff145)
     (property "Reference" "C?" (at 214.63 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2742,7 +2802,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 110.49 148.59 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eec9b1b7-d4d8-4978-8fc0-0d8da333702e)
     (property "Reference" "C97" (at 113.411 147.9463 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2780,7 +2840,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 209.55 57.15 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid fe726db6-9c2c-4711-a9ef-fd5389d5a604)
     (property "Reference" "C84" (at 208.28 53.34 90)
       (effects (font (size 1.27 1.27)) (justify left))

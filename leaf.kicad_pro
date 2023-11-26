@@ -187,7 +187,7 @@
         "diff_pair_defaults": {
           "corner_radius_percentage": 100,
           "corner_style": 1,
-          "max_amplitude": 1.0,
+          "max_amplitude": 0.762,
           "min_amplitude": 0.1,
           "single_sided": false,
           "spacing": 0.6
@@ -195,7 +195,7 @@
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 100,
           "corner_style": 1,
-          "max_amplitude": 1.0,
+          "max_amplitude": 0.762,
           "min_amplitude": 0.1,
           "single_sided": false,
           "spacing": 0.6
@@ -203,7 +203,7 @@
         "single_track_defaults": {
           "corner_radius_percentage": 100,
           "corner_style": 1,
-          "max_amplitude": 1.0,
+          "max_amplitude": 0.762,
           "min_amplitude": 0.1,
           "single_sided": false,
           "spacing": 0.6

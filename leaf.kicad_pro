@@ -716,8 +716,12 @@
         "pattern": "/DDR/DDR4_CLK_[NP]"
       },
       {
-        "netclass": "DDR_Data_0",
+        "netclass": "50R",
         "pattern": "/DDR/DDR4_D[0-7]"
+      },
+      {
+        "netclass": "DP_100R",
+        "pattern": "/DDR/DDR Chips/DDR4_CLK_B_[NP]"
       }
     ]
   },

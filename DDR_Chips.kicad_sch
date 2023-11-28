@@ -2536,7 +2536,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 157.48 163.83 90) (unit 1)
-    (exclude_from_sim no) (in_bom no) (on_board yes) (dnp yes)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 18d41ea7-cb61-48f4-98cb-43e0043b3f3d)
     (property "Reference" "C?" (at 156.21 162.56 90)
       (effects (font (size 1.27 1.27)) (justify left))

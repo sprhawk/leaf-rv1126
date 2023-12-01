@@ -10,8 +10,6 @@
 	(condition "A.inDiffPair('/DDR/DDR4_DQS*')")
 	(constraint skew (max 12mil)))
 
-
-
 (rule "40R Outer"
 	(layer outer)
 	(condition "A.NetClass == '40R'")
@@ -60,6 +58,11 @@
 	(layer outer)
 	(condition "(A.NetClass == '50R') && A.intersectsFrontCourtyard('U2')")
 	(constraint track_width (opt 4.57mil))
+	(constraint clearance (min 0.1mm)))
+
+(rule "BGA Pad clearance"
+	(layer outer)
+	(condition "A.Type == 'Pad' && (A.intersectsFrontCourtyard('U7') || A.intersectsFrontCourtyard('U8'))")
 	(constraint clearance (min 0.1mm)))
 
 (rule "DP 90R Outer"

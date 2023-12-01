@@ -132,7 +132,7 @@
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
-        "use_height_for_length_calcs": true
+        "use_height_for_length_calcs": false
       },
       "teardrop_options": [
         {
@@ -187,26 +187,26 @@
         "diff_pair_defaults": {
           "corner_radius_percentage": 100,
           "corner_style": 1,
-          "max_amplitude": 0.762,
-          "min_amplitude": 0.1,
+          "max_amplitude": 0.381,
+          "min_amplitude": 0.0762,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.4064
         },
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 100,
           "corner_style": 1,
-          "max_amplitude": 0.762,
-          "min_amplitude": 0.1,
+          "max_amplitude": 0.381,
+          "min_amplitude": 0.0762,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.254
         },
         "single_track_defaults": {
           "corner_radius_percentage": 100,
           "corner_style": 1,
-          "max_amplitude": 0.762,
-          "min_amplitude": 0.1,
+          "max_amplitude": 0.381,
+          "min_amplitude": 0.0762,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.4064
         }
       },
       "via_dimensions": [

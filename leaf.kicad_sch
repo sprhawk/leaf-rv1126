@@ -1,576 +1,1359 @@
-(kicad_sch (version 20230819) (generator eeschema)
-
-  (uuid e3b58043-16a3-43c8-9fad-9c9784eebfa4)
-
-  (paper "A4")
-
-  (title_block
-    (title "Leaf RV1126")
-    (date "2023-06-07")
-    (rev "1")
-    (company "Yang Hongbo")
-    (comment 1 "License: CC BY-SA")
-  )
-
-  (lib_symbols
-    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MountingHole" (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Description" "Mounting Hole without connection" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MountingHole_0_1"
-        (circle (center 0 0) (radius 1.27)
-          (stroke (width 1.27) (type default))
-          (fill (type none))
-        )
-      )
-    )
-  )
-
-
-  (wire (pts (xy 33.02 140.97) (xy 26.67 140.97))
-    (stroke (width 0) (type default))
-    (uuid 0bcd9782-116f-491e-af19-a190c558e3e0)
-  )
-  (wire (pts (xy 78.74 104.14) (xy 88.9 104.14))
-    (stroke (width 0) (type default))
-    (uuid 115b24d1-5e32-4484-840b-dc3523582866)
-  )
-  (wire (pts (xy 62.23 40.64) (xy 68.58 40.64))
-    (stroke (width 0) (type default))
-    (uuid 28102311-89eb-409f-9dae-1613285639ef)
-  )
-  (wire (pts (xy 33.02 111.76) (xy 26.67 111.76))
-    (stroke (width 0) (type default))
-    (uuid 2ce11f5f-0716-4573-85df-be7e2a7249de)
-  )
-  (wire (pts (xy 85.09 99.06) (xy 85.09 83.82))
-    (stroke (width 0) (type default))
-    (uuid 33518c30-acc1-48e3-a4b1-6913344dd9b5)
-  )
-  (wire (pts (xy 33.02 107.95) (xy 26.67 107.95))
-    (stroke (width 0) (type default))
-    (uuid 348f3874-758d-447c-b006-5bac132147d5)
-  )
-  (wire (pts (xy 118.11 106.68) (xy 119.38 106.68))
-    (stroke (width 0) (type default))
-    (uuid 3a23b768-ab16-4258-be6f-b5482af8f622)
-  )
-  (wire (pts (xy 33.02 46.99) (xy 26.67 46.99))
-    (stroke (width 0) (type default))
-    (uuid 3c8fbffb-9ec2-4e8e-b43e-672f635fbbd2)
-  )
-  (wire (pts (xy 33.02 41.91) (xy 26.67 41.91))
-    (stroke (width 0) (type default))
-    (uuid 449e222f-f4fd-4609-bff1-e7eca9a9a0af)
-  )
-  (wire (pts (xy 88.9 111.76) (xy 82.55 111.76))
-    (stroke (width 0) (type default))
-    (uuid 5795fb0a-e1cd-4f23-9895-c04415ae7ce9)
-  )
-  (wire (pts (xy 33.02 49.53) (xy 26.67 49.53))
-    (stroke (width 0) (type default))
-    (uuid 5bc32492-460f-4053-af23-0410108e948c)
-  )
-  (wire (pts (xy 33.02 39.37) (xy 26.67 39.37))
-    (stroke (width 0) (type default))
-    (uuid 5fea6606-977e-4299-abb5-cc48691c4373)
-  )
-  (wire (pts (xy 118.11 104.14) (xy 119.38 104.14))
-    (stroke (width 0) (type default))
-    (uuid 7ab63c99-7cf4-4de5-aa6c-a0241c9a50b4)
-  )
-  (wire (pts (xy 88.9 99.06) (xy 85.09 99.06))
-    (stroke (width 0) (type default))
-    (uuid 7eab6710-007f-44e0-a557-2cb05f17f33d)
-  )
-  (wire (pts (xy 88.9 109.22) (xy 82.55 109.22))
-    (stroke (width 0) (type default))
-    (uuid 9bfea358-95ed-415e-b3c2-d291e3d6fa85)
-  )
-  (wire (pts (xy 33.02 53.34) (xy 26.67 53.34))
-    (stroke (width 0) (type default))
-    (uuid 9f81ba5b-3644-49c9-8a8c-380be76a4b98)
-  )
-  (wire (pts (xy 85.09 83.82) (xy 88.9 83.82))
-    (stroke (width 0) (type default))
-    (uuid a10e047e-613f-450a-8cc8-9f3aba54028d)
-  )
-  (wire (pts (xy 33.02 80.01) (xy 25.4 80.01))
-    (stroke (width 0) (type default))
-    (uuid a128432f-1b34-436b-80eb-799cfc48018d)
-  )
-  (wire (pts (xy 148.59 46.99) (xy 158.75 46.99))
-    (stroke (width 0) (type default))
-    (uuid b0d8ffb3-6bb4-4a2d-a874-8ef8030b505a)
-  )
-  (wire (pts (xy 25.4 102.87) (xy 33.02 102.87))
-    (stroke (width 0) (type default))
-    (uuid ca18c991-7008-4efa-b907-ed503a1be9c9)
-  )
-  (wire (pts (xy 25.4 80.01) (xy 25.4 102.87))
-    (stroke (width 0) (type default))
-    (uuid ccf18385-715e-47ca-a32a-993874415b58)
-  )
-
-  (text "Camera" (exclude_from_sim no)
- (at 171.45 67.31 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 97a736f2-e343-4481-8910-43fc19b84c7d)
-  )
-  (text "SDCard" (exclude_from_sim no)
- (at 44.45 68.58 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d33da28e-fde1-4440-9b53-fb3eb6b4d3c8)
-  )
-  (text "eMMC" (exclude_from_sim no)
- (at 101.6 68.58 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e5649d4e-40a2-4d6b-9f58-36bdd33ef216)
-  )
-
-  (label "PMIC_SLEEP" (at 82.55 111.76 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 20e34aa9-98fd-433a-8515-d7954b50b959)
-  )
-  (label "PMIC_RESET" (at 26.67 107.95 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 2d05c3b7-041c-4a81-9cec-46d4a3a55315)
-  )
-  (label "USB_CTRL" (at 78.74 104.14 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 31ea27e2-28a6-42ef-ada4-d6ab4b798dc6)
-  )
-  (label "PMIC_I2C_SCL" (at 119.38 104.14 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 32208ca8-233c-4f58-8881-18e5255a6c5b)
-  )
-  (label "PMIC_CLK32K" (at 68.58 40.64 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 323433d1-b926-4591-8d05-9be49e2f5df0)
-  )
-  (label "PMIC_RESET" (at 26.67 53.34 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 4351785c-0165-4537-86a4-f1df8aca88a0)
-  )
-  (label "PMIC_I2C_SCL" (at 26.67 46.99 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 600e4fab-69d8-4910-a122-ee084c208a5b)
-  )
-  (label "PMIC_CLK32K" (at 26.67 111.76 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 8eba186c-c5b5-4482-b7f3-a773d0026482)
-  )
-  (label "PMIC_INT" (at 82.55 109.22 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 93c50bc9-6b41-46da-ba24-f416baf8ae86)
-  )
-  (label "PMIC_I2C_SDA" (at 26.67 49.53 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid a2f3ee5c-fe07-4df0-8a2a-cdcbaaddb9cc)
-  )
-  (label "USB_CTRL" (at 148.59 46.99 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid a5f045db-ce07-43bc-a339-ec84fa5f5cb2)
-  )
-  (label "PMIC_INT" (at 26.67 39.37 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid aa7c6e71-599a-4883-a791-5c08c8522ae1)
-  )
-  (label "PMIC_I2C_SDA" (at 119.38 106.68 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b801528c-e928-462f-a398-f13bdc8e96fd)
-  )
-  (label "PMIC_SLEEP" (at 26.67 41.91 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid e10dc0b0-6b43-4878-80d7-0e3dff5c1d43)
-  )
-  (label "PMIC_RESET" (at 26.67 140.97 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid ecdfcf9f-3bcd-49fd-91e9-3c57f597fc4a)
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 128.27 184.15 0) (unit 1)
-    (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b3dcbc07-4dc3-4856-b276-b755ea428463)
-    (property "Reference" "H1" (at 130.81 183.5063 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 130.81 185.4273 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (at 128.27 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 128.27 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 128.27 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "" (at 128.27 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "" (at 128.27 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
-          (reference "H1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 154.94 184.15 0) (unit 1)
-    (exclude_from_sim yes) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c30a2875-8fdb-4912-9c13-7e27e460c00b)
-    (property "Reference" "H2" (at 157.48 183.5063 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 157.48 185.4273 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5" (at 154.94 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 154.94 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 154.94 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "" (at 154.94 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor" "" (at 154.94 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
-          (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet (at 88.9 69.85) (size 29.21 17.78) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 0d403b82-6ed8-44f7-a148-d104315eeb81)
-    (property "Sheetname" "VCCIO1" (at 88.9 69.1384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "VCCIO1.kicad_sch" (at 88.9 88.2146 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "FLASH_VOL_SEL" output (at 88.9 83.82 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 4d6a5160-6bb8-49cb-b8fa-f0c85b5a7010)
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 33.02 96.52) (size 29.21 17.78) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 37e5f808-83b1-4839-b7a1-9684da8ab3e5)
-    (property "Sheetname" "PMUIO0" (at 33.02 95.8084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "PMUIO0.kicad_sch" (at 33.02 114.8846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "SD_DET" input (at 33.02 102.87 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 4e4f15bb-4e86-4c40-b7dc-e352ed150ccd)
-    )
-    (pin "RESET" input (at 33.02 107.95 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 72ae2e84-6dff-4237-b004-72e4afbfabc4)
-    )
-    (pin "CLK_32K" input (at 33.02 111.76 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 2090dc8c-0f52-4226-9af4-5c5d364ea22f)
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "20"))
-      )
-    )
-  )
-
-  (sheet (at 33.02 69.85) (size 29.21 17.78) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4417415c-26f1-4372-988d-9fdf1c116b4b)
-    (property "Sheetname" "VCCIO2" (at 33.02 69.1384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "VCCIO2.kicad_sch" (at 33.02 88.2146 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "SD_DET" output (at 33.02 80.01 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid eb2a25b7-7d9b-4882-a6bd-b605015350e6)
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 228.6 97.79) (size 29.21 17.78) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 56630686-fff3-4c34-8fc7-0dd6f7e78092)
-    (property "Sheetname" "Other SoC" (at 228.6 97.0784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "OtherSoC.kicad_sch" (at 228.6 116.1546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "23"))
-      )
-    )
-  )
-
-  (sheet (at 33.02 135.89) (size 31.75 17.78) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 56cc099e-27f5-4b56-badd-873635da3ec1)
-    (property "Sheetname" "SoC OSC PLL" (at 33.02 135.1784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "SoC_OSC_PLL.kicad_sch" (at 33.02 154.2546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "RESET" input (at 33.02 140.97 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 934243ef-7aad-431a-92d7-494f65435606)
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "24"))
-      )
-    )
-  )
-
-  (sheet (at 88.9 96.52) (size 29.21 17.78) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 74154bd6-827c-4e46-8351-0d1a22db546e)
-    (property "Sheetname" "PMUIO1" (at 88.9 95.8084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "PMUIO1.kicad_sch" (at 88.9 114.8846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "USB_CTRL" output (at 88.9 104.14 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 4e2403d1-8d57-463f-9615-3f273d3c2855)
-    )
-    (pin "FLASH_VOL_SEL" input (at 88.9 99.06 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 9bae3220-b228-4d5b-b754-8dee5fe308bd)
-    )
-    (pin "PMIC_INT" input (at 88.9 109.22 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 1afa0c80-16f6-4de4-9cbb-cbc55dcad908)
-    )
-    (pin "PMIC_SLEEP" output (at 88.9 111.76 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 90cdf4ce-1801-46b3-884a-57d4ba7af608)
-    )
-    (pin "SoC_I2C0_SCL" output (at 118.11 104.14 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 8daa1a7a-e14e-42dc-a286-b23e8716d1ec)
-    )
-    (pin "SoC_I2C0_SDA" bidirectional (at 118.11 106.68 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid cd21b0cc-c84f-4f14-bf35-3d3cd0f6b2b5)
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "21"))
-      )
-    )
-  )
-
-  (sheet (at 90.17 35.56) (size 29.21 19.05) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522)
-    (property "Sheetname" "DDR" (at 90.17 34.8484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "DDR.kicad_sch" (at 90.17 55.1946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 228.6 35.56) (size 29.21 19.05) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid abba4c44-e9bc-404f-bbc8-3409461eb15e)
-    (property "Sheetname" "Display" (at 228.6 34.8484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Display.kicad_sch" (at 228.6 55.1946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 158.75 97.79) (size 31.75 19.05) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid afbf9781-0fb6-4aca-82c1-c35bb86b79e4)
-    (property "Sheetname" "Ethernet" (at 158.75 97.0784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Ethernet.kicad_sch" (at 158.75 117.4246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "22"))
-      )
-    )
-  )
-
-  (sheet (at 158.75 68.58) (size 30.48 17.78) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid bca9f05a-f031-46a4-95a9-25be55b42bf6)
-    (property "Sheetname" "VCCIO4" (at 158.75 67.8684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "VCCIO4.kicad_sch" (at 158.75 86.9446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 158.75 36.83) (size 30.48 19.05) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid be5d8e43-2411-4620-a7a9-8dc1a750f993)
-    (property "Sheetname" "USB" (at 158.75 36.1184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "USB.kicad_sch" (at 158.75 56.4646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "USB_CTRL" input (at 158.75 46.99 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 0adec1d5-1b41-4ba4-8da2-438a56ad3256)
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 228.6 67.31) (size 29.21 17.78) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid cbba8301-b827-481f-8620-b434aac08349)
-    (property "Sheetname" "WiFi" (at 228.6 66.5984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "WiFi.kicad_sch" (at 228.6 85.6746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "9"))
-      )
-    )
-  )
-
-  (sheet (at 33.02 35.56) (size 29.21 19.05) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0)
-    (property "Sheetname" "Power" (at 33.02 34.8484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Power.kicad_sch" (at 33.02 55.1946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "PMIC_SLEEP" output (at 33.02 41.91 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 48c2d9a1-4bb0-442f-9dbb-2f27290c1421)
-    )
-    (pin "PMIC_INT" input (at 33.02 39.37 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid fc24e371-d587-46a9-b4f2-dd0b24c2485e)
-    )
-    (pin "PMIC_I2C_SCL" input (at 33.02 46.99 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 839669d0-f37e-4ce2-89ba-ea441862e1d2)
-    )
-    (pin "PMIC_I2C_SDA" bidirectional (at 33.02 49.53 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid dcd20c73-ce72-4353-82dc-16cdf525e579)
-    )
-    (pin "PMIC_RESET" bidirectional (at 33.02 53.34 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid afd33dc4-f043-409a-9436-56600ba46e98)
-    )
-    (pin "PMIC_CLK32K" output (at 62.23 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid d84868de-942d-44ba-9673-fb3c54e21e99)
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4" (page "2"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "7.99")
+	(uuid "e3b58043-16a3-43c8-9fad-9c9784eebfa4")
+	(paper "A4")
+	(title_block
+		(title "Leaf RV1126")
+		(date "2023-06-07")
+		(rev "1")
+		(company "Yang Hongbo")
+		(comment 1 "License: CC BY-SA")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 33.02 140.97) (xy 26.67 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bcd9782-116f-491e-af19-a190c558e3e0")
+	)
+	(wire
+		(pts
+			(xy 78.74 104.14) (xy 88.9 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115b24d1-5e32-4484-840b-dc3523582866")
+	)
+	(wire
+		(pts
+			(xy 62.23 40.64) (xy 68.58 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28102311-89eb-409f-9dae-1613285639ef")
+	)
+	(wire
+		(pts
+			(xy 33.02 111.76) (xy 26.67 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce11f5f-0716-4573-85df-be7e2a7249de")
+	)
+	(wire
+		(pts
+			(xy 85.09 99.06) (xy 85.09 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33518c30-acc1-48e3-a4b1-6913344dd9b5")
+	)
+	(wire
+		(pts
+			(xy 33.02 107.95) (xy 26.67 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "348f3874-758d-447c-b006-5bac132147d5")
+	)
+	(wire
+		(pts
+			(xy 118.11 106.68) (xy 119.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a23b768-ab16-4258-be6f-b5482af8f622")
+	)
+	(wire
+		(pts
+			(xy 33.02 46.99) (xy 26.67 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c8fbffb-9ec2-4e8e-b43e-672f635fbbd2")
+	)
+	(wire
+		(pts
+			(xy 33.02 41.91) (xy 26.67 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "449e222f-f4fd-4609-bff1-e7eca9a9a0af")
+	)
+	(wire
+		(pts
+			(xy 88.9 111.76) (xy 82.55 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5795fb0a-e1cd-4f23-9895-c04415ae7ce9")
+	)
+	(wire
+		(pts
+			(xy 33.02 49.53) (xy 26.67 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc32492-460f-4053-af23-0410108e948c")
+	)
+	(wire
+		(pts
+			(xy 33.02 39.37) (xy 26.67 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fea6606-977e-4299-abb5-cc48691c4373")
+	)
+	(wire
+		(pts
+			(xy 118.11 104.14) (xy 119.38 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab63c99-7cf4-4de5-aa6c-a0241c9a50b4")
+	)
+	(wire
+		(pts
+			(xy 88.9 99.06) (xy 85.09 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eab6710-007f-44e0-a557-2cb05f17f33d")
+	)
+	(wire
+		(pts
+			(xy 88.9 109.22) (xy 82.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfea358-95ed-415e-b3c2-d291e3d6fa85")
+	)
+	(wire
+		(pts
+			(xy 33.02 53.34) (xy 26.67 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f81ba5b-3644-49c9-8a8c-380be76a4b98")
+	)
+	(wire
+		(pts
+			(xy 85.09 83.82) (xy 88.9 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10e047e-613f-450a-8cc8-9f3aba54028d")
+	)
+	(wire
+		(pts
+			(xy 33.02 80.01) (xy 25.4 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a128432f-1b34-436b-80eb-799cfc48018d")
+	)
+	(wire
+		(pts
+			(xy 148.59 46.99) (xy 158.75 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d8ffb3-6bb4-4a2d-a874-8ef8030b505a")
+	)
+	(wire
+		(pts
+			(xy 25.4 102.87) (xy 33.02 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca18c991-7008-4efa-b907-ed503a1be9c9")
+	)
+	(wire
+		(pts
+			(xy 25.4 80.01) (xy 25.4 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccf18385-715e-47ca-a32a-993874415b58")
+	)
+	(text "Camera"
+		(exclude_from_sim no)
+		(at 171.45 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97a736f2-e343-4481-8910-43fc19b84c7d")
+	)
+	(text "SDCard"
+		(exclude_from_sim no)
+		(at 44.45 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d33da28e-fde1-4440-9b53-fb3eb6b4d3c8")
+	)
+	(text "eMMC"
+		(exclude_from_sim no)
+		(at 101.6 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5649d4e-40a2-4d6b-9f58-36bdd33ef216")
+	)
+	(label "PMIC_SLEEP"
+		(at 82.55 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "20e34aa9-98fd-433a-8515-d7954b50b959")
+	)
+	(label "PMIC_RESET"
+		(at 26.67 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d05c3b7-041c-4a81-9cec-46d4a3a55315")
+	)
+	(label "USB_CTRL"
+		(at 78.74 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31ea27e2-28a6-42ef-ada4-d6ab4b798dc6")
+	)
+	(label "PMIC_I2C_SCL"
+		(at 119.38 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32208ca8-233c-4f58-8881-18e5255a6c5b")
+	)
+	(label "PMIC_CLK32K"
+		(at 68.58 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "323433d1-b926-4591-8d05-9be49e2f5df0")
+	)
+	(label "PMIC_RESET"
+		(at 26.67 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4351785c-0165-4537-86a4-f1df8aca88a0")
+	)
+	(label "PMIC_I2C_SCL"
+		(at 26.67 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "600e4fab-69d8-4910-a122-ee084c208a5b")
+	)
+	(label "PMIC_CLK32K"
+		(at 26.67 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8eba186c-c5b5-4482-b7f3-a773d0026482")
+	)
+	(label "PMIC_INT"
+		(at 82.55 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "93c50bc9-6b41-46da-ba24-f416baf8ae86")
+	)
+	(label "PMIC_I2C_SDA"
+		(at 26.67 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2f3ee5c-fe07-4df0-8a2a-cdcbaaddb9cc")
+	)
+	(label "USB_CTRL"
+		(at 148.59 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5f045db-ce07-43bc-a339-ec84fa5f5cb2")
+	)
+	(label "PMIC_INT"
+		(at 26.67 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa7c6e71-599a-4883-a791-5c08c8522ae1")
+	)
+	(label "PMIC_I2C_SDA"
+		(at 119.38 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b801528c-e928-462f-a398-f13bdc8e96fd")
+	)
+	(label "PMIC_SLEEP"
+		(at 26.67 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e10dc0b0-6b43-4878-80d7-0e3dff5c1d43")
+	)
+	(label "PMIC_RESET"
+		(at 26.67 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ecdfcf9f-3bcd-49fd-91e9-3c57f597fc4a")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 128.27 184.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3dcbc07-4dc3-4856-b276-b755ea428463")
+		(property "Reference" "H1"
+			(at 130.81 183.5063 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 130.81 185.4273 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 128.27 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 128.27 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 128.27 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 154.94 184.15 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c30a2875-8fdb-4912-9c13-7e27e460c00b")
+		(property "Reference" "H2"
+			(at 157.48 183.5063 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 157.48 185.4273 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 154.94 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 154.94 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 154.94 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 69.85)
+		(size 29.21 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d403b82-6ed8-44f7-a148-d104315eeb81")
+		(property "Sheetname" "VCCIO1"
+			(at 88.9 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCCIO1.kicad_sch"
+			(at 88.9 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FLASH_VOL_SEL" output
+			(at 88.9 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4d6a5160-6bb8-49cb-b8fa-f0c85b5a7010")
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 96.52)
+		(size 29.21 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "37e5f808-83b1-4839-b7a1-9684da8ab3e5")
+		(property "Sheetname" "PMUIO0"
+			(at 33.02 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PMUIO0.kicad_sch"
+			(at 33.02 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SD_DET" input
+			(at 33.02 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4e4f15bb-4e86-4c40-b7dc-e352ed150ccd")
+		)
+		(pin "RESET" input
+			(at 33.02 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "72ae2e84-6dff-4237-b004-72e4afbfabc4")
+		)
+		(pin "CLK_32K" input
+			(at 33.02 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2090dc8c-0f52-4226-9af4-5c5d364ea22f")
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 69.85)
+		(size 29.21 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4417415c-26f1-4372-988d-9fdf1c116b4b")
+		(property "Sheetname" "VCCIO2"
+			(at 33.02 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCCIO2.kicad_sch"
+			(at 33.02 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SD_DET" output
+			(at 33.02 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eb2a25b7-7d9b-4882-a6bd-b605015350e6")
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 97.79)
+		(size 29.21 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "56630686-fff3-4c34-8fc7-0dd6f7e78092")
+		(property "Sheetname" "Other SoC"
+			(at 228.6 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OtherSoC.kicad_sch"
+			(at 228.6 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 135.89)
+		(size 31.75 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "56cc099e-27f5-4b56-badd-873635da3ec1")
+		(property "Sheetname" "SoC OSC PLL"
+			(at 33.02 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SoC_OSC_PLL.kicad_sch"
+			(at 33.02 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RESET" input
+			(at 33.02 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "934243ef-7aad-431a-92d7-494f65435606")
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 96.52)
+		(size 29.21 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "74154bd6-827c-4e46-8351-0d1a22db546e")
+		(property "Sheetname" "PMUIO1"
+			(at 88.9 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PMUIO1.kicad_sch"
+			(at 88.9 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_CTRL" output
+			(at 88.9 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4e2403d1-8d57-463f-9615-3f273d3c2855")
+		)
+		(pin "FLASH_VOL_SEL" input
+			(at 88.9 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9bae3220-b228-4d5b-b754-8dee5fe308bd")
+		)
+		(pin "PMIC_INT" input
+			(at 88.9 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1afa0c80-16f6-4de4-9cbb-cbc55dcad908")
+		)
+		(pin "PMIC_SLEEP" output
+			(at 88.9 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "90cdf4ce-1801-46b3-884a-57d4ba7af608")
+		)
+		(pin "SoC_I2C0_SCL" output
+			(at 118.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8daa1a7a-e14e-42dc-a286-b23e8716d1ec")
+		)
+		(pin "SoC_I2C0_SDA" bidirectional
+			(at 118.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd21b0cc-c84f-4f14-bf35-3d3cd0f6b2b5")
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 35.56)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522")
+		(property "Sheetname" "DDR"
+			(at 90.17 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DDR.kicad_sch"
+			(at 90.17 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 35.56)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "abba4c44-e9bc-404f-bbc8-3409461eb15e")
+		(property "Sheetname" "Display"
+			(at 228.6 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 228.6 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 97.79)
+		(size 31.75 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "afbf9781-0fb6-4aca-82c1-c35bb86b79e4")
+		(property "Sheetname" "Ethernet"
+			(at 158.75 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 158.75 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 68.58)
+		(size 30.48 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bca9f05a-f031-46a4-95a9-25be55b42bf6")
+		(property "Sheetname" "VCCIO4"
+			(at 158.75 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCCIO4.kicad_sch"
+			(at 158.75 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 36.83)
+		(size 30.48 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be5d8e43-2411-4620-a7a9-8dc1a750f993")
+		(property "Sheetname" "USB"
+			(at 158.75 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 158.75 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_CTRL" input
+			(at 158.75 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0adec1d5-1b41-4ba4-8da2-438a56ad3256")
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 67.31)
+		(size 29.21 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cbba8301-b827-481f-8620-b434aac08349")
+		(property "Sheetname" "WiFi"
+			(at 228.6 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "WiFi.kicad_sch"
+			(at 228.6 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 35.56)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0")
+		(property "Sheetname" "Power"
+			(at 33.02 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 33.02 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PMIC_SLEEP" output
+			(at 33.02 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "48c2d9a1-4bb0-442f-9dbb-2f27290c1421")
+		)
+		(pin "PMIC_INT" input
+			(at 33.02 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc24e371-d587-46a9-b4f2-dd0b24c2485e")
+		)
+		(pin "PMIC_I2C_SCL" input
+			(at 33.02 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "839669d0-f37e-4ce2-89ba-ea441862e1d2")
+		)
+		(pin "PMIC_I2C_SDA" bidirectional
+			(at 33.02 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dcd20c73-ce72-4353-82dc-16cdf525e579")
+		)
+		(pin "PMIC_RESET" bidirectional
+			(at 33.02 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "afd33dc4-f043-409a-9436-56600ba46e98")
+		)
+		(pin "PMIC_CLK32K" output
+			(at 62.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d84868de-942d-44ba-9673-fb3c54e21e99")
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

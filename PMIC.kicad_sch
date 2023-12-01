@@ -1,160 +1,359 @@
-(kicad_sch (version 20230819) (generator eeschema)
-
-  (uuid ea93d67e-da80-408a-b167-7c88add38fad)
-
-  (paper "A4")
-
-  (title_block
-    (title "Leaf RV1126")
-    (date "2023-06-07")
-    (rev "1")
-    (company "Yang Hongbo")
-    (comment 1 "License: CC BY-SA")
-  )
-
-  (lib_symbols
-  )
-
-
-  (wire (pts (xy 39.37 67.31) (xy 48.26 67.31))
-    (stroke (width 0) (type default))
-    (uuid 5f38195c-075e-47bf-918d-c7d0d903eb37)
-  )
-  (wire (pts (xy 39.37 59.69) (xy 48.26 59.69))
-    (stroke (width 0) (type default))
-    (uuid 99bebb58-d836-4d98-8c12-f91a08d0c9a5)
-  )
-  (wire (pts (xy 39.37 50.8) (xy 48.26 50.8))
-    (stroke (width 0) (type default))
-    (uuid bb16258b-75c8-45a4-828d-11fe1342ea28)
-  )
-  (wire (pts (xy 39.37 63.5) (xy 48.26 63.5))
-    (stroke (width 0) (type default))
-    (uuid bd173d7e-8d4f-4170-b7cb-2c0252537159)
-  )
-  (wire (pts (xy 39.37 46.99) (xy 48.26 46.99))
-    (stroke (width 0) (type default))
-    (uuid de423097-6291-4cf3-9f39-84f36f99f122)
-  )
-  (wire (pts (xy 39.37 55.88) (xy 48.26 55.88))
-    (stroke (width 0) (type default))
-    (uuid de53b951-17cd-49c0-b398-19db629e333d)
-  )
-
-  (hierarchical_label "INT" (shape output) (at 39.37 59.69 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 280e8113-2db1-45f1-8081-d8c1a0b3c6cf)
-  )
-  (hierarchical_label "CLK_32K" (shape output) (at 39.37 55.88 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 2d1a5c66-6722-4d9c-953b-907d19ede395)
-  )
-  (hierarchical_label "I2C_SCL" (shape input) (at 39.37 46.99 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 37271496-4441-4c88-b5d5-04b26a34d1a1)
-  )
-  (hierarchical_label "RESET" (shape bidirectional) (at 39.37 67.31 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 71430ff2-0468-4b7b-8b6c-d69c9cdd03e0)
-  )
-  (hierarchical_label "I2C_SDA" (shape bidirectional) (at 39.37 50.8 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 902d96d2-dbb6-4c2d-bca2-cc3b4c5cafed)
-  )
-  (hierarchical_label "SLEEP" (shape input) (at 39.37 63.5 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid fa62af54-8160-4371-93a0-0d0fd3d21f1a)
-  )
-
-  (sheet (at 115.57 43.18) (size 38.1 29.21) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 2d95e8c5-bd08-40b5-b7b2-fac89748aabf)
-    (property "Sheetname" "RK809 DCDC" (at 115.57 42.4684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "PMIC_dcdc.kicad_sch" (at 115.57 72.9746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126" (page "14"))
-      )
-    )
-  )
-
-  (sheet (at 48.26 97.79) (size 39.37 26.67) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 587d28a9-c2cd-4fab-a2bd-304064dd6f5e)
-    (property "Sheetname" "RK809 LDO" (at 48.26 97.0784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "PMIC_LDO.kicad_sch" (at 48.26 125.0446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126" (page "15"))
-      )
-    )
-  )
-
-  (sheet (at 48.26 44.45) (size 39.37 27.94) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 8a66faf4-907b-4c0b-9293-5095de08cb9b)
-    (property "Sheetname" "RK809 Management" (at 48.26 43.7384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "PMIC_management.kicad_sch" (at 48.26 72.9746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "I2C_SDA" bidirectional (at 48.26 50.8 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 4c71ca1a-3b2b-4870-b43c-8311f8964fc7)
-    )
-    (pin "CLK_32K" output (at 48.26 55.88 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid f3222616-cb6e-49d3-b960-5dede23b9b87)
-    )
-    (pin "INT" output (at 48.26 59.69 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid e89398b7-6c80-4ae4-ae22-f544ec5770de)
-    )
-    (pin "I2C_SCL" input (at 48.26 46.99 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 3ea3ed57-763a-4b8f-9a6e-0065ce433335)
-    )
-    (pin "SLEEP" input (at 48.26 63.5 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid ad371883-3bd6-4bf0-ad8e-74a7eb2f2bf3)
-    )
-    (pin "RESET" bidirectional (at 48.26 67.31 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 41e86b0a-f06e-42c5-babe-65b31ec3520d)
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126" (page "13"))
-      )
-    )
-  )
-
-  (sheet (at 114.3 97.79) (size 39.37 26.67) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 932d3a83-3e3a-47a2-863a-dd551f528f64)
-    (property "Sheetname" "RK809 Codec" (at 114.3 97.0784 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "PMIC_codec.kicad_sch" (at 114.3 125.0446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "leaf"
-        (path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126" (page "16"))
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "7.99")
+	(uuid "ea93d67e-da80-408a-b167-7c88add38fad")
+	(paper "A4")
+	(title_block
+		(title "Leaf RV1126")
+		(date "2023-06-07")
+		(rev "1")
+		(company "Yang Hongbo")
+		(comment 1 "License: CC BY-SA")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 39.37 67.31) (xy 48.26 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f38195c-075e-47bf-918d-c7d0d903eb37")
+	)
+	(wire
+		(pts
+			(xy 39.37 59.69) (xy 48.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99bebb58-d836-4d98-8c12-f91a08d0c9a5")
+	)
+	(wire
+		(pts
+			(xy 39.37 50.8) (xy 48.26 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb16258b-75c8-45a4-828d-11fe1342ea28")
+	)
+	(wire
+		(pts
+			(xy 39.37 63.5) (xy 48.26 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd173d7e-8d4f-4170-b7cb-2c0252537159")
+	)
+	(wire
+		(pts
+			(xy 39.37 46.99) (xy 48.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de423097-6291-4cf3-9f39-84f36f99f122")
+	)
+	(wire
+		(pts
+			(xy 39.37 55.88) (xy 48.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de53b951-17cd-49c0-b398-19db629e333d")
+	)
+	(hierarchical_label "INT"
+		(shape output)
+		(at 39.37 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "280e8113-2db1-45f1-8081-d8c1a0b3c6cf")
+	)
+	(hierarchical_label "CLK_32K"
+		(shape output)
+		(at 39.37 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d1a5c66-6722-4d9c-953b-907d19ede395")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape input)
+		(at 39.37 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37271496-4441-4c88-b5d5-04b26a34d1a1")
+	)
+	(hierarchical_label "RESET"
+		(shape bidirectional)
+		(at 39.37 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71430ff2-0468-4b7b-8b6c-d69c9cdd03e0")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape bidirectional)
+		(at 39.37 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "902d96d2-dbb6-4c2d-bca2-cc3b4c5cafed")
+	)
+	(hierarchical_label "SLEEP"
+		(shape input)
+		(at 39.37 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa62af54-8160-4371-93a0-0d0fd3d21f1a")
+	)
+	(sheet
+		(at 115.57 43.18)
+		(size 38.1 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2d95e8c5-bd08-40b5-b7b2-fac89748aabf")
+		(property "Sheetname" "RK809 DCDC"
+			(at 115.57 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PMIC_dcdc.kicad_sch"
+			(at 115.57 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 97.79)
+		(size 39.37 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "587d28a9-c2cd-4fab-a2bd-304064dd6f5e")
+		(property "Sheetname" "RK809 LDO"
+			(at 48.26 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PMIC_LDO.kicad_sch"
+			(at 48.26 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 44.45)
+		(size 39.37 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8a66faf4-907b-4c0b-9293-5095de08cb9b")
+		(property "Sheetname" "RK809 Management"
+			(at 48.26 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PMIC_management.kicad_sch"
+			(at 48.26 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 48.26 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4c71ca1a-3b2b-4870-b43c-8311f8964fc7")
+		)
+		(pin "CLK_32K" output
+			(at 48.26 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f3222616-cb6e-49d3-b960-5dede23b9b87")
+		)
+		(pin "INT" output
+			(at 48.26 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e89398b7-6c80-4ae4-ae22-f544ec5770de")
+		)
+		(pin "I2C_SCL" input
+			(at 48.26 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3ea3ed57-763a-4b8f-9a6e-0065ce433335")
+		)
+		(pin "SLEEP" input
+			(at 48.26 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ad371883-3bd6-4bf0-ad8e-74a7eb2f2bf3")
+		)
+		(pin "RESET" bidirectional
+			(at 48.26 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "41e86b0a-f06e-42c5-babe-65b31ec3520d")
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 97.79)
+		(size 39.37 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "932d3a83-3e3a-47a2-863a-dd551f528f64")
+		(property "Sheetname" "RK809 Codec"
+			(at 114.3 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PMIC_codec.kicad_sch"
+			(at 114.3 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "leaf"
+				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126"
+					(page "16")
+				)
+			)
+		)
+	)
 )

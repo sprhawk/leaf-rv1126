@@ -62,7 +62,7 @@
 
 (rule "BGA Pad clearance"
 	(layer outer)
-	(condition "(A.Type == 'Pad' || A.Type == 'Via') && (A.intersectsFrontCourtyard('U2') || A.intersectsFrontCourtyard('U7') || A.intersectsFrontCourtyard('U8'))")
+	(condition "(A.Type == 'Track' || A.Type == 'Pad' || A.Type == 'Via') && (A.intersectsFrontCourtyard('U2') || A.intersectsFrontCourtyard('U7') || A.intersectsFrontCourtyard('U8'))")
 	(constraint clearance (min 0.1mm)))
 
 (rule "DP 90R Outer"

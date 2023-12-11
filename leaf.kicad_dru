@@ -92,3 +92,8 @@
 	(constraint track_width (opt 3.03mil))
 	(constraint diff_pair_gap (min 3mil) (opt 4.97mil))
 	(constraint clearance (min 6mil)))
+
+(rule "BGA Pwr"
+	(layer outer)
+	(condition "A.NetClass == 'PWR' && A.intersectsFrontCourtyard('U2')")
+	(constraint track_width (opt 0.2mm)))

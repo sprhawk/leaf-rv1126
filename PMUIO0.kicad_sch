@@ -8681,7 +8681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50ef4a16-60c7-4f1e-ab34-42cb4871171a")
-		(property "Reference" "R?"
+		(property "Reference" "R58"
 			(at 195.58 92.71 90)
 			(effects
 				(font
@@ -8759,18 +8759,6 @@
 		)
 		(instances
 			(project "leaf"
-				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/be5d8e43-2411-4620-a7a9-8dc1a750f993"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/0d403b82-6ed8-44f7-a148-d104315eeb81"
-					(reference "R12")
-					(unit 1)
-				)
 				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/37e5f808-83b1-4839-b7a1-9684da8ab3e5"
 					(reference "R58")
 					(unit 1)
@@ -8788,7 +8776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c2b78eb-7431-405a-adcd-46f494c7f438")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0116"
 			(at 195.58 119.38 0)
 			(effects
 				(font
@@ -8837,10 +8825,6 @@
 		)
 		(instances
 			(project "leaf"
-				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-					(reference "#PWR?")
-					(unit 1)
-				)
 				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/37e5f808-83b1-4839-b7a1-9684da8ab3e5"
 					(reference "#PWR0116")
 					(unit 1)
@@ -8857,7 +8841,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64b13099-d0a8-4053-a8ec-119aa6192cc3")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 133.35 53.34 0)
 			(effects
 				(font
@@ -10149,10 +10133,6 @@
 		)
 		(instances
 			(project "leaf"
-				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-					(reference "U?")
-					(unit 4)
-				)
 				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/37e5f808-83b1-4839-b7a1-9684da8ab3e5"
 					(reference "U2")
 					(unit 4)
@@ -10169,7 +10149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8950c342-7c7a-4b5e-b017-a522c5ccc253")
-		(property "Reference" "C?"
+		(property "Reference" "C117"
 			(at 196.85 104.14 90)
 			(effects
 				(font
@@ -10249,22 +10229,6 @@
 		)
 		(instances
 			(project "leaf"
-				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/8aa2eca1-edfe-4e9d-a854-96f51e82fbdb"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/4417415c-26f1-4372-988d-9fdf1c116b4b"
-					(reference "C?")
-					(unit 1)
-				)
 				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/37e5f808-83b1-4839-b7a1-9684da8ab3e5"
 					(reference "C117")
 					(unit 1)

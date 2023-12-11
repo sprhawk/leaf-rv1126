@@ -2083,7 +2083,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d33dd42-df9c-4636-b36f-6c6832da65af")
-		(property "Reference" "C?"
+		(property "Reference" "C111"
 			(at 133.35 95.25 90)
 			(effects
 				(font
@@ -2154,14 +2154,6 @@
 		)
 		(instances
 			(project "leaf"
-				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126/587d28a9-c2cd-4fab-a2bd-304064dd6f5e"
-					(reference "C?")
-					(unit 1)
-				)
-				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/cc9fb3ac-19c3-47a8-ba7d-678b4d514ff0/46e9a7bf-8506-4399-90d8-57d007223126/932d3a83-3e3a-47a2-863a-dd551f528f64"
-					(reference "C100")
-					(unit 1)
-				)
 				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/f6658df5-193a-49b6-ab60-4ac3c0bbbc45"
 					(reference "C111")
 					(unit 1)

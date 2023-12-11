@@ -2266,12 +2266,6 @@
 		(uuid "31b0e984-2949-4f0d-b37e-29385bdee36d")
 	)
 	(junction
-		(at 99.06 191.135)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "331a99dc-477a-4b81-ac5f-b81b0a0c0de3")
-	)
-	(junction
 		(at 194.31 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2578,12 +2572,6 @@
 		(uuid "e0ab15e2-2c97-48b4-ba5a-bdb7fc585c52")
 	)
 	(junction
-		(at 99.06 172.085)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e48cd634-c8b6-441f-a1a8-47873bdcee99")
-	)
-	(junction
 		(at 196.85 126.365)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2638,16 +2626,6 @@
 			(type default)
 		)
 		(uuid "0009598c-7d27-482f-803d-82e6d132aad0")
-	)
-	(wire
-		(pts
-			(xy 99.06 191.135) (xy 99.06 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0137baca-28f4-4537-a15f-ec4e9245fb22")
 	)
 	(wire
 		(pts
@@ -2878,16 +2856,6 @@
 			(type default)
 		)
 		(uuid "152a8f7a-1e22-447a-a914-ee2d256748d5")
-	)
-	(wire
-		(pts
-			(xy 86.36 172.085) (xy 99.06 172.085)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16c356a6-559c-4cc5-9550-f65f7ecae652")
 	)
 	(wire
 		(pts
@@ -3181,7 +3149,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 172.085) (xy 110.49 172.085)
+			(xy 86.36 172.085) (xy 110.49 172.085)
 		)
 		(stroke
 			(width 0)
@@ -3601,7 +3569,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 191.135) (xy 99.06 191.135)
+			(xy 86.36 191.135) (xy 110.49 191.135)
 		)
 		(stroke
 			(width 0)
@@ -3951,16 +3919,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 172.085) (xy 99.06 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "842eee51-6a72-4af4-989c-b3e4cdb10a89")
-	)
-	(wire
-		(pts
 			(xy 77.47 62.23) (xy 71.12 62.23)
 		)
 		(stroke
@@ -4288,16 +4246,6 @@
 			(type default)
 		)
 		(uuid "a6614aa4-4fe0-4521-a4b5-3d441a47b0f3")
-	)
-	(wire
-		(pts
-			(xy 99.06 191.135) (xy 110.49 191.135)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6a879cb-6153-4d15-8830-5afee72e295b")
 	)
 	(wire
 		(pts
@@ -6057,106 +6005,6 @@
 				)
 				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/43b336b1-9a2a-4a37-8b6d-a408b4dd9ca2/ee9868e4-059c-464c-a9c7-f65e4eca754e"
 					(reference "C166")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 99.06 181.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c21adfa-5dc3-4657-b246-f04bfd3a393e")
-		(property "Reference" "C140"
-			(at 97.79 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF X5R 10V"
-			(at 102.87 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 98.0948 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "容值: 100nF 精度: ±10% 额定电压: 10V 材质(温度系数): X5R 材质:X5R"
-			(at 99.06 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C76934"
-			(at 99.06 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "GRM033R61A104KE15D"
-			(at 99.06 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "muRata(村田)"
-			(at 99.06 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c1a53b3-2e60-40ef-aaa5-9821931aee18")
-		)
-		(pin "2"
-			(uuid "4b4ff00d-51ce-4818-a91a-3a56b70a51bc")
-		)
-		(instances
-			(project "leaf"
-				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/43b336b1-9a2a-4a37-8b6d-a408b4dd9ca2/c5996722-c916-43bd-91c1-647d75e652e6"
-					(reference "C140")
-					(unit 1)
-				)
-				(path "/e3b58043-16a3-43c8-9fad-9c9784eebfa4/9453ad46-b3ff-4d4e-8aa6-7cc75aa0f522/43b336b1-9a2a-4a37-8b6d-a408b4dd9ca2/ee9868e4-059c-464c-a9c7-f65e4eca754e"
-					(reference "C160")
 					(unit 1)
 				)
 			)

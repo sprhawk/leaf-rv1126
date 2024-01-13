@@ -686,6 +686,10 @@
       {
         "netclass": "50R",
         "pattern": "/DDR/DDR4_DM?[0-9]+"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/DDR/DDR_VREFCA"
       }
     ]
   },
